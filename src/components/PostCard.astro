@@ -1,5 +1,6 @@
 ---
 import { postUrl, UI, type Lang } from '../i18n';
+import { coverFor } from '../covers';
 
 interface Props {
   lang: Lang;
@@ -14,9 +15,9 @@ const { lang, slug, title, description, image, pubDate, eager = false } = Astro.
 const t = UI[lang];
 const href = postUrl(lang, slug);
 
-// Обложек у большинства статей нет — исходные картинки не сохранились
-// в архиве. Вместо одинаковой заглушки — свой оттенок на каждый слаг.
-const hue = [...slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
+// Своих картинок у статей не осталось (см. src/covers.ts) — берём
+// уцелевшие фотографии сайта, по одной и той же на каждый слаг.
+const cover = image || coverFor(slug);
 const iso = pubDate.toISOString().slice(0, 10);
 const human = pubDate.toLocaleDateString(lang === 'uk' ? 'uk-UA' : lang, {
   day: 'numeric', month: 'long', year: 'numeric',
@@ -25,13 +26,7 @@ const human = pubDate.toLocaleDateString(lang === 'uk' ? 'uk-UA' : lang, {
 
 <article class="card post">
   <a class="post__media" href={href} tabindex="-1" aria-hidden="true">
-    {image ? (
-      <img src={image} alt="" width="640" height="360" loading={eager ? 'eager' : 'lazy'} decoding="async" />
-    ) : (
-      <span class="post__ph" style={`--h:${hue}`} aria-hidden="true">
-        <span class="post__mark">S</span>
-      </span>
-    )}
+    <img src={cover} alt="" width="640" height="360" loading={eager ? 'eager' : 'lazy'} decoding="async" />
   </a>
   <div class="post__body">
     <time class="post__date" datetime={iso}>{human}</time>

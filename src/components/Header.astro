@@ -1,5 +1,5 @@
 ---
-import { LANGS, LANG_LABEL, UI, TELEGRAM, home, blogRoot, type Lang } from '../i18n';
+import { LANGS, LANG_LABEL, LANG_FLAG, LANG_NAME, UI, TELEGRAM, home, blogRoot, type Lang } from '../i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -30,13 +30,23 @@ const links = [
         {links.map((l) => <li><a href={l.href}>{l.text}</a></li>)}
       </ul>
 
-      <ul class="hdr__langs" aria-label="Language">
-        {LANGS.map((l) => (
-          <li>
-            <a href={home(l)} hreflang={l} aria-current={l === lang ? 'true' : undefined}>{LANG_LABEL[l]}</a>
-          </li>
-        ))}
-      </ul>
+      <details class="lang">
+        <summary aria-label="Language">
+          <span class="lang__flag" aria-hidden="true">{LANG_FLAG[lang]}</span>
+          <span class="lang__code">{LANG_LABEL[lang]}</span>
+          <span class="lang__caret" aria-hidden="true"></span>
+        </summary>
+        <ul class="lang__menu">
+          {LANGS.map((l) => (
+            <li>
+              <a href={home(l)} hreflang={l} aria-current={l === lang ? 'true' : undefined}>
+                <span class="lang__flag" aria-hidden="true">{LANG_FLAG[l]}</span>
+                <span>{LANG_NAME[l]}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </details>
 
       <a class="btn btn--primary hdr__cta" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
     </nav>
@@ -91,16 +101,60 @@ const links = [
   .hdr__links a { font-size: .95rem; color: var(--muted); transition: color .15s ease; }
   .hdr__links a:hover { color: var(--text); }
 
-  .hdr__langs { gap: .35rem; }
-  .hdr__langs a {
-    font-size: .78rem;
+  /* Переключатель языков — выпадающий список на details/summary, без JS */
+  .lang { position: relative; }
+  .lang > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .4em .7em;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    cursor: pointer;
+    list-style: none;
+    font-size: .82rem;
     font-weight: 700;
-    padding: .3em .55em;
-    border-radius: 6px;
-    color: var(--muted);
+    color: var(--text);
+    user-select: none;
   }
-  .hdr__langs a[aria-current] { background: var(--red); color: #fff; }
-  .hdr__langs a:hover { color: var(--text); }
+  .lang > summary::-webkit-details-marker { display: none; }
+  .lang > summary:hover { border-color: var(--red); }
+  .lang__flag { font-size: 1.05rem; line-height: 1; }
+  .lang__caret {
+    inline-size: 0;
+    block-size: 0;
+    border-inline: 4px solid transparent;
+    border-block-start: 5px solid currentColor;
+    transition: transform .18s ease;
+  }
+  .lang[open] .lang__caret { transform: rotate(180deg); }
+
+  .lang__menu {
+    position: absolute;
+    inset-block-start: calc(100% + .5rem);
+    inset-inline-end: 0;
+    z-index: 60;
+    min-inline-size: 190px;
+    margin: 0;
+    padding: .35rem;
+    list-style: none;
+    background: var(--ink-2);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+  .lang__menu a {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .55em .7em;
+    border-radius: 8px;
+    font-size: .9rem;
+    color: var(--text);
+    white-space: nowrap;
+  }
+  .lang__menu a:hover { background: var(--ink-3); }
+  .lang__menu a[aria-current] { color: var(--red); font-weight: 700; }
 
   .hdr__cta { padding: .6em 1.2em; font-size: .9rem; }
 
@@ -158,5 +212,13 @@ const links = [
     .hdr__links { flex-direction: column; align-items: flex-start; gap: .85rem; }
     .hdr__links a { font-size: 1rem; color: var(--text); }
     .hdr__cta { display: inline-flex; }
+
+    /* В мобильном меню список прижат к левому краю — иначе уезжает за экран */
+    .lang { inline-size: 100%; }
+    .lang__menu {
+      inset-inline-start: 0;
+      inset-inline-end: auto;
+      min-inline-size: min(260px, calc(100vw - 2 * var(--gutter)));
+    }
   }
 </style>

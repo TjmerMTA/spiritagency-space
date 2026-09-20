@@ -8,6 +8,17 @@ export const LANG_LABEL: Record<Lang, string> = {
   uk: 'UA', ru: 'RU', pl: 'PL', ro: 'RO', lt: 'LT', sk: 'SK',
 };
 
+/** Флаг для переключателя языков */
+export const LANG_FLAG: Record<Lang, string> = {
+  uk: '\u{1F1FA}\u{1F1E6}', ru: '\u{1F1F7}\u{1F1FA}', pl: '\u{1F1F5}\u{1F1F1}',
+  ro: '\u{1F1F7}\u{1F1F4}', lt: '\u{1F1F1}\u{1F1F9}', sk: '\u{1F1F8}\u{1F1F0}',
+};
+
+/** Самоназвание языка — в выпадающем списке понятнее кода */
+export const LANG_NAME: Record<Lang, string> = {
+  uk: 'Українська', ru: 'Русский', pl: 'Polski', ro: 'Română', lt: 'Lietuvių', sk: 'Slovenčina',
+};
+
 /** Значение атрибута lang="" */
 export const HTML_LANG: Record<Lang, string> = {
   uk: 'uk-UA', ru: 'ru-RU', pl: 'pl-PL', ro: 'ro-RO', lt: 'lt-LT', sk: 'sk-SK',
