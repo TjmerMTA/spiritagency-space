@@ -4,7 +4,6 @@ description: "2FA, доступи, резерви, логування і ант�
 lang: uk
 pubDate: 2025-09-29
 updDate: 2025-10-27
-image: "/img/2025/09/chek-lyst-bezpeky-akaunta-scaled.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

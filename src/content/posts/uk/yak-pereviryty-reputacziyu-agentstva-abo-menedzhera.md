@@ -4,7 +4,6 @@ description: "Дізнайтеся, як ефективно здійснити �
 lang: uk
 pubDate: 2025-10-22
 updDate: 2025-10-27
-image: "/img/2025/10/file-17.png"
 readingTime: "1 - 3 хв читання"
 ---
 

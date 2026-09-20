@@ -4,7 +4,6 @@ description: "CPA czy revshare, zasady wypłat, UTM i antyfraud. Jak liczyć ruc
 lang: pl
 pubDate: 2025-09-03
 updDate: 2025-11-20
-image: "/img/2025/08/referalna-programa-onlyfans.webp"
 readingTime: "7 - 9 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Яскрава зірка з ексклюзивними сетам
 lang: uk
 pubDate: 2025-08-16
 updDate: 2025-09-22
-image: "/img/2025/06/karina-–-yaskrava-zirka-onlyfans.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

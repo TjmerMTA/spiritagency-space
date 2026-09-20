@@ -4,7 +4,6 @@ description: "Ką parodyti agentūrai ir gerbėjams. Sets pavyzdžiai, antrašt�
 lang: lt
 pubDate: 2025-09-07
 updDate: 2025-11-20
-image: "/img/2025/08/portfolio-modeli.webp"
 readingTime: "6 - 8 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Мотивация, правила безопасности и п�
 lang: ru
 pubDate: 2025-09-23
 updDate: 2025-11-20
-image: "/img/2025/09/ugc-prosuvannya.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

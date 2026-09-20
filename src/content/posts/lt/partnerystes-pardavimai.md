@@ -4,7 +4,6 @@ description: "Mokėjimo modeliai, srauto valdymas, UTM ir sutartys. Kaip didinti
 lang: lt
 pubDate: 2025-09-28
 updDate: 2025-11-20
-image: "/img/2025/09/partnerski-prodazhi-spiritagency.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

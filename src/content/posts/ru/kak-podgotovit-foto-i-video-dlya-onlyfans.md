@@ -4,7 +4,6 @@ description: "Узнайте, как подготовить контент дл�
 lang: ru
 pubDate: 2025-10-17
 updDate: 2025-11-19
-image: "/img/2025/10/63f872221b_001.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

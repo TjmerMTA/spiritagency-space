@@ -4,7 +4,6 @@ description: "Plán príjmov a výdavkov, dane, rezerva a peňažné medzery. Vz
 lang: sk
 pubDate: 2025-09-26
 updDate: 2025-11-21
-image: "/img/2025/09/finansove-planuvannya-avtora.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

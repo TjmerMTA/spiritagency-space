@@ -4,7 +4,6 @@ description: "Kaip išvengti užblokavimo: top 20 moderavimo trikdžių ir kaip 
 lang: lt
 pubDate: 2025-10-03
 updDate: 2025-11-20
-image: "/img/2025/10/untitled-design-36-1-1024x512-1.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

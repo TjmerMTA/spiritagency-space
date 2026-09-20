@@ -4,7 +4,6 @@ description: "Ženskosť v daždi lampášov: obrazy, pohyb a nálada. Pozri si 
 lang: sk
 pubDate: 2025-08-14
 updDate: 2025-11-21
-image: "/img/2025/06/vognyk-u-nichnomu-misti.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

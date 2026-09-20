@@ -4,7 +4,6 @@ description: "Ką automatizuoti pirmiausia, kaip nepertraukti tono. Scenarijai i
 lang: lt
 pubDate: 2025-09-27
 updDate: 2025-11-20
-image: "/img/2025/09/avtomatyzacziya-rutynnyh-proczesiv.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

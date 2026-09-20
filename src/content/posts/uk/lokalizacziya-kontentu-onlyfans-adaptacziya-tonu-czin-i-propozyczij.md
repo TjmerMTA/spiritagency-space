@@ -4,7 +4,6 @@ description: "Як адаптувати контент і прайс під кр
 lang: uk
 pubDate: 2025-09-05
 updDate: 2025-09-22
-image: "/img/2025/08/lokalizacziya-kontentu.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Dowiedz się, jak tagi i kategorie optymalizują Twoje treści, po
 lang: pl
 pubDate: 2025-10-27
 updDate: 2025-11-20
-image: "/img/2025/10/122f22117fdcd8e8e5d4a069d662f45b.jpg"
 readingTime: "9 - 11 хв читання"
 ---
 

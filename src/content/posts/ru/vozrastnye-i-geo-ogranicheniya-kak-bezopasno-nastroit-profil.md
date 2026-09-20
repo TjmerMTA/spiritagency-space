@@ -4,7 +4,6 @@ description: "Платформы, такие как OnlyFans, TikTok, Instagram 
 lang: ru
 pubDate: 2025-10-04
 updDate: 2025-11-20
-image: "/img/2025/10/2-68.png"
 readingTime: "1 - 3 хв читання"
 ---
 

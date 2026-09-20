@@ -4,7 +4,6 @@ description: "Распределение зон, SOP, контроль каче�
 lang: ru
 pubDate: 2025-09-16
 updDate: 2025-11-20
-image: "/img/2025/09/masshtabuvannya-komandy-avtora.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

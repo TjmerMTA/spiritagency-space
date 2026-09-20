@@ -4,7 +4,6 @@ description: "Kaip suderinti teises, išmokas ir turinio planą. Saugumo bei pat
 lang: lt
 pubDate: 2025-09-15
 updDate: 2025-11-20
-image: "/img/2025/09/pravyla-bezpechnyh-kolaboraczij.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

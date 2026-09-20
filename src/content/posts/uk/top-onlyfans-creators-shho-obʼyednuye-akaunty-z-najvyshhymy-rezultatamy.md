@@ -4,7 +4,6 @@ description: "Top OnlyFans creators: спокійний аналіз підхо�
 lang: uk
 pubDate: 2025-12-25
 updDate: 2026-01-13
-image: "/img/2026/01/czina-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

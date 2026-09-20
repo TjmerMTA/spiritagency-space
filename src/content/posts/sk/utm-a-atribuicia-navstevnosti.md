@@ -4,7 +4,6 @@ description: "Prednastavené štítky, pravidlá sledovania a bežné chyby. Ako
 lang: sk
 pubDate: 2025-09-13
 updDate: 2025-11-21
-image: "/img/2025/09/utm-ta-atrybucziya-trafiku.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

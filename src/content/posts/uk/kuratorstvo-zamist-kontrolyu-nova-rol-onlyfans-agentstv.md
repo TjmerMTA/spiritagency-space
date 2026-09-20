@@ -4,7 +4,6 @@ description: "Кураторство OnlyFans: як мʼяке управлін�
 lang: uk
 pubDate: 2026-01-09
 updDate: 2026-01-13
-image: "/img/2026/01/depositphotos_237350184-stock-photo-tanned-slim-young-brunette-woman.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

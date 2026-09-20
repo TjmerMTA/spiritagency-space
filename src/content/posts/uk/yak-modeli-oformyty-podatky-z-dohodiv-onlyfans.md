@@ -4,7 +4,6 @@ description: "Дізнайтеся, як грамотно оформити по�
 lang: uk
 pubDate: 2025-10-21
 updDate: 2025-10-27
-image: "/img/2025/10/cnd7dtwsgbbmmyntssajsxtmanom1nhc.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

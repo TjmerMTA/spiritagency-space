@@ -4,7 +4,6 @@ description: "Platformos reikalavimai, teisės, saugojimas ir moderavimas. Paruo
 lang: lt
 pubDate: 2025-09-20
 updDate: 2025-11-20
-image: "/img/2025/09/polityky-kontentu-ta-komplayens.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

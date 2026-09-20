@@ -4,7 +4,6 @@ description: "Sezóny, formáty, exkluzivity a platené príspevky. Ako seriálo
 lang: sk
 pubDate: 2025-09-09
 updDate: 2025-11-21
-image: "/img/2025/09/kontentni-seriyi.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

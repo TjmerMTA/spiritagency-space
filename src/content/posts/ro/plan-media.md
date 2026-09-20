@@ -4,7 +4,6 @@ description: "Program de publicare, mixuri de canale și sprinturi de testare. M
 lang: ro
 pubDate: 2025-09-24
 updDate: 2025-11-20
-image: "/img/2025/09/mediaplan-spiritagency.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Aflați cum să gestionați corect taxele pentru modelele de pe On
 lang: ro
 pubDate: 2025-10-21
 updDate: 2025-11-20
-image: "/img/2025/10/cnd7dtwsgbbmmyntssajsxtmanom1nhc.jpg"
 readingTime: "11 - 13 хв читання"
 ---
 

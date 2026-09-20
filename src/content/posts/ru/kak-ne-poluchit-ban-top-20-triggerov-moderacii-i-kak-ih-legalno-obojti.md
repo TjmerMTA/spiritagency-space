@@ -4,7 +4,6 @@ description: "Как не получить бан: топ-20 триггеров 
 lang: ru
 pubDate: 2025-10-03
 updDate: 2025-11-20
-image: "/img/2025/10/untitled-design-36-1-1024x512-1.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

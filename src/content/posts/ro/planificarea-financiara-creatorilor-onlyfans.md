@@ -4,7 +4,6 @@ description: "Planul veniturilor și cheltuielilor, impozite, rezervă financiar
 lang: ro
 pubDate: 2025-09-26
 updDate: 2025-11-20
-image: "/img/2025/09/finansove-planuvannya-avtora.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

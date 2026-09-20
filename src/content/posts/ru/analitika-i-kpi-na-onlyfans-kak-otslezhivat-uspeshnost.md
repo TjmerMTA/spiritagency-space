@@ -4,7 +4,6 @@ description: "Как аналитика OnlyFans может повысить в�
 lang: ru
 pubDate: 2025-09-01
 updDate: 2025-11-20
-image: "/img/2025/08/analityka-ta-kpi.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

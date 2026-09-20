@@ -4,7 +4,6 @@ description: "Нормы ответа, апселлы, ретеншн и ARPPU. 
 lang: ru
 pubDate: 2025-09-17
 updDate: 2025-11-20
-image: "/img/2025/09/kpi-dm-menedzhera.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

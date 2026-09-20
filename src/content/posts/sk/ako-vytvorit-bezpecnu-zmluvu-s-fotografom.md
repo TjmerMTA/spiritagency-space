@@ -4,7 +4,6 @@ description: "Naučte sa, ako uzavrieť spoľahlivú zmluvu s fotografom OnlyFan
 lang: sk
 pubDate: 2025-10-26
 updDate: 2025-11-20
-image: "/img/2025/10/20271128.webp"
 readingTime: "13 - 15 хв читання"
 ---
 

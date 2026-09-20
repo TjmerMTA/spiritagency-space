@@ -4,7 +4,6 @@ description: "Klipsai, peržiūros, rinkiniai ir iškarpos. Kaip pakartotinai na
 lang: lt
 pubDate: 2025-10-01
 updDate: 2025-11-20
-image: "/img/2025/09/file.png"
 readingTime: "8 - 10 хв читання"
 ---
 

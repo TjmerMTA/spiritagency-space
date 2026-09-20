@@ -4,7 +4,6 @@ description: "Розклад публікацій, мікси каналів і 
 lang: uk
 pubDate: 2025-09-24
 updDate: 2025-10-27
-image: "/img/2025/09/mediaplan-spiritagency.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

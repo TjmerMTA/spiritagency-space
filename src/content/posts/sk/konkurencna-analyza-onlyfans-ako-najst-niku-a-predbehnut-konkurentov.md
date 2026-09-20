@@ -4,7 +4,6 @@ description: "Prieskum niku, mapy konkurentov, cenové pásma a ponuky. Šablón
 lang: sk
 pubDate: 2025-09-02
 updDate: 2025-11-21
-image: "/img/2025/08/konkurentnyj-analiz-onlyfans.webp"
 readingTime: "14 - 16 хв читання"
 ---
 

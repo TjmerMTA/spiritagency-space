@@ -4,7 +4,6 @@ description: "Skutočné emócie, súkromné príspevky a živé príbehy. Prihl
 lang: sk
 pubDate: 2025-08-15
 updDate: 2025-11-21
-image: "/img/2025/06/nathnenna-ukrayinska-model.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Monitorizarea mențiunilor, scripturi de criză și rapoarte. Cum 
 lang: ro
 pubDate: 2025-09-19
 updDate: 2025-11-20
-image: "/img/2025/09/reputaczijnyj-menedzhment-scaled.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

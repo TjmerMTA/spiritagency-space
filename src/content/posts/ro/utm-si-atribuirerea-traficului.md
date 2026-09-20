@@ -4,7 +4,6 @@ description: "Presetări de etichete, reguli de contabilizare și greșeli tipic
 lang: ro
 pubDate: 2025-09-13
 updDate: 2025-11-20
-image: "/img/2025/09/utm-ta-atrybucziya-trafiku.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

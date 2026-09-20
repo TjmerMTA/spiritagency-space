@@ -4,7 +4,6 @@ description: "Tím, procesy, analýza a predaje. Pridaj sa k SpiritAgency, aby s
 lang: sk
 pubDate: 2025-08-13
 updDate: 2025-11-21
-image: "/img/2025/05/2465482978304dc4aedf6d99e44d2c70.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

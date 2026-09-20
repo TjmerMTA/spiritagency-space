@@ -4,7 +4,6 @@ description: "Дізнайтеся, як створити якісний кон�
 lang: uk
 pubDate: 2025-08-25
 updDate: 2025-09-03
-image: "/img/2025/08/praktychni-porady.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

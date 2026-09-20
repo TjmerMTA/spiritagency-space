@@ -4,7 +4,6 @@ description: "Srauto ir pardavimų ryšys, atribucija ir gyvenimo ciklas. Lentel
 lang: lt
 pubDate: 2025-09-11
 updDate: 2025-11-20
-image: "/img/2025/09/naskrizna-analityka-pidpysok.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Узнайте, как GDPR влияет на вашу деяте�
 lang: ru
 pubDate: 2025-10-16
 updDate: 2025-11-19
-image: "/img/2025/10/65f868e8010e870025c5b669a90c1055.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

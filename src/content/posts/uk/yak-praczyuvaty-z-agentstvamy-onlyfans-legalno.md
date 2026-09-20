@@ -4,7 +4,6 @@ description: "Відкрийте секрети законної співпра�
 lang: uk
 pubDate: 2025-10-20
 updDate: 2025-10-27
-image: "/img/2025/10/86_middle-v1751378374.jpeg"
 readingTime: "1 - 3 хв читання"
 ---
 

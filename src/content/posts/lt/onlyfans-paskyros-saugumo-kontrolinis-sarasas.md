@@ -4,7 +4,6 @@ description: "2FA, prieigos, atsarginės kopijos, registravimas ir antifrodas. A
 lang: lt
 pubDate: 2025-09-29
 updDate: 2025-11-20
-image: "/img/2025/09/chek-lyst-bezpeky-akaunta-scaled.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

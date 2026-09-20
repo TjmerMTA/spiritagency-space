@@ -4,7 +4,6 @@ description: "Дізнайтеся, як теги і категорії опти
 lang: uk
 pubDate: 2025-10-27
 updDate: 2025-10-27
-image: "/img/2025/10/122f22117fdcd8e8e5d4a069d662f45b.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

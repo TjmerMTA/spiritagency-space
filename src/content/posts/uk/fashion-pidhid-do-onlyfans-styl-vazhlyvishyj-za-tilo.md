@@ -4,7 +4,6 @@ description: "Fashion OnlyFans: як стиль, образ і естетика 
 lang: uk
 pubDate: 2026-01-04
 updDate: 2026-01-13
-image: "/img/2026/01/fashion-onlyfans.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

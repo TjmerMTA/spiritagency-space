@@ -4,7 +4,6 @@ description: "Zohrievanie, frekvencia, segmenty a stopslová. Technické nastave
 lang: sk
 pubDate: 2025-09-25
 updDate: 2025-11-21
-image: "/img/2025/09/antyspam-i-dostavlyuvanist.webp"
 readingTime: "12 - 14 хв читання"
 ---
 

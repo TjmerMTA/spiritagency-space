@@ -4,7 +4,6 @@ description: "Получай стратегию, контент-план и пр
 lang: ru
 pubDate: 2025-07-31
 updDate: 2025-11-20
-image: "/img/2025/05/87_big-v1741796767.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

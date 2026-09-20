@@ -4,7 +4,6 @@ description: "Plan przychodów i wydatków, podatki, poduszka finansowa i luki k
 lang: pl
 pubDate: 2025-09-26
 updDate: 2025-11-20
-image: "/img/2025/09/finansove-planuvannya-avtora.webp"
 readingTime: "7 - 9 хв читання"
 ---
 

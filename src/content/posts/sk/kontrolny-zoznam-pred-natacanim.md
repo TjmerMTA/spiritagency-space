@@ -4,7 +4,6 @@ description: "Lokácia, technika, rekvizity a práva. Pripravený zoznam, aby st
 lang: sk
 pubDate: 2025-09-10
 updDate: 2025-11-21
-image: "/img/2025/09/chek-lyst-peredzjomky.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

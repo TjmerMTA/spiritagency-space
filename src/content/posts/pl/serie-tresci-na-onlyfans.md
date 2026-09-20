@@ -4,7 +4,6 @@ description: "Sezony, formaty, ekskluzywne materiały i płatne posty. Jak nada�
 lang: pl
 pubDate: 2025-09-09
 updDate: 2025-11-20
-image: "/img/2025/09/kontentni-seriyi.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

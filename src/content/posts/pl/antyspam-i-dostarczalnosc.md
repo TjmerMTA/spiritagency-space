@@ -4,7 +4,6 @@ description: "Rozgrzewka, częstotliwość, segmenty i słowa stop. Ustawienia t
 lang: pl
 pubDate: 2025-09-25
 updDate: 2025-11-20
-image: "/img/2025/09/antyspam-i-dostavlyuvanist.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

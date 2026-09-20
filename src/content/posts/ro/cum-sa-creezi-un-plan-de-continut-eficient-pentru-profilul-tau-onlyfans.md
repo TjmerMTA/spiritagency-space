@@ -4,7 +4,6 @@ description: "Aflați cum să creați un plan de conținut eficient pentru OnlyF
 lang: ro
 pubDate: 2025-08-29
 updDate: 2025-11-20
-image: "/img/2025/08/kontent-plan.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

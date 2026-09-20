@@ -4,7 +4,6 @@ description: "Signály odchodu, spúšťače návratu a ponuky. Tabuľky kohortn
 lang: sk
 pubDate: 2025-09-21
 updDate: 2025-11-21
-image: "/img/2025/09/analiz-vidtoku-pidpysnykiv.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

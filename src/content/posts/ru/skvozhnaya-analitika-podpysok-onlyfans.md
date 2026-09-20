@@ -4,7 +4,6 @@ description: "Связь трафика с продажами, атрибуци�
 lang: ru
 pubDate: 2025-09-11
 updDate: 2025-11-20
-image: "/img/2025/09/naskrizna-analityka-pidpysok.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

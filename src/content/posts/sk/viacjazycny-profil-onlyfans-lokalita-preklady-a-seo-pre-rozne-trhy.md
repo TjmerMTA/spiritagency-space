@@ -4,7 +4,6 @@ description: "Preklady, tón, kľúče a metadata pre rôzne trhy. Sieť obsahu 
 lang: sk
 pubDate: 2025-09-04
 updDate: 2025-11-21
-image: "/img/2025/08/bagatomovnyj-profil--scaled.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

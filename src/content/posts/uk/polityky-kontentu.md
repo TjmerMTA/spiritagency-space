@@ -4,7 +4,6 @@ description: "Вимоги платформи, права, зберігання 
 lang: uk
 pubDate: 2025-09-20
 updDate: 2025-10-27
-image: "/img/2025/09/polityky-kontentu-ta-komplayens.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

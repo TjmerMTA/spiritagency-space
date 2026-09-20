@@ -4,7 +4,6 @@ description: "Co automatyzować w pierwszej kolejności, jak nie zniszczyć tonu
 lang: pl
 pubDate: 2025-09-27
 updDate: 2025-11-20
-image: "/img/2025/09/avtomatyzacziya-rutynnyh-proczesiv.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

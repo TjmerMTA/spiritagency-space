@@ -4,7 +4,6 @@ description: "Як узгодити права, виплати і контент
 lang: uk
 pubDate: 2025-09-15
 updDate: 2025-09-22
-image: "/img/2025/09/pravyla-bezpechnyh-kolaboraczij.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

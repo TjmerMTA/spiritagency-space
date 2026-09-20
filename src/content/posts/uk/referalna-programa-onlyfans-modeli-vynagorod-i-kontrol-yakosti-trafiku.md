@@ -4,7 +4,6 @@ description: "CPA чи ревшар, правила виплат, UTM і ант�
 lang: uk
 pubDate: 2025-09-03
 updDate: 2025-09-22
-image: "/img/2025/08/referalna-programa-onlyfans.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

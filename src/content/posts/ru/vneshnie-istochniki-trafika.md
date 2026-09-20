@@ -4,7 +4,6 @@ description: "Безопасные связи, модерация и конве�
 lang: ru
 pubDate: 2025-09-14
 updDate: 2025-11-20
-image: "/img/2025/09/zovnishni-dzherela-trafiku.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

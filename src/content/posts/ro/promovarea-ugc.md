@@ -4,7 +4,6 @@ description: "Motivație, reguli de siguranță și drepturi. Cum să colectezi 
 lang: ro
 pubDate: 2025-09-23
 updDate: 2025-11-20
-image: "/img/2025/09/ugc-prosuvannya.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

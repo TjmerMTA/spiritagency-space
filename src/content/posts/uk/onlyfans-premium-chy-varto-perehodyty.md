@@ -4,7 +4,6 @@ description: "Відкрийте для себе, чи варто переход
 lang: uk
 pubDate: 2025-10-28
 updDate: 2025-11-05
-image: "/img/2025/10/adobestock_1163000520_editorial_use_only-975x488-1.jpeg"
 readingTime: "1 - 3 хв читання"
 ---
 

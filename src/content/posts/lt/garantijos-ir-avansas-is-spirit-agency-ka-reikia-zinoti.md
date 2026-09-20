@@ -4,7 +4,6 @@ description: "Sužinokite, kaip Spirit Agency garantijos ir avansas užtikrina s
 lang: lt
 pubDate: 2025-08-27
 updDate: 2025-11-20
-image: "/img/2025/08/garantiyi-ta-avans.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

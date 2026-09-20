@@ -4,7 +4,6 @@ description: "Дізнайтеся, як укласти надійний кон�
 lang: uk
 pubDate: 2025-10-26
 updDate: 2025-10-27
-image: "/img/2025/10/20271128.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

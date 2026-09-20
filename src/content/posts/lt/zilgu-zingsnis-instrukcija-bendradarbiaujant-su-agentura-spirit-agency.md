@@ -4,7 +4,6 @@ description: "Sužinokite, kaip bendradarbiavimas su agentūra Spirit Agency gal
 lang: lt
 pubDate: 2025-08-26
 updDate: 2025-11-20
-image: "/img/2025/08/pokrokova-instrukcziya.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

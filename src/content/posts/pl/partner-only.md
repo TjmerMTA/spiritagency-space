@@ -4,7 +4,6 @@ description: "Zespół z doświadczeniem: plan, KPI, codzienne raporty. Budujemy
 lang: pl
 pubDate: 2025-08-09
 updDate: 2025-11-20
-image: "/img/2025/05/Screenshot_2.png"
 readingTime: "2 - 4 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Dowiedz się, jak skutecznie reagować na skargi OnlyFans, zachowu
 lang: pl
 pubDate: 2025-10-30
 updDate: 2025-11-20
-image: "/img/2025/10/file-25.png"
 readingTime: "11 - 13 хв читання"
 ---
 

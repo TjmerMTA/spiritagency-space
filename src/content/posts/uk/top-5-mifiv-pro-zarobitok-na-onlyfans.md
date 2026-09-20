@@ -4,7 +4,6 @@ description: "Відкрийте для себе правду про міфи з
 lang: uk
 pubDate: 2025-08-28
 updDate: 2025-09-03
-image: "/img/2025/08/mify-pro-zarobitok.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

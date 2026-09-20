@@ -4,7 +4,6 @@ description: "Ищете оптимальную платежную систем�
 lang: ru
 pubDate: 2025-10-19
 updDate: 2025-11-19
-image: "/img/2025/10/image-51.png"
 readingTime: "1 - 3 хв читання"
 ---
 

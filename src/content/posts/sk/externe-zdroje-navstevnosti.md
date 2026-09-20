@@ -4,7 +4,6 @@ description: "Bezpečné odkazy, moderovanie a konverzia na predplatné. Prípad
 lang: sk
 pubDate: 2025-09-14
 updDate: 2025-11-21
-image: "/img/2025/09/zovnishni-dzherela-trafiku.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

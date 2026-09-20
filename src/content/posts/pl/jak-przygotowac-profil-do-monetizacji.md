@@ -4,7 +4,6 @@ description: "Dowiedz się, jak przygotować swój profil do monetyzacji na Only
 lang: pl
 pubDate: 2025-10-25
 updDate: 2025-11-20
-image: "/img/2025/10/封面-2.png"
 readingTime: "9 - 11 хв читання"
 ---
 

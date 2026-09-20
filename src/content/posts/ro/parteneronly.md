@@ -4,7 +4,6 @@ description: "Echipă cu experiență: plan, KPI, rapoarte zilnice. Împreună c
 lang: ro
 pubDate: 2025-08-09
 updDate: 2025-11-20
-image: "/img/2025/05/Screenshot_2.png"
 readingTime: "2 - 4 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Узнайте, как грамотно оформить нало�
 lang: ru
 pubDate: 2025-10-21
 updDate: 2025-11-19
-image: "/img/2025/10/cnd7dtwsgbbmmyntssajsxtmanom1nhc.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

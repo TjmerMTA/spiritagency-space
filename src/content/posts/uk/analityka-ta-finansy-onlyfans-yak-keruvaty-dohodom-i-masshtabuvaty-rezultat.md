@@ -4,7 +4,6 @@ description: "Аналітика OnlyFans у бізнес-форматі: як �
 lang: uk
 pubDate: 2025-12-15
 updDate: 2026-01-12
-image: "/img/2026/01/4-analityka-ta-finansy-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

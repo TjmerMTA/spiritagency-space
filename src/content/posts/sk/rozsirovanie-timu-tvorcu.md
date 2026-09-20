@@ -4,7 +4,6 @@ description: "Rozdelenie zón, SOP, kontrola kvality a rýchly onboarding. Šabl
 lang: sk
 pubDate: 2025-09-16
 updDate: 2025-11-21
-image: "/img/2025/09/masshtabuvannya-komandy-avtora.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

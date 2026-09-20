@@ -4,7 +4,6 @@ description: "Jasný plán rastu: stratégia, automatizácia, predaje v DM. Ty s
 lang: sk
 pubDate: 2025-08-08
 updDate: 2025-11-21
-image: "/img/2025/05/22-1.jpg.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

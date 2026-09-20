@@ -4,7 +4,6 @@ description: "Stratégia, mediálny plán a prevádzková podpora. Rasti v počt
 lang: sk
 pubDate: 2025-08-06
 updDate: 2025-11-21
-image: "/img/2025/05/depositphotos_146503199-stock-illustration-vector-pop-art-illustration-of.webp"
 readingTime: "3 - 5 хв читання"
 ---
 

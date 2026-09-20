@@ -4,7 +4,6 @@ description: "Моніторинг згадок, кризові скрипти �
 lang: uk
 pubDate: 2025-09-19
 updDate: 2025-10-27
-image: "/img/2025/09/reputaczijnyj-menedzhment-scaled.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

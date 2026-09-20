@@ -4,7 +4,6 @@ description: "Hypotézy, set, štatistické zastavenie a závery. Šablóna spr�
 lang: sk
 pubDate: 2025-09-22
 updDate: 2025-11-21
-image: "/img/2025/09/a_b-test-kreatyviv.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

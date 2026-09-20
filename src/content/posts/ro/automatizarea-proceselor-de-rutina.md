@@ -4,7 +4,6 @@ description: "Ce să automatizăm în primul rând, cum să nu stricăm tonul. S
 lang: ro
 pubDate: 2025-09-27
 updDate: 2025-11-20
-image: "/img/2025/09/avtomatyzacziya-rutynnyh-proczesiv.webp"
 readingTime: "12 - 14 хв читання"
 ---
 

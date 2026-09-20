@@ -4,7 +4,6 @@ description: "Доступы, бриф, безопасность, контент
 lang: ru
 pubDate: 2025-09-18
 updDate: 2025-11-20
-image: "/img/2025/09/onbordyng-modeli-u-spiritagency.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

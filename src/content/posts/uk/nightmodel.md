@@ -4,7 +4,6 @@ description: "Жіночність під дощем ліхтарів: обра�
 lang: uk
 pubDate: 2025-08-14
 updDate: 2025-09-22
-image: "/img/2025/06/vognyk-u-nichnomu-misti.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

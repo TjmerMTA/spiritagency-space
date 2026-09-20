@@ -4,7 +4,6 @@ description: "Теги, тригери, автоворонки та апсели
 lang: uk
 pubDate: 2025-09-12
 updDate: 2025-10-27
-image: "/img/2025/09/crm-dlya-faniv.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

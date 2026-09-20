@@ -4,7 +4,6 @@ description: "Откройте секреты законного сотрудн�
 lang: ru
 pubDate: 2025-10-20
 updDate: 2025-11-19
-image: "/img/2025/10/86_middle-v1751378374.jpeg"
 readingTime: "1 - 3 хв читання"
 ---
 

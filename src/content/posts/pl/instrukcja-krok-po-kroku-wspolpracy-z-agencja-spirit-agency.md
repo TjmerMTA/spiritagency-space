@@ -4,7 +4,6 @@ description: "Dowiedz się, jak współpraca z agencją Spirit Agency może odmi
 lang: pl
 pubDate: 2025-08-26
 updDate: 2025-11-20
-image: "/img/2025/08/pokrokova-instrukcziya.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

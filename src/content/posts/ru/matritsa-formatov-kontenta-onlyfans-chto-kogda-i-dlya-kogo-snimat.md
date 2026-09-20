@@ -4,7 +4,6 @@ description: "Форматы под этапы воронки, частота и
 lang: ru
 pubDate: 2025-09-30
 updDate: 2025-11-20
-image: "/img/2025/09/matryczya-formativ-kontentu-onlyfans.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

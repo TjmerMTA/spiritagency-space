@@ -4,7 +4,6 @@ description: "Ce să arăți agenției și fanilor. Exemple de seturi, descrieri
 lang: ro
 pubDate: 2025-09-07
 updDate: 2025-11-20
-image: "/img/2025/08/portfolio-modeli.webp"
 readingTime: "7 - 9 хв читання"
 ---
 

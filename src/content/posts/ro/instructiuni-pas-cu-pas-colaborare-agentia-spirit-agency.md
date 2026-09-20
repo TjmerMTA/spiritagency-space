@@ -4,7 +4,6 @@ description: "Aflați cum colaborarea cu agenția Spirit Agency vă poate transf
 lang: ro
 pubDate: 2025-08-26
 updDate: 2025-11-20
-image: "/img/2025/08/pokrokova-instrukcziya.webp"
 readingTime: "12 - 14 хв читання"
 ---
 

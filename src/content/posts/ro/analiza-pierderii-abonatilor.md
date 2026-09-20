@@ -4,7 +4,6 @@ description: "Semnale de pierdere, declanșatori de revenire și oferte. Tabele 
 lang: ro
 pubDate: 2025-09-21
 updDate: 2025-11-20
-image: "/img/2025/09/analiz-vidtoku-pidpysnykiv.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

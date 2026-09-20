@@ -4,7 +4,6 @@ description: "Розкрий свій бренд і харизму: контен
 lang: uk
 pubDate: 2025-08-05
 updDate: 2025-09-22
-image: "/img/2025/05/e2bb2d6424f5c9c0bba20fd0b212778a.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

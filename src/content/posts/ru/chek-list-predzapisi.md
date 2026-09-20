@@ -4,7 +4,6 @@ description: "Локация, техника, реквизит и права. Г
 lang: ru
 pubDate: 2025-09-10
 updDate: 2025-11-20
-image: "/img/2025/09/chek-lyst-peredzjomky.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

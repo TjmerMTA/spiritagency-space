@@ -4,7 +4,6 @@ description: "Bezpieczne linki, moderacja i konwersja na subskrypcje. Case study
 lang: pl
 pubDate: 2025-09-14
 updDate: 2025-11-20
-image: "/img/2025/09/zovnishni-dzherela-trafiku.webp"
 readingTime: "7 - 9 хв читання"
 ---
 

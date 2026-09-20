@@ -4,7 +4,6 @@ description: "Переводы, стиль, ключевые слова и ме�
 lang: ru
 pubDate: 2025-09-04
 updDate: 2025-11-20
-image: "/img/2025/08/bagatomovnyj-profil--scaled.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

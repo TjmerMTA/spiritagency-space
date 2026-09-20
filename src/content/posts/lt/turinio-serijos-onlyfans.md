@@ -4,7 +4,6 @@ description: "Sezonai, formatai, išskirtinumai ir mokami įrašai. Kaip seriali
 lang: lt
 pubDate: 2025-09-09
 updDate: 2025-11-20
-image: "/img/2025/09/kontentni-seriyi.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

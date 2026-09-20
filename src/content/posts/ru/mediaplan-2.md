@@ -4,7 +4,6 @@ description: "Расписание публикаций, миксы канало
 lang: ru
 pubDate: 2025-09-24
 updDate: 2025-11-20
-image: "/img/2025/09/mediaplan-spiritagency.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

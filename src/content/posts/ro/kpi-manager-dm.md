@@ -4,7 +4,6 @@ description: "Norme de răspuns, upselluri, retenție și ARPPU. Dashboard și p
 lang: ro
 pubDate: 2025-09-17
 updDate: 2025-11-20
-image: "/img/2025/09/kpi-dm-menedzhera.webp"
 readingTime: "7 - 9 хв читання"
 ---
 

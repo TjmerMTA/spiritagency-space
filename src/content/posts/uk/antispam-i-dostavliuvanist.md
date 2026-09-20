@@ -4,7 +4,6 @@ description: "Прогрів, частота, сегменти і стоп-сл�
 lang: uk
 pubDate: 2025-09-25
 updDate: 2025-10-27
-image: "/img/2025/09/antyspam-i-dostavlyuvanist.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

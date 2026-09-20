@@ -4,7 +4,6 @@ description: "Traduceri, ton, cuvinte cheie și metadate pentru piețe diferite.
 lang: ro
 pubDate: 2025-09-04
 updDate: 2025-11-20
-image: "/img/2025/08/bagatomovnyj-profil--scaled.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

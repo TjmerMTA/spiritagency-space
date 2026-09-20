@@ -4,7 +4,6 @@ description: "Узнайте, как заключить надежный кон�
 lang: ru
 pubDate: 2025-10-26
 updDate: 2025-11-19
-image: "/img/2025/10/20271128.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

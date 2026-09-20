@@ -4,7 +4,6 @@ description: "Команда, стратегия, съёмки и продажи
 lang: ru
 pubDate: 2025-08-02
 updDate: 2025-11-20
-image: "/img/2025/05/eskort1-1024x595-1.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Sprievodca tónom, farbami, vizuálnymi pravidlami a príkladmi. A
 lang: sk
 pubDate: 2025-09-06
 updDate: 2025-11-21
-image: "/img/2025/09/brendbuk-modeli-onlyfans.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

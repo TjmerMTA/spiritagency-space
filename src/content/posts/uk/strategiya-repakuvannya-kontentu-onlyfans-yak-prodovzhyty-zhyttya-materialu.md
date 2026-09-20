@@ -4,7 +4,6 @@ description: "Кліпи, прев’ю, добірки і нарізки. Як 
 lang: uk
 pubDate: 2025-10-01
 updDate: 2025-09-22
-image: "/img/2025/09/file.png"
 readingTime: "1 - 3 хв читання"
 ---
 

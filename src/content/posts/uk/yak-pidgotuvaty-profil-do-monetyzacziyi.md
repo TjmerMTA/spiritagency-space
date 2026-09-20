@@ -4,7 +4,6 @@ description: "Дізнайтеся, як підготувати свій про�
 lang: uk
 pubDate: 2025-10-25
 updDate: 2025-10-27
-image: "/img/2025/10/封面-2.png"
 readingTime: "1 - 3 хв читання"
 ---
 

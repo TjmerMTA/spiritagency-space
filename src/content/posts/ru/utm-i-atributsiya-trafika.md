@@ -4,7 +4,6 @@ description: "Пресеты меток, правила учета и типич
 lang: ru
 pubDate: 2025-09-13
 updDate: 2025-11-20
-image: "/img/2025/09/utm-ta-atrybucziya-trafiku.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

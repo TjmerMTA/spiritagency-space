@@ -4,7 +4,6 @@ description: "План доходів і витрат, податки, поду�
 lang: uk
 pubDate: 2025-09-26
 updDate: 2025-10-27
-image: "/img/2025/09/finansove-planuvannya-avtora.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

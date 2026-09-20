@@ -4,7 +4,6 @@ description: "Безпечні зв’язки, модерація і конве
 lang: uk
 pubDate: 2025-09-14
 updDate: 2025-10-27
-image: "/img/2025/09/zovnishni-dzherela-trafiku.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

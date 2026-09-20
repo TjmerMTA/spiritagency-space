@@ -4,7 +4,6 @@ description: "Kam ísť a čo robiť: obsah, návštevnosť, monetizácia, bezpe
 lang: sk
 pubDate: 2025-08-10
 updDate: 2025-11-21
-image: "/img/2025/05/image.jpg"
 readingTime: "2 - 4 хв читання"
 ---
 

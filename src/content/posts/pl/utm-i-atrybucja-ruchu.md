@@ -4,7 +4,6 @@ description: "Presety tagów, zasady rozliczeń i typowe błędy. Jak czytać ra
 lang: pl
 pubDate: 2025-09-13
 updDate: 2025-11-20
-image: "/img/2025/09/utm-ta-atrybucziya-trafiku.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

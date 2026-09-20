@@ -4,7 +4,6 @@ description: "Стратегия, медиаплан и операционная
 lang: ru
 pubDate: 2025-08-06
 updDate: 2025-11-20
-image: "/img/2025/05/depositphotos_146503199-stock-illustration-vector-pop-art-illustration-of.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

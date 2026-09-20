@@ -4,7 +4,6 @@ description: "Onboarding, stratégia, reklama a CRM. Preberáme rutiny za teba, 
 lang: sk
 pubDate: 2025-08-11
 updDate: 2025-11-21
-image: "/img/2025/05/stat-4.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

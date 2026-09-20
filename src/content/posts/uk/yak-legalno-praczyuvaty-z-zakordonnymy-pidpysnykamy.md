@@ -4,7 +4,6 @@ description: "Як легально працювати з іноземцями �
 lang: uk
 pubDate: 2025-10-31
 updDate: 2025-11-05
-image: "/img/2025/10/depositphotos_606361154_l.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

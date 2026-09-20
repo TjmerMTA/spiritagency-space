@@ -4,7 +4,6 @@ description: "Ako posilniť vzťah s odberateľmi na OnlyFans? Zistite efektívn
 lang: sk
 pubDate: 2025-10-23
 updDate: 2025-11-20
-image: "/img/2025/09/analiz-vidtoku-pidpysnykiv.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

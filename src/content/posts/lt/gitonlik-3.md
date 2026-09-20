@@ -4,7 +4,6 @@ description: "Kur eiti ir ką daryti: turinys, srautas, monetizacija, saugumas. 
 lang: lt
 pubDate: 2025-08-10
 updDate: 2025-11-20
-image: "/img/2025/05/image.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

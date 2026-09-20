@@ -13,6 +13,10 @@ interface Props {
 const { lang, slug, title, description, image, pubDate, eager = false } = Astro.props;
 const t = UI[lang];
 const href = postUrl(lang, slug);
+
+// Обложек у большинства статей нет — исходные картинки не сохранились
+// в архиве. Вместо одинаковой заглушки — свой оттенок на каждый слаг.
+const hue = [...slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
 const iso = pubDate.toISOString().slice(0, 10);
 const human = pubDate.toLocaleDateString(lang === 'uk' ? 'uk-UA' : lang, {
   day: 'numeric', month: 'long', year: 'numeric',
@@ -24,7 +28,9 @@ const human = pubDate.toLocaleDateString(lang === 'uk' ? 'uk-UA' : lang, {
     {image ? (
       <img src={image} alt="" width="640" height="360" loading={eager ? 'eager' : 'lazy'} decoding="async" />
     ) : (
-      <span class="post__ph">Spirit<b>Agency</b></span>
+      <span class="post__ph" style={`--h:${hue}`} aria-hidden="true">
+        <span class="post__mark">S</span>
+      </span>
     )}
   </a>
   <div class="post__body">
@@ -44,8 +50,26 @@ const human = pubDate.toLocaleDateString(lang === 'uk' ? 'uk-UA' : lang, {
   }
   .post__media img { inline-size: 100%; block-size: 100%; object-fit: cover; transition: transform .35s ease; }
   .card:hover .post__media img { transform: scale(1.04); }
-  .post__ph { display: grid; place-items: center; block-size: 100%; color: var(--muted); font-weight: 800; }
-  .post__ph b { color: var(--red); }
+  .post__ph {
+    display: grid;
+    place-items: center;
+    block-size: 100%;
+    background:
+      radial-gradient(120% 120% at 20% 10%, hsl(var(--h) 70% 22%), transparent 60%),
+      linear-gradient(135deg, hsl(var(--h) 55% 16%), var(--ink-3) 70%);
+  }
+  .post__mark {
+    display: grid;
+    place-items: center;
+    inline-size: 54px;
+    block-size: 54px;
+    border-radius: 16px;
+    background: var(--red);
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5rem;
+    box-shadow: var(--shadow-red);
+  }
 
   .post__body { padding: 1.15rem 1.25rem 1.35rem; display: flex; flex-direction: column; gap: .45rem; flex: 1; }
   .post__date { font-size: .78rem; color: var(--muted); letter-spacing: .04em; }

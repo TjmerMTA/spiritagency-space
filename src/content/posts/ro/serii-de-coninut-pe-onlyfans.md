@@ -4,7 +4,6 @@ description: "Sezoane, formate, exclusive și postări plătite. Cum să seriali
 lang: ro
 pubDate: 2025-09-09
 updDate: 2025-11-20
-image: "/img/2025/09/kontentni-seriyi.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

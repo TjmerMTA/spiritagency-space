@@ -4,7 +4,6 @@ description: "Узнайте, как таргетированная реклам
 lang: ru
 pubDate: 2025-08-31
 updDate: 2025-11-20
-image: "/img/2025/08/targetovana-reklama.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

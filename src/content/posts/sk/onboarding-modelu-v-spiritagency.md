@@ -4,7 +4,6 @@ description: "Prístupy, brief, bezpečnosť, obsahový plán a prvé metriky. C
 lang: sk
 pubDate: 2025-09-18
 updDate: 2025-11-21
-image: "/img/2025/09/onbordyng-modeli-u-spiritagency.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

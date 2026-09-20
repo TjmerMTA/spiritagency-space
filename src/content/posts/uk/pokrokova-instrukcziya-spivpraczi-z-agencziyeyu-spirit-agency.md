@@ -4,7 +4,6 @@ description: "Дізнайтеся, як співпраця з агенцією 
 lang: uk
 pubDate: 2025-08-26
 updDate: 2025-09-03
-image: "/img/2025/08/pokrokova-instrukcziya.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

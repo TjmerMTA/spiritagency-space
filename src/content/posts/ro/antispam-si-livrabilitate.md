@@ -4,7 +4,6 @@ description: "Încălzire, frecvență, segmente și cuvinte de oprire. Setăril
 lang: ro
 pubDate: 2025-09-25
 updDate: 2025-11-20
-image: "/img/2025/09/antyspam-i-dostavlyuvanist.webp"
 readingTime: "12 - 14 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Klipy, ukážky, zostrihy a výbery. Ako opätovne používať obs
 lang: sk
 pubDate: 2025-10-01
 updDate: 2025-11-21
-image: "/img/2025/09/file.png"
 readingTime: "10 - 12 хв читання"
 ---
 

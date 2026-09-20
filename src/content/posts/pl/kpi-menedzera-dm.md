@@ -4,7 +4,6 @@ description: "Normy odpowiedzi, upselle, retencja i ARPPU. Dashboard i punkty ko
 lang: pl
 pubDate: 2025-09-17
 updDate: 2025-11-20
-image: "/img/2025/09/kpi-dm-menedzhera.webp"
 readingTime: "7 - 9 хв читання"
 ---
 

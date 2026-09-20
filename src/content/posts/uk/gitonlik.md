@@ -4,7 +4,6 @@ description: "Куди йти і що робити: контент, трафік
 lang: uk
 pubDate: 2025-08-10
 updDate: 2025-09-22
-image: "/img/2025/05/image.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

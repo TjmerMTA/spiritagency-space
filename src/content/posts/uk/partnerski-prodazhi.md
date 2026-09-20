@@ -4,7 +4,6 @@ description: "Моделі виплат, контроль трафіку, UTM і
 lang: uk
 pubDate: 2025-09-28
 updDate: 2025-10-27
-image: "/img/2025/09/partnerski-prodazhi-spiritagency.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

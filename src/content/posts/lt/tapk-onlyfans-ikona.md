@@ -4,7 +4,6 @@ description: "Atskleisk savo prekės ženklą ir charizmą: turinys, srautas, pa
 lang: lt
 pubDate: 2025-08-05
 updDate: 2025-11-20
-image: "/img/2025/05/e2bb2d6424f5c9c0bba20fd0b212778a.jpg"
 readingTime: "3 - 5 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Ghid privind tonul, culorile, regulile vizuale și exemplele. Cum 
 lang: ro
 pubDate: 2025-09-06
 updDate: 2025-11-20
-image: "/img/2025/09/brendbuk-modeli-onlyfans.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

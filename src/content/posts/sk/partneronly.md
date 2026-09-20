@@ -4,7 +4,6 @@ description: "Tím so skúsenosťami: plán, KPI, denné reporty. Spoločne budu
 lang: sk
 pubDate: 2025-08-09
 updDate: 2025-11-21
-image: "/img/2025/05/Screenshot_2.png"
 readingTime: "2 - 4 хв читання"
 ---
 

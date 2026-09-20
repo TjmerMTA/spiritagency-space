@@ -4,7 +4,6 @@ description: "Утримання підписників OnlyFans: як форм�
 lang: uk
 pubDate: 2025-12-20
 updDate: 2026-01-13
-image: "/img/2026/01/utrymannya-pidpysnykiv-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

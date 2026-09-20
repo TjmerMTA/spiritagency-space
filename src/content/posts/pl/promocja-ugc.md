@@ -4,7 +4,6 @@ description: "Motywacja, zasady bezpieczeństwa i prawa. Jak zbierać UGC i prze
 lang: pl
 pubDate: 2025-09-23
 updDate: 2025-11-20
-image: "/img/2025/09/ugc-prosuvannya.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

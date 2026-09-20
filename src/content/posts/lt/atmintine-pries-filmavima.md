@@ -4,7 +4,6 @@ description: "Vieta, technika, rekvizitai ir teisės. Paruoštas sąrašas, kad 
 lang: lt
 pubDate: 2025-09-10
 updDate: 2025-11-20
-image: "/img/2025/09/chek-lyst-peredzjomky.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Zistite, ako záruky a záloha od Spirit Agency zabezpečujú prie
 lang: sk
 pubDate: 2025-08-27
 updDate: 2025-11-21
-image: "/img/2025/08/garantiyi-ta-avans.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

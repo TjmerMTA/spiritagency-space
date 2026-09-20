@@ -4,7 +4,6 @@ description: "Відкрийте для себе 10 поширених поми�
 lang: uk
 pubDate: 2025-10-09
 updDate: 2025-10-27
-image: "/img/2025/10/file-4.png"
 readingTime: "1 - 3 хв читання"
 ---
 

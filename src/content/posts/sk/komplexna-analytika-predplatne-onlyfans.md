@@ -4,7 +4,6 @@ description: "Prepojenie návštevnosti s predajmi, atribúcia a životný cyklu
 lang: sk
 pubDate: 2025-09-11
 updDate: 2025-11-21
-image: "/img/2025/09/naskrizna-analityka-pidpysok.webp"
 readingTime: "12 - 14 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Мониторинг упоминаний, кризисные ск
 lang: ru
 pubDate: 2025-09-19
 updDate: 2025-11-20
-image: "/img/2025/09/reputaczijnyj-menedzhment-scaled.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

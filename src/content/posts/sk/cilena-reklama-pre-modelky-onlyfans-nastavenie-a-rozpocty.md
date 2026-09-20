@@ -4,7 +4,6 @@ description: "Zistite, ako cielená reklama OnlyFans môže zvýšiť vašu vidi
 lang: sk
 pubDate: 2025-08-31
 updDate: 2025-11-21
-image: "/img/2025/08/targetovana-reklama.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

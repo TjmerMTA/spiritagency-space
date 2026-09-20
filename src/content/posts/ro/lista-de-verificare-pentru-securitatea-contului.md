@@ -4,7 +4,6 @@ description: "2FA, accesuri, backup-uri, logare și antifraudă. Configurează p
 lang: ro
 pubDate: 2025-09-29
 updDate: 2025-11-20
-image: "/img/2025/09/chek-lyst-bezpeky-akaunta-scaled.webp"
 readingTime: "12 - 14 хв читання"
 ---
 

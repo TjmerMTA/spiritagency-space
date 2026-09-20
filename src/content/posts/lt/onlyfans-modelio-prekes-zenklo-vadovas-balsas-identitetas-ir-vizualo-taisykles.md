@@ -4,7 +4,6 @@ description: "Gidas apie toną, spalvas, vizualines taisykles ir pavyzdžius. Ka
 lang: lt
 pubDate: 2025-09-06
 updDate: 2025-11-20
-image: "/img/2025/09/brendbuk-modeli-onlyfans.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

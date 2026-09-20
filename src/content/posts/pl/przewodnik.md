@@ -4,7 +4,6 @@ description: "Dokąd iść i co robić: treści, ruch, monetyzacja, bezpieczeńs
 lang: pl
 pubDate: 2025-08-10
 updDate: 2025-11-20
-image: "/img/2025/05/image.jpg"
 readingTime: "2 - 4 хв читання"
 ---
 

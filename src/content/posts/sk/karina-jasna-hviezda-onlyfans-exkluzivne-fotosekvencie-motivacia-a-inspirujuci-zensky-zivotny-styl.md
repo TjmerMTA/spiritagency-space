@@ -4,7 +4,6 @@ description: "Žiarivá hviezda s exkluzívnymi sériami, zákulisím a každode
 lang: sk
 pubDate: 2025-08-16
 updDate: 2025-11-21
-image: "/img/2025/06/karina-–-yaskrava-zirka-onlyfans.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

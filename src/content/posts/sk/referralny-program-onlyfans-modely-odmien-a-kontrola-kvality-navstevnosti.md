@@ -4,7 +4,6 @@ description: "CPA alebo revshare, pravidlá výplat, UTM a antifraud. Ako počí
 lang: sk
 pubDate: 2025-09-03
 updDate: 2025-11-21
-image: "/img/2025/08/referalna-programa-onlyfans.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

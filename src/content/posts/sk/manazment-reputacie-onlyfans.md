@@ -4,7 +4,6 @@ description: "Monitoring spomienok, krízové skripty a správy. Ako udržať č
 lang: sk
 pubDate: 2025-09-19
 updDate: 2025-11-21
-image: "/img/2025/09/reputaczijnyj-menedzhment-scaled.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

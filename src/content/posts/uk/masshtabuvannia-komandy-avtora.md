@@ -4,7 +4,6 @@ description: "Розподіл зон, SOP, контроль якості і ш�
 lang: uk
 pubDate: 2025-09-16
 updDate: 2025-09-22
-image: "/img/2025/09/masshtabuvannya-komandy-avtora.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

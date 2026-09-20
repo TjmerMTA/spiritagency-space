@@ -4,7 +4,6 @@ description: "Зв’язок трафіку з продажами, атрибу
 lang: uk
 pubDate: 2025-09-11
 updDate: 2025-10-27
-image: "/img/2025/09/naskrizna-analityka-pidpysok.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

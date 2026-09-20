@@ -4,7 +4,6 @@ description: "Дізнайтеся, як створити ефективний �
 lang: uk
 pubDate: 2025-08-29
 updDate: 2025-09-03
-image: "/img/2025/08/kontent-plan.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

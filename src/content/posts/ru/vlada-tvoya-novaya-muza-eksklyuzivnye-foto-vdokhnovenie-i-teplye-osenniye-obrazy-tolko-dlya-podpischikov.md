@@ -4,7 +4,6 @@ description: "Эксклюзивные фото, уютные осенние с�
 lang: ru
 pubDate: 2025-08-21
 updDate: 2025-11-20
-image: "/img/2025/06/vlada-—-tvoya-nova-muza.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

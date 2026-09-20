@@ -4,7 +4,6 @@ description: "Monitoring wzmianek, skrypty kryzysowe i raporty. Jak utrzymać cz
 lang: pl
 pubDate: 2025-09-19
 updDate: 2025-11-20
-image: "/img/2025/09/reputaczijnyj-menedzhment-scaled.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

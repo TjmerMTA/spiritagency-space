@@ -4,7 +4,6 @@ description: "Позитивные вибрации, тёплые образы �
 lang: ru
 pubDate: 2025-08-22
 updDate: 2025-11-20
-image: "/img/2025/07/file.png"
 readingTime: "1 - 3 хв читання"
 ---
 

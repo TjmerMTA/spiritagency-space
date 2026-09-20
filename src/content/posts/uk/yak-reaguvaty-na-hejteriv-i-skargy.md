@@ -4,7 +4,6 @@ description: "Дізнайтеся, як ефективно реагувати �
 lang: uk
 pubDate: 2025-10-30
 updDate: 2025-11-05
-image: "/img/2025/10/file-25.png"
 readingTime: "1 - 3 хв читання"
 ---
 

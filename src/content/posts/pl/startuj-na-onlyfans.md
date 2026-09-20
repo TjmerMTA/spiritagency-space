@@ -4,7 +4,6 @@ description: "Onboarding, strategia, reklama i CRM. Bierzemy rutynowe zadania na
 lang: pl
 pubDate: 2025-08-11
 updDate: 2025-11-20
-image: "/img/2025/05/stat-4.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

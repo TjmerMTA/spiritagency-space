@@ -4,7 +4,6 @@ description: "Motivácia, bezpečnostné pravidlá a práva. Ako zbierať UGC a 
 lang: sk
 pubDate: 2025-09-23
 updDate: 2025-11-21
-image: "/img/2025/09/ugc-prosuvannya.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

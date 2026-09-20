@@ -4,7 +4,6 @@ description: "Що показати агентству і фанам. Прикл
 lang: uk
 pubDate: 2025-09-07
 updDate: 2025-09-22
-image: "/img/2025/08/portfolio-modeli.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

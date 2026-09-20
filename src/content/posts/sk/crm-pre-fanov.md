@@ -4,7 +4,6 @@ description: "Tagy, spúšťače, automatické lieviky a upselly. Ako zvýšiť 
 lang: sk
 pubDate: 2025-09-12
 updDate: 2025-11-21
-image: "/img/2025/09/crm-dlya-faniv.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

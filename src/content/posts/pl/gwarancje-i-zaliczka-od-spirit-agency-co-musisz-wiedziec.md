@@ -4,7 +4,6 @@ description: "Dowiedz się, jak gwarancje i zaliczka od Spirit Agency zapewniaj�
 lang: pl
 pubDate: 2025-08-27
 updDate: 2025-11-20
-image: "/img/2025/08/garantiyi-ta-avans.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

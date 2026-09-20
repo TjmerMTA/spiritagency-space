@@ -4,7 +4,6 @@ description: "Сигнали відтоку, тригери повернення
 lang: uk
 pubDate: 2025-09-21
 updDate: 2025-10-27
-image: "/img/2025/09/analiz-vidtoku-pidpysnykiv.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

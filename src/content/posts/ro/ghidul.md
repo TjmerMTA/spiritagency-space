@@ -4,7 +4,6 @@ description: "Unde să mergi și ce să faci: conținut, trafic, monetizare, sig
 lang: ro
 pubDate: 2025-08-10
 updDate: 2025-11-20
-image: "/img/2025/05/image.jpg"
 readingTime: "2 - 4 хв читання"
 ---
 

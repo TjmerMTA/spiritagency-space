@@ -4,7 +4,6 @@ description: "Jak dostosować treść i cennik do kraju. Przykłady lokalizacji,
 lang: pl
 pubDate: 2025-09-05
 updDate: 2025-11-20
-image: "/img/2025/08/lokalizacziya-kontentu.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

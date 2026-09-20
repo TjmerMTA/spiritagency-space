@@ -4,7 +4,6 @@ description: "Normy odpovedí, upsely, retencia a ARPPU. Dashboard a kontrolné 
 lang: sk
 pubDate: 2025-09-17
 updDate: 2025-11-21
-image: "/img/2025/09/kpi-dm-menedzhera.webp"
 readingTime: "7 - 9 хв читання"
 ---
 

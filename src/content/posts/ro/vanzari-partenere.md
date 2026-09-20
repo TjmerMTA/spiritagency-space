@@ -4,7 +4,6 @@ description: "Modele de plată, controlul traficului, UTM și contracte. Cum să
 lang: ro
 pubDate: 2025-09-28
 updDate: 2025-11-20
-image: "/img/2025/09/partnerski-prodazhi-spiritagency.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

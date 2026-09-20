@@ -4,7 +4,6 @@ description: "Čo automatizovať ako prvé, ako neporušiť tón. Scenáre a int
 lang: sk
 pubDate: 2025-09-27
 updDate: 2025-11-21
-image: "/img/2025/09/avtomatyzacziya-rutynnyh-proczesiv.webp"
 readingTime: "13 - 15 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Дізнайтеся, як таргетована реклама O
 lang: uk
 pubDate: 2025-08-31
 updDate: 2025-09-03
-image: "/img/2025/08/targetovana-reklama.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

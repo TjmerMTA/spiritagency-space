@@ -4,7 +4,6 @@ description: "Platformy ako OnlyFans, TikTok, Instagram alebo Patreon zavádzaj�
 lang: sk
 pubDate: 2025-10-04
 updDate: 2025-11-21
-image: "/img/2025/10/2-68.png"
 readingTime: "3 - 5 хв читання"
 ---
 

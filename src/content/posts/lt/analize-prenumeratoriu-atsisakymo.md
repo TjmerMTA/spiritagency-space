@@ -4,7 +4,6 @@ description: "Nutekėjimo signalai, sugrįžimo veiksniai ir pasiūlymai. Kohort
 lang: lt
 pubDate: 2025-09-21
 updDate: 2025-11-20
-image: "/img/2025/09/analiz-vidtoku-pidpysnykiv.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

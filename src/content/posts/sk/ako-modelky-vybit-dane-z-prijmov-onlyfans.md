@@ -4,7 +4,6 @@ description: "Zistite, ako správne vyriešiť dane pre modelky na OnlyFans. Pre
 lang: sk
 pubDate: 2025-10-21
 updDate: 2025-11-20
-image: "/img/2025/10/cnd7dtwsgbbmmyntssajsxtmanom1nhc.jpg"
 readingTime: "13 - 15 хв читання"
 ---
 

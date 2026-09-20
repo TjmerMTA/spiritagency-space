@@ -4,7 +4,6 @@ description: "Zistite, ako spolupráca s agentúrou Spirit Agency môže zmeniť
 lang: sk
 pubDate: 2025-08-26
 updDate: 2025-11-21
-image: "/img/2025/08/pokrokova-instrukcziya.webp"
 readingTime: "13 - 15 хв читання"
 ---
 

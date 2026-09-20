@@ -4,7 +4,6 @@ description: "Візуальний стиль OnlyFans: як створити в
 lang: uk
 pubDate: 2025-12-22
 updDate: 2026-01-13
-image: "/img/2026/01/vizualnyj-styl-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

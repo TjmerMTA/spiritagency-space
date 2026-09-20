@@ -4,7 +4,6 @@ description: "Atsakymo normos, upsell'ai, išlaikymas ir ARPPU. Skydelis ir kont
 lang: lt
 pubDate: 2025-09-17
 updDate: 2025-11-20
-image: "/img/2025/09/kpi-dm-menedzhera.webp"
 readingTime: "6 - 8 хв читання"
 ---
 

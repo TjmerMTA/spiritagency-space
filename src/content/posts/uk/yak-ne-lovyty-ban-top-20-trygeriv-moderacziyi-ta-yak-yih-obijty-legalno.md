@@ -4,7 +4,6 @@ description: "Як не ловити бан: топ-20 тригерів моде
 lang: uk
 pubDate: 2025-10-03
 updDate: 2025-10-27
-image: "/img/2025/10/untitled-design-36-1-1024x512-1.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

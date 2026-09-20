@@ -4,7 +4,6 @@ description: "Modely výplát, kontrola návštevnosti, UTM a zmluvy. Ako škál
 lang: sk
 pubDate: 2025-09-28
 updDate: 2025-11-21
-image: "/img/2025/09/partnerski-prodazhi-spiritagency.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

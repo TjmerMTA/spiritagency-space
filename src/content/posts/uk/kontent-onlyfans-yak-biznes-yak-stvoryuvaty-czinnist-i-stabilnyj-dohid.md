@@ -4,7 +4,6 @@ description: "Контент OnlyFans у бізнес-форматі: як ст�
 lang: uk
 pubDate: 2025-12-14
 updDate: 2026-01-12
-image: "/img/2026/01/3kontent-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

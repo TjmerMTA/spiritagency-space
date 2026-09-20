@@ -4,7 +4,6 @@ description: "Aflați cum reclama targetată OnlyFans vă poate crește vizibili
 lang: ro
 pubDate: 2025-08-31
 updDate: 2025-11-20
-image: "/img/2025/08/targetovana-reklama.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

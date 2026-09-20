@@ -4,7 +4,6 @@ description: "Онбординг, стратегия, реклама и CRM. Б�
 lang: ru
 pubDate: 2025-08-11
 updDate: 2025-11-20
-image: "/img/2025/05/stat-4.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

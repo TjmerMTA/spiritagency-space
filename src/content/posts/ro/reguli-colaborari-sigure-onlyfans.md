@@ -4,7 +4,6 @@ description: "Cum să stabilești drepturile, plățile și planul de conținut.
 lang: ro
 pubDate: 2025-09-15
 updDate: 2025-11-20
-image: "/img/2025/09/pravyla-bezpechnyh-kolaboraczij.webp"
 readingTime: "6 - 8 хв читання"
 ---
 

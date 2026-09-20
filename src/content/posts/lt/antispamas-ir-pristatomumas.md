@@ -4,7 +4,6 @@ description: "Įkaitinimas, dažnis, segmentai ir stop-žodžiai. Techniniai nus
 lang: lt
 pubDate: 2025-09-25
 updDate: 2025-11-20
-image: "/img/2025/09/antyspam-i-dostavlyuvanist.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Dowiedz się, jak ukierunkowana reklama OnlyFans może zwiększyć
 lang: pl
 pubDate: 2025-08-31
 updDate: 2025-11-20
-image: "/img/2025/08/targetovana-reklama.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

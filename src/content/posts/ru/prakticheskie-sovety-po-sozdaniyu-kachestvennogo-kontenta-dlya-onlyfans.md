@@ -4,7 +4,6 @@ description: "Узнайте, как создать качественный к�
 lang: ru
 pubDate: 2025-08-25
 updDate: 2025-11-20
-image: "/img/2025/08/praktychni-porady.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

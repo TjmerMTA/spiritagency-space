@@ -4,7 +4,6 @@ description: "Cum să eviți blocarea: top 20 declanșatoare ale moderării și 
 lang: ro
 pubDate: 2025-10-03
 updDate: 2025-11-20
-image: "/img/2025/10/untitled-design-36-1-1024x512-1.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

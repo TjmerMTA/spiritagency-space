@@ -4,7 +4,6 @@ description: "Old money OnlyFans: як стримана естетика, тиш
 lang: uk
 pubDate: 2026-01-06
 updDate: 2026-01-13
-image: "/img/2026/01/pexels-lars-romero-1356383-2881956-scaled.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

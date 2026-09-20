@@ -4,7 +4,6 @@ description: "Jasny plan rozwoju: strategia, automatyzacja, sprzedaż w DM. Ty s
 lang: pl
 pubDate: 2025-08-08
 updDate: 2025-11-20
-image: "/img/2025/05/22-1.jpg.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

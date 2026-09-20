@@ -4,7 +4,6 @@ description: "Дізнайтеся, як GDPR впливає на вашу ді�
 lang: uk
 pubDate: 2025-10-16
 updDate: 2025-10-27
-image: "/img/2025/10/65f868e8010e870025c5b669a90c1055.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

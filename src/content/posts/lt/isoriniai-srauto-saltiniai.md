@@ -4,7 +4,6 @@ description: "Saugūs saitai, moderavimas ir konversija į prenumeratas. Atvejai
 lang: lt
 pubDate: 2025-09-14
 updDate: 2025-11-20
-image: "/img/2025/09/zovnishni-dzherela-trafiku.webp"
 readingTime: "6 - 8 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Połączenie ruchu ze sprzedażą, atrybucja i cykl życia. Tabele
 lang: pl
 pubDate: 2025-09-11
 updDate: 2025-11-20
-image: "/img/2025/09/naskrizna-analityka-pidpysok.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

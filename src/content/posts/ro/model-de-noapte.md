@@ -4,7 +4,6 @@ description: "Feminitate sub ploaia felinarelor: look-uri, mișcare și atmosfer
 lang: ro
 pubDate: 2025-08-14
 updDate: 2025-11-20
-image: "/img/2025/06/vognyk-u-nichnomu-misti.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

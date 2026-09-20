@@ -4,7 +4,6 @@ description: "Descoperă cele 10 greșeli frecvente ale modelelor OnlyFans și a
 lang: ro
 pubDate: 2025-10-09
 updDate: 2025-11-20
-image: "/img/2025/10/file-4.png"
 readingTime: "12 - 14 хв читання"
 ---
 

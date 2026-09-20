@@ -4,7 +4,6 @@ description: "Získaj stratégiu, plán obsahu a systematický predaj. SpiritAge
 lang: sk
 pubDate: 2025-08-04
 updDate: 2025-11-21
-image: "/img/2025/05/4_big-v1731417305.webp"
 readingTime: "3 - 5 хв читання"
 ---
 

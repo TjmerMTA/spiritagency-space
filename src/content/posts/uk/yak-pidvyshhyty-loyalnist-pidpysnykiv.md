@@ -4,7 +4,6 @@ description: "Як зміцнити зв’язок з підписниками 
 lang: uk
 pubDate: 2025-10-23
 updDate: 2025-10-27
-image: "/img/2025/09/analiz-vidtoku-pidpysnykiv.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Harmonogram publikácií, mixy kanálov a testovacie sprinty. Kont
 lang: sk
 pubDate: 2025-09-24
 updDate: 2025-11-21
-image: "/img/2025/09/mediaplan-spiritagency.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

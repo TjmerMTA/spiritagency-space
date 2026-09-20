@@ -4,7 +4,6 @@ description: "Požiadavky platformy, práva, uchovávanie a moderovanie. Priprav
 lang: sk
 pubDate: 2025-09-20
 updDate: 2025-11-21
-image: "/img/2025/09/polityky-kontentu-ta-komplayens.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Dowiedz się, jak skutecznie przeprowadzić weryfikację agencji O
 lang: pl
 pubDate: 2025-10-22
 updDate: 2025-11-20
-image: "/img/2025/10/file-17.png"
 readingTime: "10 - 12 хв читання"
 ---
 

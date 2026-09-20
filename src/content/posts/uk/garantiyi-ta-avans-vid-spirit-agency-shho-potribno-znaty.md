@@ -4,7 +4,6 @@ description: "Дізнайтеся, як гарантії та аванс від
 lang: uk
 pubDate: 2025-08-27
 updDate: 2025-09-03
-image: "/img/2025/08/garantiyi-ta-avans.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Ako prispôsobiť obsah a ceny podľa krajiny. Príklady lokalít,
 lang: sk
 pubDate: 2025-09-05
 updDate: 2025-11-21
-image: "/img/2025/08/lokalizacziya-kontentu.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

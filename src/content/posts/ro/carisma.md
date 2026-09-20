@@ -4,7 +4,6 @@ description: "Emoții autentice, postări private și story-uri live. Abonează-
 lang: ro
 pubDate: 2025-08-15
 updDate: 2025-11-20
-image: "/img/2025/06/nathnenna-ukrayinska-model.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

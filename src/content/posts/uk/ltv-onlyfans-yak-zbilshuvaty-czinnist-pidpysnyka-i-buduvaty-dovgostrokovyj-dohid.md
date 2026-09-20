@@ -4,7 +4,6 @@ description: "LTV OnlyFans: як підвищувати цінність під�
 lang: uk
 pubDate: 2025-12-19
 updDate: 2026-01-12
-image: "/img/2026/01/ltv-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

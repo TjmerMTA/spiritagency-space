@@ -4,7 +4,6 @@ description: "Distribuirea zonelor, SOP, controlul calității și onboarding ra
 lang: ro
 pubDate: 2025-09-16
 updDate: 2025-11-20
-image: "/img/2025/09/masshtabuvannya-komandy-avtora.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

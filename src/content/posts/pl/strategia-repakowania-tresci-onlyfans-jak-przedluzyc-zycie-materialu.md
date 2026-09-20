@@ -4,7 +4,6 @@ description: "Klipy, zapowiedzi, zestawienia i skróty. Jak ponownie wykorzysta�
 lang: pl
 pubDate: 2025-10-01
 updDate: 2025-11-20
-image: "/img/2025/09/file.png"
 readingTime: "9 - 11 хв читання"
 ---
 

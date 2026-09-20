@@ -4,7 +4,6 @@ description: "Чіткий план зростання: стратегія, ав
 lang: uk
 pubDate: 2025-08-08
 updDate: 2025-09-22
-image: "/img/2025/05/22-1.jpg.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

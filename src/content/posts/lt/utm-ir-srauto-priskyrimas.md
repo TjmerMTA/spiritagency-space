@@ -4,7 +4,6 @@ description: "Žymų presetai, apskaitos taisyklės ir įprastos klaidos. Kaip s
 lang: lt
 pubDate: 2025-09-13
 updDate: 2025-11-20
-image: "/img/2025/09/utm-ta-atrybucziya-trafiku.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

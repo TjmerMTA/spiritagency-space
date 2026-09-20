@@ -4,7 +4,6 @@ description: "Ako sa vyhnúť banu: top 20 spúšťačov moderácie a ako ich le
 lang: sk
 pubDate: 2025-10-03
 updDate: 2025-11-21
-image: "/img/2025/10/untitled-design-36-1-1024x512-1.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Ipoteze, set, oprire statistică și concluzii. Șablon de raport 
 lang: ro
 pubDate: 2025-09-22
 updDate: 2025-11-20
-image: "/img/2025/09/a_b-test-kreatyviv.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

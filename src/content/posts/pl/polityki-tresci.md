@@ -4,7 +4,6 @@ description: "Wymagania platformy, prawa, przechowywanie i moderacja. Gotowy sza
 lang: pl
 pubDate: 2025-09-20
 updDate: 2025-11-20
-image: "/img/2025/09/polityky-kontentu-ta-komplayens.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

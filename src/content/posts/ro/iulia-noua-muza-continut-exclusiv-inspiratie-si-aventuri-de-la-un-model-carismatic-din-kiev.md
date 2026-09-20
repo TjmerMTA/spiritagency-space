@@ -4,7 +4,6 @@ description: "Model carismatic din Kiev. Seturi private, aventuri și imagini di
 lang: ro
 pubDate: 2025-08-19
 updDate: 2025-11-20
-image: "/img/2025/06/yuliya-–-nova-muza.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Команда с опытом: план, KPI, ежедневны�
 lang: ru
 pubDate: 2025-08-09
 updDate: 2025-11-20
-image: "/img/2025/05/Screenshot_2.png"
 readingTime: "1 - 3 хв читання"
 ---
 

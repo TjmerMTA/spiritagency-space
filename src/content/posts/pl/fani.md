@@ -4,7 +4,6 @@ description: "Zespół, procesy, analityka i sprzedaż. Dołącz do SpiritAgency
 lang: pl
 pubDate: 2025-08-13
 updDate: 2025-11-20
-image: "/img/2025/05/2465482978304dc4aedf6d99e44d2c70.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

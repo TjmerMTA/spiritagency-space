@@ -4,7 +4,6 @@ description: "OnlyFans models як нова еліта digital-індустрі�
 lang: uk
 pubDate: 2025-12-27
 updDate: 2026-01-13
-image: "/img/2026/01/onlyfans-models.png"
 readingTime: "1 - 3 хв читання"
 ---
 

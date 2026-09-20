@@ -4,7 +4,6 @@ description: "Дізнайтеся, як ефективно захистити �
 lang: uk
 pubDate: 2025-10-15
 updDate: 2025-10-27
-image: "/img/2025/08/lokalizacziya-kontentu.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

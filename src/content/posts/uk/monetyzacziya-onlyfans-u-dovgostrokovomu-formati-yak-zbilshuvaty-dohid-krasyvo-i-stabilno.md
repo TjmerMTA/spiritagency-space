@@ -4,7 +4,6 @@ description: "Монетизація OnlyFans у системному форма
 lang: uk
 pubDate: 2025-12-18
 updDate: 2026-01-12
-image: "/img/2026/01/monetyzacziya-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

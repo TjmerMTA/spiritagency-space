@@ -4,7 +4,6 @@ description: "OnlyFans як мистецтво довгої гри: чому с�
 lang: uk
 pubDate: 2026-01-11
 updDate: 2026-01-13
-image: "/img/2026/01/3_1826962.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

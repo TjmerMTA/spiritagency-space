@@ -4,7 +4,6 @@ description: "Legătura traficului cu vânzările, atribuirea și ciclul de via�
 lang: ro
 pubDate: 2025-09-11
 updDate: 2025-11-20
-image: "/img/2025/09/naskrizna-analityka-pidpysok.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

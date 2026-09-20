@@ -4,7 +4,6 @@ description: "Top OnlyFans creators: спокійний аналіз стилю,
 lang: uk
 pubDate: 2025-12-28
 updDate: 2026-01-13
-image: "/img/2026/01/top-onlyfans-creators.png"
 readingTime: "1 - 3 хв читання"
 ---
 

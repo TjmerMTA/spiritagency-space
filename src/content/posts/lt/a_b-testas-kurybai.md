@@ -4,7 +4,6 @@ description: "Hipotezės, rinkinys, statistinis sustojimas ir išvados. Ataskait
 lang: lt
 pubDate: 2025-09-22
 updDate: 2025-11-20
-image: "/img/2025/09/a_b-test-kreatyviv.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

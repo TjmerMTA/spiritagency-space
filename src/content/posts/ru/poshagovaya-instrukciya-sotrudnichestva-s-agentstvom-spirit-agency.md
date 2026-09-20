@@ -4,7 +4,6 @@ description: "Узнайте, как сотрудничество с агент�
 lang: ru
 pubDate: 2025-08-26
 updDate: 2025-11-20
-image: "/img/2025/08/pokrokova-instrukcziya.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

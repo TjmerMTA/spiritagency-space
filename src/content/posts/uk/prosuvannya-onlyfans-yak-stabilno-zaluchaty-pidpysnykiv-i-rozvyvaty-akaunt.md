@@ -4,7 +4,6 @@ description: "Ефективне просування OnlyFans: джерела �
 lang: uk
 pubDate: 2025-12-13
 updDate: 2026-01-12
-image: "/img/2026/01/2prosuvannya-onlyfans.png"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Узнайте о 10 распространённых ошибка
 lang: ru
 pubDate: 2025-10-09
 updDate: 2025-11-20
-image: "/img/2025/10/file-4.png"
 readingTime: "1 - 3 хв читання"
 ---
 

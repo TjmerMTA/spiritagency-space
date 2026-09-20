@@ -4,7 +4,6 @@ description: "2FA, dostępy, kopie zapasowe, logowanie i antyfraud. Skonfiguruj 
 lang: pl
 pubDate: 2025-09-29
 updDate: 2025-11-20
-image: "/img/2025/09/chek-lyst-bezpeky-akaunta-scaled.webp"
 readingTime: "11 - 13 хв читання"
 ---
 

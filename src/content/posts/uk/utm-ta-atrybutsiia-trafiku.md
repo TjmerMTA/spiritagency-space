@@ -4,7 +4,6 @@ description: "Пресети міток, правила обліку і типо
 lang: uk
 pubDate: 2025-09-13
 updDate: 2025-09-22
-image: "/img/2025/09/utm-ta-atrybucziya-trafiku.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

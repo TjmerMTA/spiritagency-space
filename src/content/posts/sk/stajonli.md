@@ -4,7 +4,6 @@ description: "Odhaľ svoju značku a charizmu: obsah, návštevnosť, predaj. Sp
 lang: sk
 pubDate: 2025-08-05
 updDate: 2025-11-21
-image: "/img/2025/05/e2bb2d6424f5c9c0bba20fd0b212778a.jpg"
 readingTime: "3 - 5 хв читання"
 ---
 

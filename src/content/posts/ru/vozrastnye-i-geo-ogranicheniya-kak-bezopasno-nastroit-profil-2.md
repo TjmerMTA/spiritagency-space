@@ -4,7 +4,6 @@ description: "Узнайте, как настроить возрастные о�
 lang: ru
 pubDate: 2025-10-07
 updDate: 2025-11-20
-image: "/img/2025/09/pravyla-bezpechnyh-kolaboraczij.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

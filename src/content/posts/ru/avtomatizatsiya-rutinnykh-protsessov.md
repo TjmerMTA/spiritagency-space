@@ -4,7 +4,6 @@ description: "Что автоматизировать в первую очере
 lang: ru
 pubDate: 2025-09-27
 updDate: 2025-11-20
-image: "/img/2025/09/avtomatyzacziya-rutynnyh-proczesiv.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

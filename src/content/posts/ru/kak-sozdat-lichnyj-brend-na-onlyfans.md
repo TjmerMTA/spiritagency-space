@@ -4,7 +4,6 @@ description: "Узнайте, как создать бренд модели Only
 lang: ru
 pubDate: 2025-10-18
 updDate: 2025-11-19
-image: "/img/2025/10/oyygj1u2b1idv8d9qh0rywcid8ncd91x.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

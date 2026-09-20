@@ -4,7 +4,6 @@ description: "Мотивація, правила безпеки і права. �
 lang: uk
 pubDate: 2025-09-23
 updDate: 2025-10-27
-image: "/img/2025/09/ugc-prosuvannya.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

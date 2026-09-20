@@ -4,7 +4,6 @@ description: "Jak nie dostać bana: top 20 trygerów moderacji i jak je legalnie
 lang: pl
 pubDate: 2025-10-03
 updDate: 2025-11-20
-image: "/img/2025/10/untitled-design-36-1-1024x512-1.webp"
 readingTime: "4 - 6 хв читання"
 ---
 

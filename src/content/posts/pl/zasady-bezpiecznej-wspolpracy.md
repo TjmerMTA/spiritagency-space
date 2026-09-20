@@ -4,7 +4,6 @@ description: "Jak ustalić prawa, wypłaty i plan treści. Lista kontrolna bezpi
 lang: pl
 pubDate: 2025-09-15
 updDate: 2025-11-20
-image: "/img/2025/09/pravyla-bezpechnyh-kolaboraczij.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

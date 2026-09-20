@@ -4,7 +4,6 @@ description: "Как согласовать права, выплаты и кон
 lang: ru
 pubDate: 2025-09-15
 updDate: 2025-11-20
-image: "/img/2025/09/pravyla-bezpechnyh-kolaboraczij.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

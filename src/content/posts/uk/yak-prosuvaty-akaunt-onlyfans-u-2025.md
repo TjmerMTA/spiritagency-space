@@ -4,7 +4,6 @@ description: "Відкрийте секрети успішного просув�
 lang: uk
 pubDate: 2025-10-10
 updDate: 2025-10-27
-image: "/img/2025/10/file-5.png"
 readingTime: "1 - 3 хв читання"
 ---
 

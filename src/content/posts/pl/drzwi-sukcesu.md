@@ -4,7 +4,6 @@ description: "Zespół, strategia, sesje zdjęciowe i sprzedaż. SpiritAgency pr
 lang: pl
 pubDate: 2025-08-02
 updDate: 2025-11-20
-image: "/img/2025/05/eskort1-1024x595-1.jpg"
 readingTime: "3 - 5 хв читання"
 ---
 

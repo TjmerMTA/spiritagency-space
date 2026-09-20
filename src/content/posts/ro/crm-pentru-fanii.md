@@ -4,7 +4,6 @@ description: "Etichete, declanșatoare, auto-funneluri și upsell-uri. Cum să c
 lang: ro
 pubDate: 2025-09-12
 updDate: 2025-11-20
-image: "/img/2025/09/crm-dlya-faniv.webp"
 readingTime: "5 - 7 хв читання"
 ---
 

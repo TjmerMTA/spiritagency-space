@@ -4,7 +4,6 @@ description: "Paminėjimų stebėjimas, krizės scenarijai ir ataskaitos. Kaip p
 lang: lt
 pubDate: 2025-09-19
 updDate: 2025-11-20
-image: "/img/2025/09/reputaczijnyj-menedzhment-scaled.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Доступи, бриф, безпека, контент-план 
 lang: uk
 pubDate: 2025-09-18
 updDate: 2025-10-27
-image: "/img/2025/09/onbordyng-modeli-u-spiritagency.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

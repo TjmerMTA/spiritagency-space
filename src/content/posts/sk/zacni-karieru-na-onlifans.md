@@ -4,7 +4,6 @@ description: "Získaj stratégiu, content plán a predaj v DM. Tím SpiritAgency
 lang: sk
 pubDate: 2025-07-31
 updDate: 2025-11-21
-image: "/img/2025/05/87_big-v1741796767.webp"
 readingTime: "3 - 5 хв читання"
 ---
 

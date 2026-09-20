@@ -4,7 +4,6 @@ description: "Objavte 10 bežných chýb modeliek na OnlyFans a naučte sa,"
 lang: sk
 pubDate: 2025-10-09
 updDate: 2025-11-21
-image: "/img/2025/10/file-4.png"
 readingTime: "12 - 14 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Otrzymaj strategię, plan treści i sprzedaż w DM. Zespół Spiri
 lang: pl
 pubDate: 2025-07-31
 updDate: 2025-11-20
-image: "/img/2025/05/87_big-v1741796767.webp"
 readingTime: "3 - 5 хв читання"
 ---
 

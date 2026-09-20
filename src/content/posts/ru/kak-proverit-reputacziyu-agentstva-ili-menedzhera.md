@@ -4,7 +4,6 @@ description: "Узнайте, как эффективно провести пр�
 lang: ru
 pubDate: 2025-10-22
 updDate: 2025-11-19
-image: "/img/2025/10/file-17.png"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Команда з досвідом: план, KPI, щоденні 
 lang: uk
 pubDate: 2025-08-09
 updDate: 2025-09-22
-image: "/img/2025/05/Screenshot_2.png"
 readingTime: "1 - 3 хв читання"
 ---
 

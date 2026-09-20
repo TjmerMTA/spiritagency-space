@@ -4,7 +4,6 @@ description: "Construim brandul, conținutul și traficul. Mediaplan, KPI, supor
 lang: ro
 pubDate: 2025-08-01
 updDate: 2025-11-20
-image: "/img/2025/05/6786b19718f6e6a07128b399_66d70ab96020f69807bc3d6e_v2-hpjpc-hn8at.jpeg"
 readingTime: "3 - 5 хв читання"
 ---
 

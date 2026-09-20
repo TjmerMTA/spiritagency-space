@@ -4,7 +4,6 @@ description: "Шукаєте оптимальну платіжну систем�
 lang: uk
 pubDate: 2025-10-19
 updDate: 2025-10-27
-image: "/img/2025/10/image-51.png"
 readingTime: "1 - 3 хв читання"
 ---
 

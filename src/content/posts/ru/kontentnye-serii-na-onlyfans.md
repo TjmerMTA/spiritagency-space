@@ -4,7 +4,6 @@ description: "Сезоны, форматы, эксклюзивы и платны
 lang: ru
 pubDate: 2025-09-09
 updDate: 2025-11-20
-image: "/img/2025/09/kontentni-seriyi.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

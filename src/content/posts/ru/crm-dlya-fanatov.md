@@ -4,7 +4,6 @@ description: "Теги, триггеры, автоворонки и апсейл
 lang: ru
 pubDate: 2025-09-12
 updDate: 2025-11-20
-image: "/img/2025/09/crm-dlya-faniv.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

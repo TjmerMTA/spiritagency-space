@@ -4,7 +4,6 @@ description: "Ako dohodnúť práva, výplaty a obsahový plán. Kontrolný zozn
 lang: sk
 pubDate: 2025-09-15
 updDate: 2025-11-21
-image: "/img/2025/09/pravyla-bezpechnyh-kolaboraczij.webp"
 readingTime: "6 - 8 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "2FA, prístupy, zálohy, protokolovanie a antifraud. Nastavte ochr
 lang: sk
 pubDate: 2025-09-29
 updDate: 2025-11-21
-image: "/img/2025/09/chek-lyst-bezpeky-akaunta-scaled.webp"
 readingTime: "13 - 15 хв читання"
 ---
 

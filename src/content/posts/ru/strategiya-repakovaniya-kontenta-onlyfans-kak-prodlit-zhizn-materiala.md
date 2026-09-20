@@ -4,7 +4,6 @@ description: "Клипы, превью, подборки и нарезки. Ка
 lang: ru
 pubDate: 2025-10-01
 updDate: 2025-11-20
-image: "/img/2025/09/file.png"
 readingTime: "1 - 3 хв читання"
 ---
 

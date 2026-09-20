@@ -4,7 +4,6 @@ description: "Безпека OnlyFans у сучасному форматі: як
 lang: uk
 pubDate: 2025-12-16
 updDate: 2026-01-12
-image: "/img/2026/01/c96054a2-bb1b-4272-ae13-a1ba52804658.png"
 readingTime: "1 - 3 хв читання"
 ---
 

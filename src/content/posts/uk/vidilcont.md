@@ -4,7 +4,6 @@ description: "Команда, процеси й аналітика. Запуст
 lang: uk
 pubDate: 2025-08-12
 updDate: 2025-09-22
-image: "/img/2025/05/can-you-screenshot-onlyfans-poster.png"
 readingTime: "1 - 3 хв читання"
 ---
 

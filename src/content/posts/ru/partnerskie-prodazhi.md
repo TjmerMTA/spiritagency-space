@@ -4,7 +4,6 @@ description: "Модели выплат, контроль трафика, UTM и
 lang: ru
 pubDate: 2025-09-28
 updDate: 2025-11-20
-image: "/img/2025/09/partnerski-prodazhi-spiritagency.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

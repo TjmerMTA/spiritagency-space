@@ -4,7 +4,6 @@ description: "Formáty pre fázy lievika, frekvencia a príklady. Hotová matica
 lang: sk
 pubDate: 2025-09-30
 updDate: 2025-11-21
-image: "/img/2025/09/matryczya-formativ-kontentu-onlyfans.webp"
 readingTime: "10 - 12 хв читання"
 ---
 

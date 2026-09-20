@@ -4,7 +4,6 @@ description: "Гіпотези, сет, статистична зупинка і
 lang: uk
 pubDate: 2025-09-22
 updDate: 2025-10-27
-image: "/img/2025/09/a_b-test-kreatyviv.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Как легально работать с иностранцам
 lang: ru
 pubDate: 2025-10-31
 updDate: 2025-11-19
-image: "/img/2025/10/depositphotos_606361154_l.jpg"
 readingTime: "1 - 3 хв читання"
 ---
 

@@ -4,7 +4,6 @@ description: "Motyvacija, saugumo taisyklės ir teisės. Kaip rinkti UGC ir pave
 lang: lt
 pubDate: 2025-09-23
 updDate: 2025-11-20
-image: "/img/2025/09/ugc-prosuvannya.webp"
 readingTime: "8 - 10 хв читання"
 ---
 

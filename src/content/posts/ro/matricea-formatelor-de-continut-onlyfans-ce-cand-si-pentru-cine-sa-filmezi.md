@@ -4,7 +4,6 @@ description: "Formate pentru etapele pâlniei, frecvența și exemple. Matrice g
 lang: ro
 pubDate: 2025-09-30
 updDate: 2025-11-20
-image: "/img/2025/09/matryczya-formativ-kontentu-onlyfans.webp"
 readingTime: "9 - 11 хв читання"
 ---
 

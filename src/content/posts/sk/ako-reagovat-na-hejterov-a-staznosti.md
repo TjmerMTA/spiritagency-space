@@ -4,7 +4,6 @@ description: "Zistite, ako efektívne reagovať na sťažnosti OnlyFans a zárov
 lang: sk
 pubDate: 2025-10-30
 updDate: 2025-11-20
-image: "/img/2025/10/file-25.png"
 readingTime: "13 - 15 хв читання"
 ---
 

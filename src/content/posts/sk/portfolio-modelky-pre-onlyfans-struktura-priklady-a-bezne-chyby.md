@@ -4,7 +4,6 @@ description: "Čo ukázať agentúre a fanúšikom. Príklady setov, popisy, odk
 lang: sk
 pubDate: 2025-09-07
 updDate: 2025-11-21
-image: "/img/2025/08/portfolio-modeli.webp"
 readingTime: "8 - 10 хв читання"
 ---
 
