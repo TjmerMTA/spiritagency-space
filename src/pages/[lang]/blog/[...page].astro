@@ -1,0 +1,37 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import BlogIndex from '../../../components/BlogIndex.astro';
+import { LANGS, DEFAULT_LANG, UI, blogRoot, type Lang } from '../../../i18n';
+import { pages } from '../../../paginate';
+
+export const getStaticPaths = (async () => {
+  const all = await getCollection('posts', (p) => !p.data.draft);
+  return LANGS.filter((l) => l !== DEFAULT_LANG).flatMap((lang) => {
+    const posts = all
+      .filter((p) => p.data.lang === lang)
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    return pages(posts, blogRoot(lang)).map(({ suffix, page }) => ({
+      params: { lang, page: suffix },
+      props: { page },
+    }));
+  });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const lang = Astro.params.lang as Lang;
+const t = UI[lang];
+const alternates = Object.fromEntries(LANGS.map((l) => [l, blogRoot(l)]));
+const suffix = page.currentPage > 1 ? ` — ${t.page} ${page.currentPage}` : '';
+---
+
+<Base
+  title={`${t.blogTitle}${suffix} | SpiritAgency`}
+  description={t.blogLead}
+  lang={lang}
+  alternates={page.currentPage === 1 ? alternates : {}}
+  noindex={page.currentPage > 1}
+>
+  <BlogIndex lang={lang} page={page} />
+</Base>

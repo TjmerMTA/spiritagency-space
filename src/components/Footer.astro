@@ -1,0 +1,78 @@
+---
+import { LANGS, LANG_LABEL, UI, TELEGRAM, home, blogRoot, type Lang } from '../i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = UI[lang];
+const year = new Date().getFullYear();
+---
+
+<footer class="ftr">
+  <div class="container ftr__grid">
+    <div>
+      <a class="ftr__logo" href={home(lang)}>Spirit<b>Agency</b></a>
+      <p class="ftr__note">{UI[lang].blogLead}</p>
+      <a class="btn btn--primary" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
+    </div>
+
+    <nav class="ftr__col" aria-label={t.menu}>
+      <h4>{t.menu}</h4>
+      <ul>
+        <li><a href={home(lang)}>{t.home}</a></li>
+        <li><a href={blogRoot(lang)}>{t.blog}</a></li>
+        <li><a href={`${home(lang)}#about`}>{t.about}</a></li>
+        <li><a href={`${home(lang)}#income`}>{t.income}</a></li>
+        <li><a href={`${home(lang)}#privacy`}>{t.guarantees}</a></li>
+      </ul>
+    </nav>
+
+    <nav class="ftr__col" aria-label="Language">
+      <h4>Language</h4>
+      <ul>
+        {LANGS.map((l) => <li><a href={home(l)} hreflang={l}>{LANG_LABEL[l]}</a></li>)}
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container ftr__bottom">
+    <span>© {year} SpiritAgency. {t.rights}.</span>
+    <a href={TELEGRAM} rel="noopener" target="_blank">Telegram</a>
+  </div>
+</footer>
+
+<style>
+  .ftr {
+    background: var(--ink-2);
+    border-block-start: 1px solid var(--line);
+    padding-block-start: clamp(2.5rem, 6vw, 4rem);
+    margin-block-start: auto;
+  }
+  .ftr__grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 760px) { .ftr__grid { grid-template-columns: 2fr 1fr 1fr; } }
+
+  .ftr__logo { font-weight: 800; font-size: 1.25rem; }
+  .ftr__logo b { color: var(--red); }
+  .ftr__note { color: var(--muted); max-inline-size: 34ch; margin-block: .8rem 1.2rem; }
+
+  .ftr__col h4 { font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .ftr__col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+  .ftr__col a { color: var(--text); font-size: .95rem; }
+  .ftr__col a:hover { color: var(--red); }
+
+  .ftr__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem 1.5rem;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: .85rem;
+    padding-block: 2rem;
+    margin-block-start: 2.5rem;
+    border-block-start: 1px solid var(--line);
+  }
+  .ftr__bottom a:hover { color: var(--red); }
+</style>

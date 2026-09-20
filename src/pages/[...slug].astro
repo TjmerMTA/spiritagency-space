@@ -1,0 +1,153 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import { UI, TELEGRAM, home, blogRoot, postUrl, DEFAULT_LANG, type Lang } from '../i18n';
+import alternatesMap from '../data/alternates.json';
+
+export const getStaticPaths = (async () => {
+  const posts = await getCollection('posts', (p) => !p.data.draft);
+  return posts.map((post) => {
+    const lang = post.data.lang;
+    const slug = post.id.split('/').pop()!;
+    const path = lang === DEFAULT_LANG ? slug : `${lang}/${slug}`;
+    const related = posts
+      .filter((p) => p.data.lang === lang && p.id !== post.id)
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+      .slice(0, 3);
+    return { params: { slug: path }, props: { post, related } };
+  });
+}) satisfies GetStaticPaths;
+
+const { post, related } = Astro.props;
+const lang = post.data.lang as Lang;
+const t = UI[lang];
+const slug = post.id.split('/').pop()!;
+const { Content } = await render(post);
+
+const alternates = (alternatesMap as Record<string, Record<string, string>>)[`${lang}/${slug}`] ?? {};
+const locale = lang === 'uk' ? 'uk-UA' : lang;
+const fmt = (d: Date) => d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' });
+
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updDate ?? post.data.pubDate).toISOString(),
+  image: post.data.image ? new URL(post.data.image, Astro.site).href : undefined,
+  inLanguage: lang,
+  author: { '@type': 'Organization', name: 'SpiritAgency' },
+  publisher: { '@type': 'Organization', name: 'SpiritAgency' },
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+};
+---
+
+<Base
+  title={`${post.data.title} | SpiritAgency`}
+  description={post.data.description}
+  lang={lang}
+  image={post.data.image}
+  alternates={alternates as any}
+  type="article"
+>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} is:inline />
+
+  <article class="post-page">
+    <div class="container">
+      <nav class="crumbs" aria-label="breadcrumb">
+        <a href={home(lang)}>{t.home}</a>
+        <span aria-hidden="true">/</span>
+        <a href={blogRoot(lang)}>{t.blog}</a>
+      </nav>
+
+      <h1>{post.data.title}</h1>
+
+      <dl class="meta">
+        <div><dt>{t.author}</dt><dd>SpiritAgency</dd></div>
+        <div><dt>{t.published}</dt><dd><time datetime={post.data.pubDate.toISOString().slice(0, 10)}>{fmt(post.data.pubDate)}</time></dd></div>
+        {post.data.updDate && (
+          <div><dt>{t.updated}</dt><dd><time datetime={post.data.updDate.toISOString().slice(0, 10)}>{fmt(post.data.updDate)}</time></dd></div>
+        )}
+        {post.data.readingTime && <div><dt>{t.readingTime}</dt><dd>{post.data.readingTime}</dd></div>}
+      </dl>
+    </div>
+
+    {post.data.image && (
+      <div class="container">
+        <img class="hero-img" src={post.data.image} alt={post.data.title} width="1024" height="576" fetchpriority="high" decoding="async" />
+      </div>
+    )}
+
+    <div class="container">
+      <div class="prose">
+        <Content />
+      </div>
+
+      <aside class="cta-box">
+        <p>{UI[lang].blogLead}</p>
+        <a class="btn btn--primary" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
+      </aside>
+    </div>
+  </article>
+
+  {related.length > 0 && (
+    <section class="section section--alt">
+      <div class="container">
+        <h2>{t.related}</h2>
+        <div class="grid grid--cards">
+          {related.map((p: any) => (
+            <PostCard
+              lang={lang}
+              slug={p.id.split('/').pop()}
+              title={p.data.title}
+              description={p.data.description}
+              image={p.data.image}
+              pubDate={p.data.pubDate}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</Base>
+
+<style>
+  .post-page { padding-block: clamp(1.75rem, 5vw, 3rem) clamp(2.5rem, 6vw, 4rem); }
+  .crumbs { display: flex; gap: .5rem; color: var(--muted); font-size: .85rem; margin-block-end: 1.25rem; }
+  .crumbs a:hover { color: var(--red); }
+  .post-page h1 { max-inline-size: 22ch; }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem 2rem;
+    margin-block: 1.5rem 2rem;
+    padding-block-end: 1.5rem;
+    border-block-end: 1px solid var(--line);
+  }
+  .meta div { display: grid; gap: .15rem; }
+  .meta dt { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .meta dd { margin: 0; font-size: .92rem; font-weight: 600; }
+
+  .hero-img {
+    inline-size: 100%;
+    border-radius: var(--radius);
+    margin-block-end: clamp(1.75rem, 5vw, 3rem);
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .cta-box {
+    max-inline-size: var(--maxw-text);
+    margin: 3rem auto 0;
+    padding: clamp(1.5rem, 4vw, 2.25rem);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, rgb(237 16 16 / 12%), var(--ink-2));
+    text-align: center;
+  }
+  .cta-box p { color: var(--muted); margin-block-end: 1.25rem; }
+</style>

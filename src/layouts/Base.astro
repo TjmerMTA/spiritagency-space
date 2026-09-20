@@ -1,0 +1,87 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Font } from 'astro:assets';
+import { HTML_LANG, LANGS, DEFAULT_LANG, type Lang } from '../i18n';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang: Lang;
+  image?: string;
+  /** Карта переводов: язык → абсолютный путь. Для hreflang. */
+  alternates?: Partial<Record<Lang, string>>;
+  type?: 'website' | 'article';
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description = '',
+  lang,
+  image,
+  alternates = {},
+  type = 'website',
+  noindex = false,
+} = Astro.props;
+
+const site = Astro.site ?? new URL('https://spiritagency.space');
+const canonical = new URL(Astro.url.pathname, site).href;
+const ogImage = image ? new URL(image, site).href : undefined;
+---
+
+<!doctype html>
+<html lang={HTML_LANG[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    {LANGS.filter((l) => alternates[l]).map((l) => (
+      <link rel="alternate" hreflang={l} href={new URL(alternates[l]!, site).href} />
+    ))}
+    {alternates[DEFAULT_LANG] && (
+      <link rel="alternate" hreflang="x-default" href={new URL(alternates[DEFAULT_LANG]!, site).href} />
+    )}
+
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="SpiritAgency" />
+    {description && <meta property="og:description" content={description} />}
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <Font cssVariable="--font-inter" preload />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <Header lang={lang} />
+    <main id="content">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+
+    <style is:global>
+      body { display: flex; flex-direction: column; min-block-size: 100vh; }
+      main { flex: 1; }
+      .skip {
+        position: absolute;
+        inset-block-start: -100px;
+        inset-inline-start: var(--gutter);
+        z-index: 100;
+        background: var(--red);
+        color: #fff;
+        padding: .6em 1em;
+        border-radius: 0 0 8px 8px;
+      }
+      .skip:focus { inset-block-start: 0; }
+    </style>
+  </body>
+</html>

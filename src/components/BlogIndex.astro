@@ -1,0 +1,53 @@
+---
+import type { PageInfo } from '../paginate';
+import PostCard from './PostCard.astro';
+import { UI, type Lang } from '../i18n';
+
+interface Props { lang: Lang; page: PageInfo<any> }
+const { lang, page } = Astro.props;
+const t = UI[lang];
+---
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">{t.blog}</span>
+    <h1>{t.blogTitle}</h1>
+    <p class="lead blog__lead">{t.blogLead}</p>
+
+    <div class="grid grid--cards blog__grid">
+      {page.data.map((p: any, i: number) => (
+        <PostCard
+          lang={lang}
+          slug={p.id.split('/').pop()}
+          title={p.data.title}
+          description={p.data.description}
+          image={p.data.image}
+          pubDate={p.data.pubDate}
+          eager={i < 3}
+        />
+      ))}
+    </div>
+
+    {page.lastPage > 1 && (
+      <nav class="pager" aria-label={t.page}>
+        {page.url.prev ? <a class="btn btn--ghost" href={page.url.prev}>← {t.prev}</a> : <span></span>}
+        <span class="pager__count">{page.currentPage} / {page.lastPage}</span>
+        {page.url.next ? <a class="btn btn--ghost" href={page.url.next}>{t.next} →</a> : <span></span>}
+      </nav>
+    )}
+  </div>
+</section>
+
+<style>
+  .blog__lead { max-inline-size: 60ch; margin-block-end: 2.5rem; }
+  .blog__grid { margin-block-end: 3rem; }
+  .pager {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--line);
+  }
+  .pager__count { color: var(--muted); font-size: .9rem; }
+</style>

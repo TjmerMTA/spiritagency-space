@@ -1,0 +1,242 @@
+---
+import { getCollection } from 'astro:content';
+import PostCard from './PostCard.astro';
+import { UI, TELEGRAM, blogRoot, type Lang } from '../i18n';
+import homeData from '../data/home.json';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = UI[lang];
+const d = (homeData as Record<string, any>)[lang];
+
+const posts = (await getCollection('posts', (p) => p.data.lang === lang && !p.data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const cta = (i: number) => d.hero.ctas?.[i]?.href || TELEGRAM;
+---
+
+<!-- Герой -->
+<section class="hero" id="promo">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <span class="eyebrow">{d.hero.kicker}</span>
+      <h1>{d.hero.h1}</h1>
+      <p class="lead">{d.hero.sub}</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href={cta(0)} rel="noopener" target="_blank">
+          {d.hero.ctas?.[0]?.text || t.apply}
+        </a>
+        <a class="btn btn--ghost" href={cta(1)} rel="noopener" target="_blank">
+          {d.hero.ctas?.[1]?.text || 'Telegram'}
+        </a>
+      </div>
+    </div>
+    {d.hero.image && (
+      <div class="hero__media">
+        <img src={d.hero.image} alt="" width="600" height="653" fetchpriority="high" decoding="async" />
+      </div>
+    )}
+  </div>
+</section>
+
+<!-- О нас -->
+<section class="section section--alt" id="about">
+  <div class="container">
+    <span class="eyebrow">{d.about.title}</span>
+    <div class="grid grid--split">
+      <div>
+        {d.about.lead.map((p: string) => <p class="lead">{p}</p>)}
+        {d.about.intro && <p class="about__intro">{d.about.intro}</p>}
+        <ul class="pills">
+          {d.about.boxes.map((b: any) => (
+            <li class="pill"><b>{b.title}</b> {b.desc}</li>
+          ))}
+        </ul>
+      </div>
+      {d.about.images?.[0] && (
+        <div class="about__img">
+          <img src={d.about.images[0]} alt="" width="600" height="440" loading="lazy" decoding="async" />
+        </div>
+      )}
+    </div>
+    {d.about.text && <p class="about__note">{d.about.text}</p>}
+  </div>
+</section>
+
+<!-- Доход -->
+<section class="section" id="income">
+  <div class="container grid grid--split">
+    <div>
+      <span class="eyebrow">{d.income.title}</span>
+      {d.income.paras.map((p: string) => <p>{p}</p>)}
+      <a class="btn btn--primary" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
+    </div>
+    {d.income.image && (
+      <figure class="frame">
+        <img src={d.income.image} alt="" width="640" height="420" loading="lazy" decoding="async" />
+      </figure>
+    )}
+  </div>
+</section>
+
+<!-- Аванс -->
+<section class="section advance" id="advance">
+  <div class="container advance__box">
+    {d.advance.image && (
+      <img class="advance__img" src={d.advance.image} alt="" width="300" height="300" loading="lazy" decoding="async" />
+    )}
+    <div>
+      <h2>{d.advance.title}</h2>
+      {d.advance.paras.map((p: string) => <p>{p}</p>)}
+      <a class="btn btn--primary" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Конфиденциальность -->
+<section class="section section--alt" id="privacy">
+  <div class="container grid grid--split">
+    {d.privacy.image && (
+      <figure class="frame">
+        <img src={d.privacy.image} alt="" width="600" height="420" loading="lazy" decoding="async" />
+      </figure>
+    )}
+    <div>
+      <span class="eyebrow">{d.privacy.title}</span>
+      {d.privacy.paras.map((p: string) => <p>{p}</p>)}
+    </div>
+  </div>
+</section>
+
+<!-- Отзывы -->
+<section class="section" id="reviews">
+  <div class="container">
+    <h2>{d.reviews.title}</h2>
+    <div class="grid grid--cards reviews">
+      {d.reviews.items.map((r: any) => (
+        <figure class="card review">
+          <blockquote>
+            <p class="review__head">{r.headline}</p>
+            <p class="review__text">{r.text}</p>
+          </blockquote>
+          <figcaption class="review__author">{r.author}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Последние статьи -->
+{posts.length > 0 && (
+  <section class="section section--alt">
+    <div class="container">
+      <div class="head-row">
+        <h2>{t.blogTitle}</h2>
+        <a class="btn btn--ghost" href={blogRoot(lang)}>{t.allPosts}</a>
+      </div>
+      <div class="grid grid--cards">
+        {posts.map((p) => (
+          <PostCard
+            lang={lang}
+            slug={p.id.split('/').pop()!}
+            title={p.data.title}
+            description={p.data.description}
+            image={p.data.image}
+            pubDate={p.data.pubDate}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<!-- Контакт -->
+<section class="section contact" id="contact">
+  <div class="container contact__box">
+    <div>
+      <h2>{d.contact.title}</h2>
+      <p class="lead">{d.contact.text}</p>
+      <a class="btn btn--primary" href={d.contact.ctas?.[0]?.href || TELEGRAM} rel="noopener" target="_blank">
+        {d.contact.ctas?.[0]?.text || t.apply}
+      </a>
+    </div>
+    {d.contact.image && (
+      <img class="contact__img" src={d.contact.image} alt="" width="320" height="320" loading="lazy" decoding="async" />
+    )}
+  </div>
+</section>
+
+<style>
+  .hero {
+    padding-block: clamp(2.5rem, 7vw, 5.5rem);
+    background:
+      radial-gradient(60% 70% at 85% 10%, rgb(237 16 16 / 22%), transparent 65%),
+      radial-gradient(50% 60% at 5% 90%, rgb(237 16 16 / 10%), transparent 60%);
+  }
+  .hero__grid { display: grid; gap: 2rem; align-items: center; grid-template-columns: 1fr; }
+  @media (min-width: 900px) { .hero__grid { grid-template-columns: 1.1fr .9fr; } }
+  .hero__cta { display: flex; flex-wrap: wrap; gap: .75rem; margin-block-start: 1.75rem; }
+  .hero__media img {
+    inline-size: 100%;
+    max-inline-size: 460px;
+    margin-inline: auto;
+    border-radius: var(--radius);
+    filter: drop-shadow(0 25px 45px rgb(0 0 0 / 55%));
+  }
+
+  .about__intro { margin-block-start: 1.5rem; font-weight: 600; }
+  .about__note { color: var(--muted); max-inline-size: 60ch; margin-block-start: 2rem; }
+  .about__img img { border-radius: var(--radius); }
+
+  .pills { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .6rem; }
+  .pill {
+    background: var(--ink-3);
+    border: 1px solid var(--line);
+    border-inline-start: 3px solid var(--red);
+    border-radius: var(--radius-sm);
+    padding: .7em 1em;
+  }
+  .pill b { color: var(--white); }
+
+  .frame img { border-radius: var(--radius); border: 1px solid var(--line); }
+  .frame { margin: 0; }
+
+  .advance__box {
+    display: grid;
+    gap: 1.5rem;
+    align-items: center;
+    grid-template-columns: 1fr;
+    background: linear-gradient(135deg, rgb(237 16 16 / 14%), rgb(31 31 37 / 90%));
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: clamp(1.5rem, 4vw, 3rem);
+  }
+  @media (min-width: 760px) { .advance__box { grid-template-columns: 220px 1fr; } }
+  .advance__img { inline-size: 100%; max-inline-size: 220px; margin-inline: auto; }
+
+  .reviews .review { padding: 1.4rem 1.5rem; gap: .8rem; }
+  .review blockquote { margin: 0; }
+  .review__head { font-weight: 700; color: var(--white); margin-block-end: .6rem; }
+  .review__text { color: var(--muted); font-size: .95rem; }
+  .review__author { margin-block-start: auto; padding-block-start: .8rem; color: var(--red); font-weight: 700; }
+
+  .head-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-block-end: 2rem;
+  }
+  .head-row h2 { margin: 0; }
+
+  .contact__box {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 760px) { .contact__box { grid-template-columns: 1fr 300px; } }
+  .contact__img { inline-size: 100%; max-inline-size: 300px; margin-inline: auto; }
+</style>

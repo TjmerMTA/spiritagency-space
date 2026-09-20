@@ -1,0 +1,162 @@
+---
+import { LANGS, LANG_LABEL, UI, TELEGRAM, home, blogRoot, type Lang } from '../i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = UI[lang];
+const root = home(lang);
+
+const links = [
+  { href: `${root}#promo`, text: t.promo },
+  { href: `${root}#about`, text: t.about },
+  { href: blogRoot(lang), text: t.blog },
+  { href: `${root}#income`, text: t.income },
+  { href: `${root}#privacy`, text: t.guarantees },
+];
+---
+
+<header class="hdr">
+  <div class="container hdr__bar">
+    <a class="hdr__logo" href={root}>
+      <span class="hdr__mark">S</span>
+      <span>Spirit<b>Agency</b></span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="visually-hidden" />
+    <label for="nav-toggle" class="hdr__burger" aria-hidden="true"><span></span></label>
+
+    <nav class="hdr__nav" aria-label={t.menu}>
+      <ul class="hdr__links">
+        {links.map((l) => <li><a href={l.href}>{l.text}</a></li>)}
+      </ul>
+
+      <ul class="hdr__langs" aria-label="Language">
+        {LANGS.map((l) => (
+          <li>
+            <a href={home(l)} hreflang={l} aria-current={l === lang ? 'true' : undefined}>{LANG_LABEL[l]}</a>
+          </li>
+        ))}
+      </ul>
+
+      <a class="btn btn--primary hdr__cta" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .hdr {
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 50;
+    background: rgb(13 13 15 / 88%);
+    backdrop-filter: blur(12px);
+    border-block-end: 1px solid var(--line);
+  }
+  .hdr__bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-block-size: 68px;
+  }
+  .hdr__logo {
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    font-weight: 800;
+    font-size: 1.05rem;
+    letter-spacing: -.02em;
+    margin-inline-end: auto;
+  }
+  .hdr__logo b { color: var(--red); font-weight: 800; }
+  .hdr__mark {
+    display: grid;
+    place-items: center;
+    inline-size: 32px;
+    block-size: 32px;
+    border-radius: 9px;
+    background: var(--red);
+    color: #fff;
+    font-weight: 900;
+  }
+
+  .hdr__nav { display: contents; }
+  .hdr__links, .hdr__langs {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+  }
+  .hdr__links a { font-size: .95rem; color: var(--muted); transition: color .15s ease; }
+  .hdr__links a:hover { color: var(--text); }
+
+  .hdr__langs { gap: .35rem; }
+  .hdr__langs a {
+    font-size: .78rem;
+    font-weight: 700;
+    padding: .3em .55em;
+    border-radius: 6px;
+    color: var(--muted);
+  }
+  .hdr__langs a[aria-current] { background: var(--red); color: #fff; }
+  .hdr__langs a:hover { color: var(--text); }
+
+  .hdr__cta { padding: .6em 1.2em; font-size: .9rem; }
+
+  .hdr__burger { display: none; }
+
+  @media (max-width: 1050px) {
+    .hdr__cta { display: none; }
+    .hdr__links { gap: .9rem; }
+    .hdr__links a { font-size: .88rem; }
+  }
+
+  @media (max-width: 860px) {
+    .hdr__burger {
+      display: block;
+      inline-size: 40px;
+      block-size: 40px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      position: relative;
+      cursor: pointer;
+    }
+    .hdr__burger span,
+    .hdr__burger span::before,
+    .hdr__burger span::after {
+      content: '';
+      position: absolute;
+      inline-size: 18px;
+      block-size: 2px;
+      background: var(--text);
+      inset-inline-start: 10px;
+      border-radius: 2px;
+      transition: transform .2s ease;
+    }
+    .hdr__burger span { inset-block-start: 19px; }
+    .hdr__burger span::before { inset-block-start: -6px; inset-inline-start: 0; }
+    .hdr__burger span::after { inset-block-start: 6px; inset-inline-start: 0; }
+
+    .hdr__nav {
+      display: none;
+      position: absolute;
+      inset-inline: 0;
+      inset-block-start: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1.25rem var(--gutter) 1.75rem;
+      background: var(--ink-2);
+      border-block-end: 1px solid var(--line);
+    }
+    #nav-toggle:checked ~ .hdr__nav { display: flex; }
+    #nav-toggle:checked ~ .hdr__burger span { background: transparent; }
+    #nav-toggle:checked ~ .hdr__burger span::before { transform: translateY(6px) rotate(45deg); }
+    #nav-toggle:checked ~ .hdr__burger span::after { transform: translateY(-6px) rotate(-45deg); }
+
+    .hdr__links { flex-direction: column; align-items: flex-start; gap: .85rem; }
+    .hdr__links a { font-size: 1rem; color: var(--text); }
+    .hdr__cta { display: inline-flex; }
+  }
+</style>
