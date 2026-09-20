@@ -11,6 +11,7 @@ cp -R dist/. "$tmp/"
 touch "$tmp/.nojekyll"          # иначе Pages прячет папки, начинающиеся с _
 
 git worktree remove --force .gh-pages 2>/dev/null || true
+git branch -D gh-pages 2>/dev/null || true   # ветку пересоздаём каждый раз, она всё равно force-push
 git worktree add --detach .gh-pages
 cd .gh-pages
 git checkout --orphan gh-pages
