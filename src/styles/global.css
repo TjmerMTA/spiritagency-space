@@ -2,10 +2,10 @@
 :root {
   --red: #ed1010;
   --red-dark: #c00b0b;
-  --ink: #0d0d0f;
-  --ink-2: #16161a;
-  --ink-3: #1f1f25;
-  --line: #2b2b33;
+  --ink: #0a0a0a;
+  --ink-2: #111111;
+  --ink-3: #1a1a1a;
+  --line: #262626;
   --text: #f4f4f6;
   --muted: #a8a8b3;
   --white: #ffffff;
@@ -16,7 +16,7 @@
   --maxw: 1180px;
   --maxw-text: 46rem;
 
-  --font: var(--font-inter), system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font: var(--font-montserrat), system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
   --shadow: 0 18px 50px rgb(0 0 0 / 45%);
   --shadow-red: 0 10px 30px rgb(237 16 16 / 28%);
@@ -151,4 +151,28 @@ h4 { font-size: 1.2rem; }
 .visually-hidden {
   position: absolute; inline-size: 1px; block-size: 1px;
   overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+}
+
+/* ---- Центрированная подача, как на исходном сайте ---- */
+.section--center { text-align: center; }
+.section--center .lead,
+.section--center p { margin-inline: auto; max-inline-size: 60ch; }
+.section--center .eyebrow { display: block; }
+
+.title-xl {
+  font-size: clamp(2rem, 5.5vw, 3.4rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -.01em;
+}
+.title-xl--red { color: var(--red); }
+
+/* Красная кавычка у отзыва — характерная деталь исходного макета */
+.quote-mark {
+  display: block;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 4.5rem;
+  line-height: .6;
+  color: var(--red);
+  margin-block-end: .6rem;
 }

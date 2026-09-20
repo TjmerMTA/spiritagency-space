@@ -26,8 +26,8 @@ export default defineConfig({
   // Шрифт хостится сами: без render-blocking запроса к Google Fonts
   fonts: [
     {
-      name: 'Inter',
-      cssVariable: '--font-inter',
+      name: 'Montserrat',
+      cssVariable: '--font-montserrat',
       provider: fontProviders.google(),
       weights: [400, 600, 800],
       subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],

@@ -43,7 +43,7 @@ const cta = (i: number) => d.hero.ctas?.[i]?.href || TELEGRAM;
 <!-- О нас -->
 <section class="section section--alt" id="about">
   <div class="container">
-    <span class="eyebrow">{d.about.title}</span>
+    <h2 class="title-xl">{d.about.title}</h2>
     <div class="grid grid--split">
       <div>
         {d.about.lead.map((p: string) => <p class="lead">{p}</p>)}
@@ -68,7 +68,7 @@ const cta = (i: number) => d.hero.ctas?.[i]?.href || TELEGRAM;
 <section class="section" id="income">
   <div class="container grid grid--split">
     <div>
-      <span class="eyebrow">{d.income.title}</span>
+      <h2 class="title-xl">{d.income.title}</h2>
       {d.income.paras.map((p: string) => <p>{p}</p>)}
       <a class="btn btn--primary" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
     </div>
@@ -87,7 +87,7 @@ const cta = (i: number) => d.hero.ctas?.[i]?.href || TELEGRAM;
       <img class="advance__img" src={d.advance.image} alt="" width="300" height="300" loading="lazy" decoding="async" />
     )}
     <div>
-      <h2>{d.advance.title}</h2>
+      <h2 class="title-xl title-xl--red">{d.advance.title}</h2>
       {d.advance.paras.map((p: string) => <p>{p}</p>)}
       <a class="btn btn--primary" href={TELEGRAM} rel="noopener" target="_blank">{t.apply}</a>
     </div>
@@ -103,19 +103,20 @@ const cta = (i: number) => d.hero.ctas?.[i]?.href || TELEGRAM;
       </figure>
     )}
     <div>
-      <span class="eyebrow">{d.privacy.title}</span>
+      <h2 class="title-xl">{d.privacy.title}</h2>
       {d.privacy.paras.map((p: string) => <p>{p}</p>)}
     </div>
   </div>
 </section>
 
 <!-- Отзывы -->
-<section class="section" id="reviews">
+<section class="section section--center" id="reviews">
   <div class="container">
-    <h2>{d.reviews.title}</h2>
+    <h2 class="title-xl">{d.reviews.title}</h2>
     <div class="grid grid--cards reviews">
       {d.reviews.items.map((r: any) => (
-        <figure class="card review">
+        <figure class="review">
+          <span class="quote-mark" aria-hidden="true">&rdquo;</span>
           <blockquote>
             <p class="review__head">{r.headline}</p>
             <p class="review__text">{r.text}</p>
@@ -215,11 +216,19 @@ const cta = (i: number) => d.hero.ctas?.[i]?.href || TELEGRAM;
   @media (min-width: 760px) { .advance__box { grid-template-columns: 220px 1fr; } }
   .advance__img { inline-size: 100%; max-inline-size: 220px; margin-inline: auto; }
 
-  .reviews .review { padding: 1.4rem 1.5rem; gap: .8rem; }
+  .reviews { text-align: center; }
+  .review {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 1.5rem 1.25rem;
+    border-block-end: 1px solid var(--line);
+  }
+  @media (min-width: 900px) { .review { border-block-end: 0; } }
   .review blockquote { margin: 0; }
-  .review__head { font-weight: 700; color: var(--white); margin-block-end: .6rem; }
+  .review__head { font-weight: 700; color: var(--white); margin-block-end: .8rem; }
   .review__text { color: var(--muted); font-size: .95rem; }
-  .review__author { margin-block-start: auto; padding-block-start: .8rem; color: var(--red); font-weight: 700; }
+  .review__author { margin-block-start: auto; padding-block-start: 1rem; color: var(--muted); font-weight: 600; }
 
   .head-row {
     display: flex;
