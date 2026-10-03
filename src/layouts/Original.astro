@@ -1,0 +1,39 @@
+---
+// Макет главной в оригинальном виде. Стили — те, что были на WordPress + Elementor
+// (src/styles/original/), поэтому global.css и общие Header/Footer сюда не подключаются:
+// шапка и подвал у главной свои, внутри страницы, как в оригинале.
+import '../styles/original/home.css';
+import Seo from '../components/Seo.astro';
+import { HTML_LANG, type Lang } from '../i18n';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang: Lang;
+  image?: string;
+  alternates?: Partial<Record<Lang, string>>;
+}
+
+const { title, description = '', lang, image, alternates = {} } = Astro.props;
+---
+
+<!doctype html>
+<html lang={HTML_LANG[lang]}>
+  <head>
+    <Seo {title} {description} {lang} {image} {alternates} font="--font-montserrat-full" />
+    <slot name="head" />
+  </head>
+  <!-- Классы body — как у оригинала: на них завязаны фон, шрифты и ширина контейнеров -->
+  <body
+    id="body"
+    class="home page-template-default page page-id-9 wp-embed-responsive theme-default elementor-default elementor-kit-6 elementor-page elementor-page-9"
+  >
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <main id="content" class="site-main post-9 page type-page status-publish hentry">
+      <div class="page-content">
+        <slot />
+      </div>
+    </main>
+    <slot name="footer" />
+  </body>
+</html>

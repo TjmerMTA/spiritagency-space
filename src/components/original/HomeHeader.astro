@@ -1,0 +1,198 @@
+---
+// Шапка главной — разметка оригинала (контейнер cf12209 страницы 9): слева меню,
+// по центру знак, справа меню с переключателем языков; на узком экране — кнопка,
+// открывающая боковую панель. Классы Elementor не менять: на них держатся стили.
+import { HTML_LANG, LANG_LABEL, TELEGRAM, UI, blogRoot, home, type Lang } from '../../i18n';
+import blocks from '../../data/home-blocks.json';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const root = home(lang);
+const b = (blocks as Record<Lang, Record<string, string>>)[lang];
+
+// Подписи меню — как были на исходном сайте (у переводов они свои, не как в блоге).
+// У русской страницы в оригинале меню не было вовсе — берём общие подписи.
+const NAV: Partial<Record<Lang, [string, string, string, string, string, string, string]>> = {
+  uk: ['Просування OnlyFans', 'Про нас', 'Блог', 'Прибуток', 'Гарантії', 'Аванс $150', 'Подати кандидатуру'],
+  pl: ['Promocja OnlyFans', 'O nas', 'Bloga', 'Zysk', 'Gwarancje', 'Osiągnięcie $150', 'Złóż wniosek o kandydaturę'],
+  ro: ['Promovare OnlyFans', 'Despre noi', 'Blog', 'Profit', 'Garanții', 'Avans $150', 'Faceți o cerere'],
+  lt: ['Skatinimas OnlyFans', 'Apie mus', 'Dienoraštis', 'Pelnas', 'Garantijos', 'Išankstinis $150', 'Teikite paraišką'],
+  sk: ['Propagácia OnlyFans', 'O nás', 'Blog', 'Zisk', 'Záruky', 'Advance $150', 'Kandidujte'],
+};
+const t = UI[lang];
+const [promo, about, blog, income, guarantees, advance, apply] =
+  NAV[lang] ?? [t.promo, t.about, t.blog, t.income, t.guarantees, t.advance, t.apply];
+
+const left = [
+  { href: `${root}#body`, text: promo },
+  { href: `${root}#pro_nas`, text: about },
+  { href: `${root}#pributok`, text: income },
+  { href: `${root}#garantii`, text: guarantees },
+];
+const right = [
+  { href: `${root}#avans`, text: advance },
+  { href: TELEGRAM, text: apply },
+  { href: blogRoot(lang), text: blog },
+];
+// В боковой панели порядок свой — как в оригинале.
+const panel = [left[0], left[1], right[2], left[2], left[3], right[0], right[1]];
+
+// В переключателе оригинала русского не было; на русской странице показываем его текущим.
+const SWITCH: Lang[] = ['uk', 'pl', 'ro', 'lt', 'sk'];
+const langs = lang === 'ru' ? (['ru', ...SWITCH] as Lang[]) : SWITCH;
+const anchor = (href: string) => (href.includes('#') ? 'elementor-item elementor-item-anchor' : 'elementor-item');
+---
+
+<div class="elementor-element elementor-element-cf12209 e-con-full e-flex e-con e-parent" id="header">
+  <div class="elementor-element elementor-element-7eaf964 elementor-widget elementor-widget-off-canvas">
+    <div class="elementor-widget-container">
+      <div id="off-canvas-7eaf964" class="e-off-canvas" role="dialog" aria-hidden="true" aria-label={t.menu} aria-modal="true" inert>
+        <div class="e-off-canvas__overlay" data-menu-close></div>
+        <div class="e-off-canvas__main">
+          <div class="e-off-canvas__content">
+            <div class="elementor-element elementor-element-c3b5865 e-con-full e-flex e-con e-child">
+              <div class="elementor-element elementor-element-9d10016 elementor-tablet-align-left elementor-mobile-align-center elementor-hidden-desktop elementor-widget elementor-widget-button">
+                <div class="elementor-widget-container">
+                  <div class="elementor-button-wrapper">
+                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#header" role="button" aria-label="Close" data-menu-close>
+                      <span class="elementor-button-content-wrapper">
+                        <span class="elementor-button-icon">
+                          <svg aria-hidden="true" class="e-font-icon-svg e-fas-times" viewBox="0 0 352 512" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="elementor-element elementor-element-70329c9 elementor-nav-menu--dropdown-none elementor-widget-mobile__width-initial elementor-widget elementor-widget-nav-menu">
+                <div class="elementor-widget-container">
+                  <nav aria-label={t.menu} class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+                    <ul id="menu-1-70329c9" class="elementor-nav-menu sm-vertical">
+                      {langs.map((l) => (
+                        <li class:list={['lang-item', `lang-item-${l}`, 'menu-item', { 'current-lang': l === lang }]}>
+                          <a href={home(l)} hreflang={HTML_LANG[l]} lang={HTML_LANG[l]} class="elementor-item">
+                            <img decoding="async" src={`/img/flags/${l}.png`} alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">{LANG_LABEL[l]}</span>
+                          </a>
+                        </li>
+                      ))}
+                      {panel.map((item) => (
+                        <li class="menu-item">
+                          <a href={item.href} class={anchor(item.href)}>{item.text}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="elementor-element elementor-element-3d5265e elementor-widget elementor-widget-heading">
+                <div class="elementor-widget-container">
+                  <p class="elementor-heading-title elementor-size-default">{b['3d5265e']}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="elementor-element elementor-element-60be68c e-con-full e-flex e-con e-child">
+    <div class="elementor-element elementor-element-3afae91 e-con-full e-flex e-con e-child">
+      <div class="elementor-element elementor-element-6b79fec elementor-nav-menu--dropdown-mobile elementor-hidden-tablet elementor-hidden-mobile elementor-hidden-tablet_extra elementor-hidden-mobile_extra elementor-widget__width-initial elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu">
+        <div class="elementor-widget-container">
+          <nav aria-label={t.menu} class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+            <ul id="menu-1-6b79fec" class="elementor-nav-menu">
+              {left.map((item) => (
+                <li class="menu-item">
+                  <a href={item.href} class={anchor(item.href)}>{item.text}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="elementor-element elementor-element-c8d0721 elementor-tablet-align-left elementor-mobile-align-center elementor-hidden-desktop elementor-hidden-widescreen elementor-hidden-laptop elementor-widget-mobile__width-initial elementor-widget elementor-widget-button">
+        <div class="elementor-widget-container">
+          <div class="elementor-button-wrapper">
+            <a class="elementor-button elementor-button-link elementor-size-sm" href="#off-canvas-7eaf964" role="button" aria-label={t.menu} aria-controls="off-canvas-7eaf964" data-menu-open>
+              <span class="elementor-button-content-wrapper">
+                <span class="elementor-button-icon">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fas-bars" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="elementor-element elementor-element-fc1509e elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-image">
+      <div class="elementor-widget-container">
+        <a href={root} aria-label="SpiritAgency">
+          <img alt="SpiritAgency" decoding="async" width="800" height="534" src="/img/2026/02/chatgpt-image-5-fevr.-2026-g.-19_46_17-300x200.png" class="attachment-large size-large wp-image-3002" />
+        </a>
+      </div>
+    </div>
+    <div class="elementor-element elementor-element-d4ed861 e-con-full elementor-hidden-tablet elementor-hidden-mobile elementor-hidden-tablet_extra elementor-hidden-mobile_extra e-flex e-con e-child">
+      <div class="elementor-element elementor-element-483021e elementor-nav-menu__align-end elementor-nav-menu--dropdown-mobile elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu">
+        <div class="elementor-widget-container">
+          <nav aria-label="Language" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+            <ul id="menu-1-483021e" class="elementor-nav-menu">
+              {right.map((item) => (
+                <li class="menu-item">
+                  <a href={item.href} class={anchor(item.href)}>{item.text}</a>
+                </li>
+              ))}
+              <li class="pll-parent-menu-item menu-item current-menu-parent menu-item-has-children">
+                <a href="#pll_switcher" class="elementor-item elementor-item-anchor" aria-haspopup="true" data-lang-toggle>
+                  <img decoding="async" src={`/img/flags/${lang}.png`} alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">{LANG_LABEL[lang]}</span>
+                </a>
+                <ul class="sub-menu elementor-nav-menu--dropdown">
+                  {langs.map((l) => (
+                    <li class:list={['lang-item', `lang-item-${l}`, 'menu-item', { 'current-lang': l === lang }]}>
+                      <a href={home(l)} hreflang={HTML_LANG[l]} lang={HTML_LANG[l]} class="elementor-sub-item">
+                        <img decoding="async" src={`/img/flags/${l}.png`} alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">{LANG_LABEL[l]}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // В оригинале панель и список языков открывал скрипт Elementor (с jQuery).
+  // Здесь то же поведение без библиотек: меняем те же атрибуты, на которые смотрят стили.
+  const panel = document.getElementById('off-canvas-7eaf964');
+  const main = panel?.querySelector('.e-off-canvas__main');
+
+  const setOpen = (open: boolean) => {
+    if (!panel) return;
+    panel.setAttribute('aria-hidden', String(!open));
+    panel.toggleAttribute('inert', !open);
+    document.body.classList.toggle('e-off-canvas__no-scroll', open);
+    main?.classList.toggle('animated', open);
+    main?.classList.toggle('fadeInLeft', open);
+  };
+
+  document.querySelectorAll('[data-menu-open]').forEach((el) =>
+    el.addEventListener('click', (e) => { e.preventDefault(); setOpen(true); }),
+  );
+  document.querySelectorAll('[data-menu-close]').forEach((el) =>
+    el.addEventListener('click', (e) => { e.preventDefault(); setOpen(false); }),
+  );
+  // Переход по пункту меню закрывает панель, иначе она останется поверх страницы.
+  panel?.querySelectorAll('nav a').forEach((a) => a.addEventListener('click', () => setOpen(false)));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
+
+  // Список языков: по наведению его открывает CSS, по нажатию (тач) — класс.
+  document.querySelectorAll('[data-lang-toggle]').forEach((el) =>
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      el.parentElement?.classList.toggle('is-open');
+    }),
+  );
+</script>

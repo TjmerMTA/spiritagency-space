@@ -1,0 +1,19 @@
+/* Дополнения к оригинальным стилям. Сюда — только то, что на WordPress делал скрипт
+   или чего в статической сборке нет; вид страницы эти правила не меняют. */
+
+/* Список языков в шапке. В оригинале его открывал SmartMenus (jQuery) и сам же
+   ставил положение; оформление пунктов — из оригинального custom-pro-widget-nav-menu. */
+.elementor-nav-menu--main .menu-item-has-children:hover > .sub-menu,
+.elementor-nav-menu--main .menu-item-has-children:focus-within > .sub-menu,
+.elementor-nav-menu--main .menu-item-has-children.is-open > .sub-menu {
+  display: block;
+  inset-inline-end: 0;
+  inline-size: auto;
+  min-inline-size: 10em;
+}
+
+/* Плавный переход к разделам по меню — в оригинале это делал скрипт Elementor. */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

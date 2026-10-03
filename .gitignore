@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # выкладка
 .gh-pages/
+
+# сверка с оригиналом: скриншоты тяжёлые (≈100 МБ), копии страниц собираются скриптом
+docs/restore/shots/
+docs/restore/original-src/replica/

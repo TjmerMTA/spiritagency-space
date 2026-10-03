@@ -2,8 +2,8 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { Font } from 'astro:assets';
-import { HTML_LANG, LANGS, DEFAULT_LANG, type Lang } from '../i18n';
+import Seo from '../components/Seo.astro';
+import { HTML_LANG, type Lang } from '../i18n';
 
 interface Props {
   title: string;
@@ -25,39 +25,12 @@ const {
   type = 'website',
   noindex = false,
 } = Astro.props;
-
-const site = Astro.site ?? new URL('https://spiritagency.space');
-const canonical = new URL(Astro.url.pathname, site).href;
-const ogImage = image ? new URL(image, site).href : undefined;
 ---
 
 <!doctype html>
 <html lang={HTML_LANG[lang]}>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-    {description && <meta name="description" content={description} />}
-    <link rel="canonical" href={canonical} />
-    {noindex && <meta name="robots" content="noindex, follow" />}
-
-    {LANGS.filter((l) => alternates[l]).map((l) => (
-      <link rel="alternate" hreflang={l} href={new URL(alternates[l]!, site).href} />
-    ))}
-    {alternates[DEFAULT_LANG] && (
-      <link rel="alternate" hreflang="x-default" href={new URL(alternates[DEFAULT_LANG]!, site).href} />
-    )}
-
-    <meta property="og:type" content={type} />
-    <meta property="og:title" content={title} />
-    <meta property="og:url" content={canonical} />
-    <meta property="og:site_name" content="SpiritAgency" />
-    {description && <meta property="og:description" content={description} />}
-    {ogImage && <meta property="og:image" content={ogImage} />}
-    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
-
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <Font cssVariable="--font-montserrat" preload />
+    <Seo {title} {description} {lang} {image} {alternates} {type} {noindex} />
     <slot name="head" />
   </head>
   <body>

@@ -25,6 +25,7 @@ export default defineConfig({
   redirects: legacy,
   // Шрифт хостится сами: без render-blocking запроса к Google Fonts
   fonts: [
+    // Блог и статьи: начертания те же, что были до восстановления главной
     {
       name: 'Montserrat',
       cssVariable: '--font-montserrat',
@@ -34,6 +35,17 @@ export default defineConfig({
       styles: ['normal'],
       display: 'swap',
       fallbacks: ['system-ui', 'sans-serif'],
+    },
+    // Главная в оригинальном виде набрана начертаниями от 300 до 900
+    {
+      name: 'Montserrat',
+      cssVariable: '--font-montserrat-full',
+      provider: fontProviders.google(),
+      weights: ['300 900'],
+      subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],
+      styles: ['normal'],
+      display: 'swap',
+      fallbacks: ['sans-serif'],
     },
   ],
   integrations: [sitemap({ i18n: { defaultLocale: 'uk', locales: { uk: 'uk-UA', ru: 'ru-RU', pl: 'pl-PL', ro: 'ro-RO', lt: 'lt-LT', sk: 'sk-SK' } } })],

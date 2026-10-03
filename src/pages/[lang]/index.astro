@@ -1,7 +1,8 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import Base from '../../layouts/Base.astro';
-import Home from '../../components/Home.astro';
+import Original from '../../layouts/Original.astro';
+import HomeBody from '../../components/original/HomeBody.astro';
+import HomeFooter from '../../components/original/HomeFooter.astro';
 import { LANGS, DEFAULT_LANG, home, type Lang } from '../../i18n';
 import homeData from '../../data/home.json';
 
@@ -13,6 +14,7 @@ const d = (homeData as Record<string, any>)[lang];
 const alternates = Object.fromEntries(LANGS.map((l) => [l, home(l)]));
 ---
 
-<Base title={d.title} description={d.description} lang={lang} alternates={alternates}>
-  <Home lang={lang} />
-</Base>
+<Original title={d.title} description={d.description} lang={lang} alternates={alternates}>
+  <HomeBody lang={lang} />
+  <HomeFooter lang={lang} slot="footer" />
+</Original>

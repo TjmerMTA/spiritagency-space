@@ -1,0 +1,57 @@
+---
+import { Font } from 'astro:assets';
+import { LANGS, DEFAULT_LANG, type Lang } from '../i18n';
+
+interface Props {
+  title: string;
+  lang: Lang;
+  description?: string;
+  image?: string;
+  /** Карта переводов: язык → абсолютный путь. Для hreflang. */
+  alternates?: Partial<Record<Lang, string>>;
+  type?: 'website' | 'article';
+  noindex?: boolean;
+  /** Какой набор начертаний подключить — см. fonts в astro.config.mjs */
+  font?: '--font-montserrat' | '--font-montserrat-full';
+}
+
+const {
+  title, lang, description = '', image, alternates = {}, type = 'website', noindex = false,
+  font = '--font-montserrat',
+} = Astro.props;
+
+// Заранее грузим только те части шрифта, которыми набран текст этого языка.
+const subsets = lang === 'uk' || lang === 'ru' ? ['cyrillic', 'latin'] : ['latin', 'latin-ext'];
+
+const site = Astro.site ?? new URL('https://spiritagency.space');
+const canonical = new URL(Astro.url.pathname, site).href;
+const ogImage = image ? new URL(image, site).href : undefined;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+{description && <meta name="description" content={description} />}
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, follow" />}
+
+{LANGS.filter((l) => alternates[l]).map((l) => (
+  <link rel="alternate" hreflang={l} href={new URL(alternates[l]!, site).href} />
+))}
+{alternates[DEFAULT_LANG] && (
+  <link rel="alternate" hreflang="x-default" href={new URL(alternates[DEFAULT_LANG]!, site).href} />
+)}
+
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content="SpiritAgency" />
+{description && <meta property="og:description" content={description} />}
+{ogImage && <meta property="og:image" content={ogImage} />}
+<meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+
+<!-- Значок сайта — тот же, что был на WordPress -->
+<link rel="icon" href="/img/2026/02/cropped-favico2-32x32.png" sizes="32x32" />
+<link rel="icon" href="/img/2026/02/cropped-favico2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/img/2026/02/cropped-favico2-180x180.png" />
+<Font cssVariable={font} preload={subsets.map((subset) => ({ subset }))} />
