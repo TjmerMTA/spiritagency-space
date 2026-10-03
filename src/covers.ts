@@ -31,7 +31,7 @@ const SIZES: Record<string, [number, number]> = {
 export function coverOf(slug: string, image?: string) {
   const src = image || coverFor(slug);
   const [width, height] = SIZES[src] ?? [];
-  return { src, width, height };
+  return { src, width, height, placeholder: !image };
 }
 
 /** Устойчивый выбор обложки по слагу — при пересборке картинка не «прыгает». */

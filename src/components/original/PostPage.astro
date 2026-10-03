@@ -65,8 +65,8 @@ const ld = {
 
       <div class="featured-image-wrapper">
         <div class="container">
-          <div class="featured-image">
-            <img src={cover.src} width={cover.width} height={cover.height} alt={post.data.title} />
+          <div class:list={['featured-image', { 'featured-image--placeholder': cover.placeholder }]}>
+            <img src={cover.src} width={cover.width} height={cover.height} alt={post.data.title} fetchpriority="high" />
           </div>
         </div>
       </div>

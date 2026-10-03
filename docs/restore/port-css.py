@@ -13,7 +13,8 @@
   - незакрытый блок в конце пользовательского CSS закрывается, пустые правила «{}»
     и ссылка на несуществующую картинку убираются — сборщик на них спотыкается,
     а браузер и так их пропускал.
-Сами правила не правятся: нужна другая вёрстка — пиши поверх, в home-fixes.css.
+Сами правила не правятся: нужна другая вёрстка — пиши поверх, в home-fixes.css
+и post-fixes.css (их скрипт не трогает).
 Исключение — библиотека блоков WordPress: из неё выброшены правила для блоков редактора.
 
 Запуск из корня проекта: python3 docs/restore/port-css.py
@@ -66,7 +67,7 @@ BUNDLES = {
     'blog.css': ['wp-inline.css', 'block-library.css', 'wp-global-styles.css', *COMMON,
                  'wp-custom.css', 'post-906.css'],
     'post.css': ['wp-inline.css', 'block-library.css', 'wp-global-styles.css', *COMMON,
-                 'wp-custom.css', 'single-post.css', 'post-906.css'],
+                 'wp-custom.css', 'single-post.css', 'post-906.css', 'post-fixes.css'],
 }
 
 # Библиотека блоков WordPress — 120 КБ правил для блоков редактора, которых в статьях
