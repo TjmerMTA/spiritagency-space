@@ -1,5 +1,6 @@
-/* Оригинальные стили главной, порядок как на WordPress. Собрано docs/restore/port-css.py */
+/* Оригинальные стили, порядок как на WordPress. Собрано docs/restore/port-css.py */
 @import './wp-inline.css';
+@import './wp-global-styles.css';
 @import './hello-style.min.css';
 @import './hello-theme.min.css';
 @import './custom-frontend.min.css';

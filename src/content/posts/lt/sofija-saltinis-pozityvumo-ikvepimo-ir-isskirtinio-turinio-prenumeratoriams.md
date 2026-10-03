@@ -1,6 +1,7 @@
 ---
 title: "Sofija: pozityvumo, įkvėpimo ir išskirtinio turinio šaltinis prenumeratoriams"
 description: "Teigiamos vibracijos, šilti įvaizdžiai ir privatus turinys iš Sofijos. Sekite, kad pamatytumėte daugiau užkulisių ir kasdienių akimirkų."
+excerpt: "✨ Неземна енергія від Софії: відчуй магію! ✨ Зустрічайте Софію — дівчину, яка заряджає позитивом та надихає на нові звершення!…"
 lang: lt
 pubDate: 2025-08-22
 updDate: 2025-11-20

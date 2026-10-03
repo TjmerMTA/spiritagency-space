@@ -1,6 +1,7 @@
 ---
 title: "Karina – o stea strălucitoare OnlyFans: seturi foto exclusive, motivație și un stil de viață feminin inspirațional"
 description: "O stea strălucitoare cu galerii exclusive, imagini din culise și inspirație zilnică. Abonează-te pentru a fi primul care vede noile look-uri."
+excerpt: "Вогонь у погляді: нова зірка Каріна! Каріна — яскрава та смілива дівчина, яку ти точно не зможеш забути! Її щирість…"
 lang: ro
 pubDate: 2025-08-16
 updDate: 2025-11-20

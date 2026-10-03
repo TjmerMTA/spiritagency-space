@@ -1,6 +1,7 @@
 ---
 title: "Polityki treści OnlyFans: co jest dozwolone, co ryzykowne"
 description: "Wymagania platformy, prawa, przechowywanie i moderacja. Gotowy szablon polityki treści OnlyFans"
+excerpt: "Dowiedz się, jak unikać ryzyk na OnlyFans! Zapoznaj się z politykami treści"
 lang: pl
 pubDate: 2025-09-20
 updDate: 2025-11-20

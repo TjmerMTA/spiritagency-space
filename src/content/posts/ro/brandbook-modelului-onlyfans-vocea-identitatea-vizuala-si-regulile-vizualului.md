@@ -1,6 +1,7 @@
 ---
 title: "Brandbook-ul modelului OnlyFans: vocea, identitatea vizuală și regulile vizualului"
 description: "Ghid privind tonul, culorile, regulile vizuale și exemplele. Cum să menții consecvența pe toate canalele"
+excerpt: "Aflați cum să creați un brandbook de succes pentru modelul OnlyFans. Descoperiți secretul"
 lang: ro
 pubDate: 2025-09-06
 updDate: 2025-11-20

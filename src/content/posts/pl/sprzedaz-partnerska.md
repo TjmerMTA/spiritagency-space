@@ -1,13 +1,14 @@
 ---
 title: "Sprzedaż partnerska SpiritAgency: kolaboracje, cross-promocje i modele referencyjne"
 description: "Modele wypłat, kontrola ruchu, UTM i umowy. Jak skalować bez ryzyka."
+excerpt: "Poznaj, jak sprzedaż partnerska SpiritAgency odbywa się poprzez kolaboracje, cross-promocje i modele referencyjne"
 lang: pl
 pubDate: 2025-09-28
 updDate: 2025-11-20
 readingTime: "4 - 6 хв читання"
 ---
 
-## Synergia partnerstwa SpiritAgency**: kolaboracje, cross-promo i modele poleceń
+## **Synergia partnerstwa SpiritAgency**: kolaboracje, cross-promo i modele poleceń
 
 ### Synergia partnerstwa SpiritAgency
 

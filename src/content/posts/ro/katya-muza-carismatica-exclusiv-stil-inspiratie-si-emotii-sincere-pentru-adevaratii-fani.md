@@ -1,6 +1,7 @@
 ---
 title: "Katya — muza carismatică: exclusiv, stil, inspirație și emoții sincere pentru adevărații fani"
 description: "Muză carismatică: fotografii și videoclipuri private, inspirație zilnică, backstage și story-uri live pentru fanii adevărați. Abonează-te pentru a vedea mai mult."
+excerpt: "Неймовірна загадка Каті: злови її настрій! Відкрий секрет справжньої жіночої харизми разом з нашою неповторною Катею! Вона — справжній магніт…"
 lang: ro
 pubDate: 2025-08-17
 updDate: 2025-11-20

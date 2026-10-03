@@ -1,6 +1,7 @@
 ---
 title: "Júlia – nová múza: exkluzívny obsah, inšpirácia a dobrodružstvá od charizmatickej modelky z Kyjeva"
 description: "Charizmatická modelka z Kyjeva. Súkromné sety, dobrodružstvá a zákulisie. Staň sa odberateľom a objavuj nové príspevky Júlie."
+excerpt: "Твоя нова муза: знайомся з Юлією! Вона – справжня енергія літа, яка надихає рухатись уперед та вірити у свої мрії…"
 lang: sk
 pubDate: 2025-08-19
 updDate: 2025-11-21

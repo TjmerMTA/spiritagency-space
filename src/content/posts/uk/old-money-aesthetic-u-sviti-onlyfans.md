@@ -1,6 +1,7 @@
 ---
 title: "Old money aesthetic у світі OnlyFans"
 description: "Old money OnlyFans: як стримана естетика, тиша і впевненість формують відчуття статусу та довіри."
+excerpt: "Old money aesthetic ніколи не була про демонстрацію. Вона виникла як відчуття внутрішньої стабільності, яке не потребує пояснень. У світі…"
 lang: uk
 pubDate: 2026-01-06
 updDate: 2026-01-13

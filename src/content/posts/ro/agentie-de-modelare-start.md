@@ -1,6 +1,7 @@
 ---
 title: "Ce Este o Agenție de Modelare?"
 description: "Rolurile agenției, servicii, plată și cum să alegi un partener. Ghid scurt pentru modelele care vor să crească fără riscuri."
+excerpt: "  Ce Este o Agenție de Modă? O agenție de modă este o companie care reprezintă modele și îi ajută…"
 lang: ro
 pubDate: 2025-07-30
 updDate: 2025-11-20

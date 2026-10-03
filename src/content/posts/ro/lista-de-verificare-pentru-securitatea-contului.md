@@ -1,6 +1,7 @@
 ---
 title: "Lista de verificare pentru securitatea contului OnlyFans: acces, 2FA și scenarii de rezervă"
 description: "2FA, accesuri, backup-uri, logare și antifraudă. Configurează protecția în 30 de minute"
+excerpt: "Protejați-vă contul OnlyFans! Aflați cum să verificați accesul,"
 lang: ro
 pubDate: 2025-09-29
 updDate: 2025-11-20

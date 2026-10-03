@@ -1,6 +1,7 @@
 ---
 title: "Jak stworzyć bezpieczną umowę z fotografem"
 description: "Dowiedz się, jak zawrzeć solidną umowę z fotografem OnlyFans, aby się zabezpieczyć"
+excerpt: "Dowiedz się, jak zawrzeć niezawodną umowę z fotografem OnlyFans, aby się zabezpieczyć"
 lang: pl
 pubDate: 2025-10-26
 updDate: 2025-11-20
@@ -11,7 +12,7 @@ readingTime: "11 - 13 хв читання"
 
 Udana współpraca między klientem a fotografem zaczyna się od stworzenia jakościowego dokumentu, który utrwala wzajemne zobowiązania. Sporządzenie umowy to nie tylko formalność, ale ważny krok do ustanowienia zaufania, zapewnienia ochrony prawnej oraz określenia warunków sesji, uwzględniających wszystkie niuanse pracy. Taki dokument pozwala jasno rozdzielić obowiązki i uniknąć nieporozumień w kwestiach związanych z prawami autorskimi lub innymi aspektami twórczości.
 
-### umowa z fotografem OnlyFans** – podstawowe zasady i przygotowanie
+### **umowa z fotografem OnlyFans** – podstawowe zasady i przygotowanie
 
 Zanim zagłębisz się w szczegóły sporządzania dokumentu, warto dokładnie przeanalizować każdy element współpracy. Głównym celem jest stworzenie umowy, w której uwzględnione zostaną wszystkie niezbędne informacje. Przygotowanie dokumentu zaczyna się od omówienia szczegółów zamówienia. To tutaj kształtuje się podstawowa zgoda między stronami. Pamiętaj, że ustalanie warunków sesji powinno być transparentne, a wymagania – realistyczne.
 

@@ -18,28 +18,26 @@ const legacy = {
   '/sk/blog-5/': '/sk/blog/',
 };
 
+// Блог снова показывает по 100 статей на страницу, как исходный сайт. Пока сайт жил
+// с 12 статьями на страницу, существовали /blog/page/3/…11/ и /<язык>/blog/page/2/…8/ —
+// отправляем их туда, где эти статьи теперь.
+const pager = {};
+for (let n = 3; n <= 11; n++) pager[`/blog/page/${n}/`] = '/blog/page/2/';
+for (const lang of ['ru', 'pl', 'ro', 'lt', 'sk']) {
+  for (let n = 2; n <= 8; n++) pager[`/${lang}/blog/page/${n}/`] = `/${lang}/blog/`;
+}
+
 export default defineConfig({
   site: 'https://spiritagency.space',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  redirects: legacy,
+  redirects: { ...legacy, ...pager },
   // Шрифт хостится сами: без render-blocking запроса к Google Fonts
   fonts: [
-    // Блог и статьи: начертания те же, что были до восстановления главной
+    // Сайт набран Montserrat от 300 до 900 (как оригинал); шрифт вариативный — один файл на набор знаков
     {
       name: 'Montserrat',
       cssVariable: '--font-montserrat',
-      provider: fontProviders.google(),
-      weights: [400, 600, 800],
-      subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],
-      styles: ['normal'],
-      display: 'swap',
-      fallbacks: ['system-ui', 'sans-serif'],
-    },
-    // Главная в оригинальном виде набрана начертаниями от 300 до 900
-    {
-      name: 'Montserrat',
-      cssVariable: '--font-montserrat-full',
       provider: fontProviders.google(),
       weights: ['300 900'],
       subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],

@@ -1,6 +1,7 @@
 ---
 title: "Svetielko v nočnom meste: fotenie o ženskosti, slobode a štýle pod dáždnikom svetiel"
 description: "Ženskosť v daždi lampášov: obrazy, pohyb a nálada. Pozri si exkluzívnu sériu fotiek a zábery zo zákulisia v súkromí."
+excerpt: "Вона — мов іскра міського неону серед темряви, що ніколи не згасає. Її погляд — вогонь, який притягує до себе…"
 lang: sk
 pubDate: 2025-08-14
 updDate: 2025-11-21

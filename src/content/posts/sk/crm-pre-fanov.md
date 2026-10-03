@@ -1,6 +1,7 @@
 ---
 title: "CRM pre fanúšikov OnlyFans: segmentácia, štítky a personalizácia ponúk"
 description: "Tagy, spúšťače, automatické lieviky a upselly. Ako zvýšiť LTV a frekvenciu nákupov"
+excerpt: "Zistite, ako CRM pre fanúšikov OnlyFans pomáha segmentovať publikum, využívať"
 lang: sk
 pubDate: 2025-09-12
 updDate: 2025-11-21

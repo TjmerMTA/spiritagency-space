@@ -1,6 +1,7 @@
 ---
 title: "Julija – nauja mūza: išskirtinis turinys, įkvėpimas ir nuotykiai iš charizmatiškos modelio iš Kijevo"
 description: "Charizmatiška modelis iš Kijevo. Privatūs rinkiniai, nuotykiai ir užkulisiai. Tapk prenumeratoriumi ir atrask naujus Julijos įrašus."
+excerpt: "Твоя нова муза: знайомся з Юлією! Вона – справжня енергія літа, яка надихає рухатись уперед та вірити у свої мрії…"
 lang: lt
 pubDate: 2025-08-19
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "Karina – ryški OnlyFans žvaigždė: išskirtinės fotosesijos, motyvacija ir įkvepiantis moteriškas gyvenimo būdas"
 description: "Ryški žvaigždė su išskirtinėmis fotosesijomis, užkulisių vaizdais ir kasdieniu įkvėpimu. Sekite, kad pamatytumėte naujas formas pirmieji."
+excerpt: "Вогонь у погляді: нова зірка Каріна! Каріна — яскрава та смілива дівчина, яку ти точно не зможеш забути! Її щирість…"
 lang: lt
 pubDate: 2025-08-16
 updDate: 2025-11-20

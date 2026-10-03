@@ -1,6 +1,7 @@
 ---
 title: "KPI menedżera DM na OnlyFans: szybkość odpowiedzi, konwersje i retencja"
 description: "Normy odpowiedzi, upselle, retencja i ARPPU. Dashboard i punkty kontrolne."
+excerpt: "Dowiedz się, jak poprawić KPI menedżera DM na OnlyFans: skuteczne st"
 lang: pl
 pubDate: 2025-09-17
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "Onboarding modelu v SpiritAgency: etapy, kontrolné zoznamy a prvé ciele"
 description: "Prístupy, brief, bezpečnosť, obsahový plán a prvé metriky. Check-listy prvého týždňa"
+excerpt: "Zistite, ako onboarding modelu v SpiritAgency pomáha novým talentom rýchlo sa adaptovať"
 lang: sk
 pubDate: 2025-09-18
 updDate: 2025-11-21
@@ -13,7 +14,7 @@ Prekonanie prvých krokov vo svete modelingu si vyžaduje starostlivo premyslen�
 
 Na začiatku každého procesu nadobúda úvodná adaptácia modelu zvláštnu dôležitosť. Prvý kontakt s tímom pomáha nielen odhaliť potenciál, ale aj zasvätiť do všetkých vnútorných nuáns. Organizujeme interaktívne sedenia, kde každý zamestnanec zdieľa skúsenosti, rozpráva o aspektoch práce agentúry a odhaľuje špecifiká vlastnej cesty, čo plne napomáha kvalitnému auditu profilu nováčika. Práve vďaka takýmto praktikám sa úvodná adaptácia modelu stáva základom pre jeho ďalší rozvoj.
 
-### Úvodná adaptácia modelu** – kľúčové etapy integrácie
+### **Úvodná adaptácia modelu** – kľúčové etapy integrácie
 
 Перший крок – вступна зустріч. На цьому етапі молода модель знайомиться з командою, що об’єднує менеджерів, креативних кураторів та стилістів. Під час першої розмови важливо не лише представити себе, але й ознайомитися з базовими принципами роботи агентства. Цей етап супроводжується подробним бріфом, під час якого обговорюються основні очікування та стандарти. Сам процес стартової адаптації моделі допомагає новачку відчути підтримку колективу та сформувати перше враження, яке стане поштовхом для подальшого зростання.
 

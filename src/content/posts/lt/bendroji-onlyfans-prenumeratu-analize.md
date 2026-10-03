@@ -1,6 +1,7 @@
 ---
 title: "Bendroji OnlyFans prenumeratų analizė: nuo paspaudimo iki LTV"
 description: "Srauto ir pardavimų ryšys, atribucija ir gyvenimo ciklas. Lentelės ir formulės"
+excerpt: "Tyrinėkite, kaip bendroji OnlyFans prenumeratų analizė optimizuoja rinkodarą"
 lang: lt
 pubDate: 2025-09-11
 updDate: 2025-11-20

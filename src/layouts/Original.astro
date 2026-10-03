@@ -1,9 +1,10 @@
 ---
-// Макет главной в оригинальном виде. Стили — те, что были на WordPress + Elementor
-// (src/styles/original/), поэтому global.css и общие Header/Footer сюда не подключаются:
-// шапка и подвал у главной свои, внутри страницы, как в оригинале.
-import '../styles/original/home.css';
+// Общий макет сайта в оригинальном виде. Стили — те, что были на WordPress + Elementor
+// (src/styles/original/); свой набор подключает каждая страница: home.css, blog.css, post.css.
+// Шапки на сайте нет — у главной она внутри страницы, у блога и статей её не было.
+// Подвал «Деталі співпраці» общий для всех страниц, как в оригинале.
 import Seo from '../components/Seo.astro';
+import SiteFooter from '../components/original/SiteFooter.astro';
 import { HTML_LANG, type Lang } from '../i18n';
 
 interface Props {
@@ -12,28 +13,30 @@ interface Props {
   lang: Lang;
   image?: string;
   alternates?: Partial<Record<Lang, string>>;
+  type?: 'website' | 'article';
+  noindex?: boolean;
+  /** Классы body — как у оригинала: на них завязаны фон, шрифты и ширина контейнеров */
+  bodyClass: string;
+  /** id основного блока страницы — куда ведёт ссылка «к содержимому» */
+  mainId: string;
+  preloadFont?: boolean;
 }
 
-const { title, description = '', lang, image, alternates = {} } = Astro.props;
+const {
+  title, description = '', lang, image, alternates = {}, type = 'website', noindex = false,
+  bodyClass, mainId, preloadFont = false,
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang={HTML_LANG[lang]}>
   <head>
-    <Seo {title} {description} {lang} {image} {alternates} font="--font-montserrat-full" />
+    <Seo {title} {description} {lang} {image} {alternates} {type} {noindex} {preloadFont} />
     <slot name="head" />
   </head>
-  <!-- Классы body — как у оригинала: на них завязаны фон, шрифты и ширина контейнеров -->
-  <body
-    id="body"
-    class="home page-template-default page page-id-9 wp-embed-responsive theme-default elementor-default elementor-kit-6 elementor-page elementor-page-9"
-  >
-    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-    <main id="content" class="site-main post-9 page type-page status-publish hentry">
-      <div class="page-content">
-        <slot />
-      </div>
-    </main>
-    <slot name="footer" />
+  <body id="body" class={`${bodyClass} wp-embed-responsive theme-default elementor-default elementor-kit-6`}>
+    <a class="skip-link screen-reader-text" href={`#${mainId}`}>Skip to content</a>
+    <slot />
+    <SiteFooter lang={lang} />
   </body>
 </html>

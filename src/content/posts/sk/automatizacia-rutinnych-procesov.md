@@ -1,6 +1,7 @@
 ---
 title: "Automatizácia rutinných procesov v SpiritAgency: boti, šablóny a SOP"
 description: "Čo automatizovať ako prvé, ako neporušiť tón. Scenáre a integrácie."
+excerpt: "Zistite, ako SpiritAgency zvyšuje efektivitu vďaka automatizácii rutinných úloh"
 lang: sk
 pubDate: 2025-09-27
 updDate: 2025-11-21

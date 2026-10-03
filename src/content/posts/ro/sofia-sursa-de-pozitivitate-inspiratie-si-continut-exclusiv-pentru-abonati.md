@@ -1,6 +1,7 @@
 ---
 title: "Sofia: sursa de pozitivitate, inspirație și conținut exclusiv pentru abonați"
 description: "Vibrații pozitive, imagini calde și conținut privat de la Sofia. Abonează-te pentru a vedea mai multe din culise și momente zilnice."
+excerpt: "✨ Неземна енергія від Софії: відчуй магію! ✨ Зустрічайте Софію — дівчину, яка заряджає позитивом та надихає на нові звершення!…"
 lang: ro
 pubDate: 2025-08-22
 updDate: 2025-11-20

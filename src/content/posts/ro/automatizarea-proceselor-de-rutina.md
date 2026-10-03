@@ -1,6 +1,7 @@
 ---
 title: "Automatizarea proceselor de rutină la SpiritAgency: boți, șabloane și SOP"
 description: "Ce să automatizăm în primul rând, cum să nu stricăm tonul. Scenarii și integrări."
+excerpt: "Aflați cum SpiritAgency crește eficiența prin automatizarea sarcinilor de rutină"
 lang: ro
 pubDate: 2025-09-27
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "Matrica formátov obsahu OnlyFans: čo, kedy a pre koho natáčať"
 description: "Formáty pre fázy lievika, frekvencia a príklady. Hotová matica na mesiac"
+excerpt: "Odhaľte tajomstvá úspechu na OnlyFans! Zistite, ako využiť matriču"
 lang: sk
 pubDate: 2025-09-30
 updDate: 2025-11-21

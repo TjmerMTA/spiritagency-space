@@ -1,6 +1,7 @@
 ---
 title: "Sofia: źródło pozytywu, inspiracji i ekskluzywnych treści dla subskrybentów"
 description: "Pozytywne wibracje, ciepłe obrazy i prywatne treści od Sofiji. Subskrybuj, aby zobaczyć więcej kulis i codziennych chwil."
+excerpt: "✨ Неземна енергія від Софії: відчуй магію! ✨ Зустрічайте Софію — дівчину, яка заряджає позитивом та надихає на нові звершення!…"
 lang: pl
 pubDate: 2025-08-22
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "CRM dla fanów OnlyFans: segmentacja, tagi i personalizacja ofert"
 description: "Tagi, wyzwalacze, lejki automatyczne i upselle. Jak zwiększyć LTV i częstotliwość zakupów"
+excerpt: "Dowiedz się, jak CRM dla fanów OnlyFans pomaga w segmentacji odbiorców, wykorzystaniu"
 lang: pl
 pubDate: 2025-09-12
 updDate: 2025-11-20

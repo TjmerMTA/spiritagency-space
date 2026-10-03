@@ -1,6 +1,7 @@
 ---
 title: "Brandbook modelki OnlyFans: głos, identyfikacja wizualna i zasady wizualne"
 description: "Poradnik dotyczący tonu, kolorów, zasad wizualnych i przykładów. Jak utrzymać spójność we wszystkich kanałach"
+excerpt: "Dowiedz się, jak stworzyć udany brandbook modelki OnlyFans. Odkryj sekret"
 lang: pl
 pubDate: 2025-09-06
 updDate: 2025-11-20

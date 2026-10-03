@@ -1,6 +1,7 @@
 ---
 title: "Matricea formatelor de conținut OnlyFans: ce, când și pentru cine să filmezi"
 description: "Formate pentru etapele pâlniei, frecvența și exemple. Matrice gata pentru o lună"
+excerpt: "Descoperiți secretele succesului pe OnlyFans! Aflați cum să utilizați matricea"
 lang: ro
 pubDate: 2025-09-30
 updDate: 2025-11-20

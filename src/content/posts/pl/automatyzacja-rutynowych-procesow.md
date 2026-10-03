@@ -1,6 +1,7 @@
 ---
 title: "Automatyzacja rutynowych procesów w SpiritAgency: boty, szablony i SOP"
 description: "Co automatyzować w pierwszej kolejności, jak nie zniszczyć tonu. Scenariusze i integracje."
+excerpt: "Dowiedz się, jak SpiritAgency zwiększa efektywność dzięki automatyzacji rutynowych zadań"
 lang: pl
 pubDate: 2025-09-27
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "Politicile de conținut OnlyFans: ce este permis, ce este riscant"
 description: "Cerințele platformei, drepturile, stocarea și moderarea. Șablon gata de utilizat pentru politica de conținut OnlyFans"
+excerpt: "Aflați cum să evitați riscurile pe OnlyFans! Familiarizați-vă cu politicile cont"
 lang: ro
 pubDate: 2025-09-20
 updDate: 2025-11-20

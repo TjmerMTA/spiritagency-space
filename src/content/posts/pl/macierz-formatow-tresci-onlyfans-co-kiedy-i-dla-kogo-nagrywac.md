@@ -1,6 +1,7 @@
 ---
 title: "Macierz formatów treści OnlyFans: co, kiedy i dla kogo nagrywać"
 description: "Formaty na etapy lejka, częstotliwość i przykłady. Gotowa macierz na miesiąc"
+excerpt: "Odkryj sekrety sukcesu na OnlyFans! Dowiedz się, jak wykorzystać macierz"
 lang: pl
 pubDate: 2025-09-30
 updDate: 2025-11-20

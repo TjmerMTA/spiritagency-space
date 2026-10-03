@@ -1,6 +1,7 @@
 ---
 title: "Restricții de vârstă și geo-restricții: cum să configurezi profilul în siguranță"
 description: "Aflați cum să configurați restricțiile de vârstă pe OnlyFans pentru siguranța profilului"
+excerpt: "Află cum să setezi restricțiile de vârstă pe OnlyFans pentru siguranța profilului"
 lang: ro
 pubDate: 2025-10-07
 updDate: 2025-11-20

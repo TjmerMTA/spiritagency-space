@@ -1,6 +1,7 @@
 ---
 title: "Listă de verificare pentru sesiunea foto pe OnlyFans: lumină, sunet, recuzită și siguranță"
 description: "Locație, tehnică, recuzită și drepturi. Listă completă pentru a nu uita nimic"
+excerpt: "Plănuiți o sesiune foto pe OnlyFans? Aflați cum să pregătiți lumina,"
 lang: ro
 pubDate: 2025-09-10
 updDate: 2025-11-20

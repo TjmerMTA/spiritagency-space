@@ -1,6 +1,7 @@
 ---
 title: "Model ucraineană inspirată: carismă, conținut exclusiv și emoții autentice pentru abonați"
 description: "Emoții autentice, postări private și story-uri live. Abonează-te pentru a primi fotografii noi, videoclipuri și backstage fără filtre."
+excerpt: "Незбагненна харизма: Відкрита для нових відчуттів! Її погляд вражає до глибини душі — харизматична, невимовно енергійна, вона творить власний неповторний…"
 lang: ro
 pubDate: 2025-08-15
 updDate: 2025-11-20

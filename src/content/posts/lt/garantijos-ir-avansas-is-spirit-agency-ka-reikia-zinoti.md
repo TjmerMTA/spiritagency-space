@@ -1,6 +1,7 @@
 ---
 title: "Garantijos ir avansas iš Spirit Agency: ką reikia žinoti"
 description: "Sužinokite, kaip Spirit Agency garantijos ir avansas užtikrina skaidrumą ir pasitikėjimą"
+excerpt: "Sužinokite, kaip garantijos ir avansas iš Spirit Agency užtikrina skaidrumą ir pasitikėjimą"
 lang: lt
 pubDate: 2025-08-27
 updDate: 2025-11-20

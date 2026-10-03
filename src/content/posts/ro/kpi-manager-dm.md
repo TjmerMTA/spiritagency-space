@@ -1,6 +1,7 @@
 ---
 title: "KPI Managerului DM pe OnlyFans: viteza de răspuns, conversii și retenție"
 description: "Norme de răspuns, upselluri, retenție și ARPPU. Dashboard și puncte de control."
+excerpt: "Aflați cum să îmbunătățiți KPI Managerului DM pe OnlyFans: strategii eficiente"
 lang: ro
 pubDate: 2025-09-17
 updDate: 2025-11-20

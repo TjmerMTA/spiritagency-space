@@ -1,6 +1,7 @@
 ---
 title: "Rozkręć swoją karierę modelki ze SpiritAgency!"
 description: "Otrzymaj strategię, plan treści i sprzedaż w DM. Zespół SpiritAgency pomoże Ci rosnąć szybko i bez zbędnego stresu."
+excerpt: "Gotowi podnieść swoją karierę modelki na nowy poziom? W takim razie SpiritAgency – to dokładnie to, czego potrzebujesz! Jesteśmy wiodącą…"
 lang: pl
 pubDate: 2025-07-31
 updDate: 2025-11-20

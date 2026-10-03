@@ -1,6 +1,7 @@
 ---
 title: "KPI DM vadybininko OnlyFans: atsakymo greitis, konversijos ir išlaikymas"
 description: "Atsakymo normos, upsell'ai, išlaikymas ir ARPPU. Skydelis ir kontrolės taškai."
+excerpt: "Sužinokite, kaip pagerinti KPI DM vadybininko OnlyFans: efektyvūs metodai"
 lang: lt
 pubDate: 2025-09-17
 updDate: 2025-11-20

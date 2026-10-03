@@ -7,6 +7,8 @@ const posts = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string().default(''),
+    /** Анонс в карточке блога — как на исходном сайте; нет поля — первые 20 слов текста */
+    excerpt: z.string().optional(),
     lang: z.enum(LANGS),
     pubDate: z.coerce.date(),
     updDate: z.coerce.date().optional(),

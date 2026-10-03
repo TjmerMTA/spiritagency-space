@@ -1,6 +1,7 @@
 ---
 title: "Lista kontrolna przed sesją zdjęciową na OnlyFans: światło, dźwięk, rekwizyty i bezpieczeństwo"
 description: "Lokalizacja, sprzęt, rekwizyty i prawa. Gotowa lista, aby niczego nie zapomnieć"
+excerpt: "Planujesz sesję na OnlyFans? Dowiedz się, jak przygotować oświetlenie,"
 lang: pl
 pubDate: 2025-09-10
 updDate: 2025-11-20

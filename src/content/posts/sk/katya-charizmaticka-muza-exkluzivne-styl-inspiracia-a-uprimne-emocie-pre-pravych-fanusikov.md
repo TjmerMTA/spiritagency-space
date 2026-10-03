@@ -1,6 +1,7 @@
 ---
 title: "Katya — charizmatická múza: exkluzívne, štýl, inšpirácia a úprimné emócie pre pravých fanúšikov"
 description: "Charizmatická múza: súkromné fotky a videá, inšpirácia každý deň, zákulisie a živé príbehy pre pravých fanúšikov. Prihlás sa, aby si videl viac."
+excerpt: "Неймовірна загадка Каті: злови її настрій! Відкрий секрет справжньої жіночої харизми разом з нашою неповторною Катею! Вона — справжній магніт…"
 lang: sk
 pubDate: 2025-08-17
 updDate: 2025-11-21

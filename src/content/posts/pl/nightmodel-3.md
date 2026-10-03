@@ -1,6 +1,7 @@
 ---
 title: "Iskierka w nocnym mieście: sesja zdjęciowa o kobiecości, wolności i stylu pod deszczem latarni"
 description: "Kobiecość pod deszczem latarń: obrazy, ruch i nastrój. Zobacz ekskluzywną serię zdjęć i backstage w prywatnym dostępie."
+excerpt: "Вона — мов іскра міського неону серед темряви, що ніколи не згасає. Її погляд — вогонь, який притягує до себе…"
 lang: pl
 pubDate: 2025-08-14
 updDate: 2025-11-20

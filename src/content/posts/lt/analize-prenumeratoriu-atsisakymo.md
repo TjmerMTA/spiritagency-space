@@ -1,6 +1,7 @@
 ---
 title: "Analizė OnlyFans prenumeratorių atsisakymo: priežastys, signalai ir grįžimo scenarijai"
 description: "Nutekėjimo signalai, sugrįžimo veiksniai ir pasiūlymai. Kohortinių analizės lentelės"
+excerpt: "Sužinokite, kaip OnlyFans prenumeratorių atsisakymo analizė gali padėti susigrąžinti prarastus"
 lang: lt
 pubDate: 2025-09-21
 updDate: 2025-11-20

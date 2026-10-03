@@ -1,6 +1,7 @@
 ---
 title: "OnlyFans Premium: stojí za to prejsť naň"
 description: "Zistite, či sa oplatí prejsť na OnlyFans Premium. Dozviete sa o výhodách"
+excerpt: "Objavte, či stojí za to prejsť na OnlyFans Premium. Zistite viac o výhodách"
 lang: sk
 pubDate: 2025-10-28
 updDate: 2025-11-20

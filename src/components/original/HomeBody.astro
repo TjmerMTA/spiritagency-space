@@ -4,11 +4,12 @@
 // Тексты — в src/data/home-blocks.json, ключ совпадает с id в классе elementor-element-<id>.
 import HomeHeader from './HomeHeader.astro';
 import blocks from '../../data/home-blocks.json';
-import type { Lang } from '../../i18n';
+import { home, type Lang } from '../../i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const b = (blocks as Record<Lang, Record<string, string>>)[lang];
+const root = home(lang);
 ---
 
 <div data-elementor-type="wp-page" data-elementor-id="9" class="elementor elementor-9">

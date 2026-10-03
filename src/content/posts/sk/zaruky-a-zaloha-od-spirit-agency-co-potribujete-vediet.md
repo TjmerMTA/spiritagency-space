@@ -1,6 +1,7 @@
 ---
 title: "Záruky a záloha od Spirit Agency: čo potrebujete vedieť"
 description: "Zistite, ako záruky a záloha od Spirit Agency zabezpečujú priehľadnosť a dôveru"
+excerpt: "Zistite, ako záruky a záloha od Spirit Agency zabezpečujú transparentnosť a dôveru"
 lang: sk
 pubDate: 2025-08-27
 updDate: 2025-11-21

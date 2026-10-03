@@ -1,6 +1,7 @@
 ---
 title: "OnlyFans та Instagram: як просувати без блокування"
 description: "Дізнайтеся, як безпечно просуватися на OnlyFans та Instagram без ризику блокування. Ч"
+excerpt: "Дізнайтеся, як безпечно просуватися на OnlyFans та Instagram без ризику блокування. Ч"
 lang: uk
 pubDate: 2025-10-24
 updDate: 2025-10-27

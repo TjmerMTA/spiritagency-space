@@ -1,0 +1,29 @@
+---
+// Главная: обёртка темы вокруг страницы Elementor — как в оригинале.
+import '../../styles/original/home.css';
+import Original from '../../layouts/Original.astro';
+import HomeBody from './HomeBody.astro';
+import { LANGS, home, type Lang } from '../../i18n';
+import homeData from '../../data/home.json';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const d = (homeData as Record<string, any>)[lang];
+const alternates = Object.fromEntries(LANGS.map((l) => [l, home(l)]));
+---
+
+<Original
+  title={d.title}
+  description={d.description}
+  lang={lang}
+  alternates={alternates}
+  bodyClass="home page-template-default page page-id-9 elementor-page elementor-page-9"
+  mainId="content"
+  preloadFont
+>
+  <main id="content" class="site-main post-9 page type-page status-publish hentry">
+    <div class="page-content">
+      <HomeBody lang={lang} />
+    </div>
+  </main>
+</Original>

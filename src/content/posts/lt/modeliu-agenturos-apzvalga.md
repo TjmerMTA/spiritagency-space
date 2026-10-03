@@ -1,6 +1,7 @@
 ---
 title: "Kas yra modelių agentūra?"
 description: "Agentūros vaidmenys, paslaugos, mokėjimai ir kaip pasirinkti partnerį. Trumpas vadovas modeliams, norintiems augti be rizikos."
+excerpt: "  Kas Yra Modelių Agentūra? Modelių agentūra – tai įmonė, kuri atstovauja modelius ir padeda jiems rasti darbą mados bei…"
 lang: lt
 pubDate: 2025-07-30
 updDate: 2025-11-20

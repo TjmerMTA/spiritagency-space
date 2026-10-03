@@ -1,6 +1,7 @@
 ---
 title: "Analiza kompleksowa subskrypcji OnlyFans: od kliknięcia do LTV"
 description: "Połączenie ruchu ze sprzedażą, atrybucja i cykl życia. Tabele i formuły"
+excerpt: "Zbadaj, jak analiza kompleksowa subskrypcji OnlyFans optymalizuje strategie marketingowe"
 lang: pl
 pubDate: 2025-09-11
 updDate: 2025-11-20

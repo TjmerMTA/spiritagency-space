@@ -1,6 +1,7 @@
 ---
 title: "Cum funcționează ratingul și algoritmii OnlyFans"
 description: "Cum funcționează algoritmii OnlyFans? Aflați despre interacțiune, calitatea conținutului"
+excerpt: "Cum funcționează algoritmii OnlyFans? Aflați despre interacțiune, calitatea conținutului"
 lang: ro
 pubDate: 2025-10-14
 updDate: 2025-11-20

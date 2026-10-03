@@ -1,6 +1,7 @@
 ---
 title: "Cum să eviți blocarea: top 20 declanșatoare ale moderării și cum să le ocolești legal"
 description: "Cum să eviți blocarea: top 20 declanșatoare ale moderării și cum să le ocolești legal Încălcarea drepturilor de autor, Reclamaţii excesive din partea utilizatorilor"
+excerpt: "1. Publicarea de conținut cu minori Declanșator: fotografii/video sau date îndoielnice despre vârsta participanților. Cum să eviți: păstrează dovezile documentare…"
 lang: ro
 pubDate: 2025-10-03
 updDate: 2025-11-20

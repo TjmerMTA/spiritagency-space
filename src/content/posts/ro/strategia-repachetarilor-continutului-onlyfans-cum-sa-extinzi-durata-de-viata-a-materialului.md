@@ -1,6 +1,7 @@
 ---
 title: "Strategia repachetării conținutului OnlyFans: cum să extinzi durata de viață a materialului"
 description: "Clipuri, previzualizări, selecții și decupaje. Cum să reutilizezi conținutul fără penalizări"
+excerpt: "Descoperă strategii eficiente de repachetare a conținutului OnlyFans pentru a continua"
 lang: ro
 pubDate: 2025-10-01
 updDate: 2025-11-20

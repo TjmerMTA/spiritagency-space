@@ -1,6 +1,7 @@
 ---
 title: "Švieselė naktiniame mieste: fotosesija apie moteriškumą, laisvę ir stilių po žibintų lietumi"
 description: "Moteriškumas po lietaus žibintų šviesa: įvaizdžiai, judesys ir nuotaika. Žiūrėkite išskirtinę nuotraukų seriją ir užkulisius privačiai."
+excerpt: "Вона — мов іскра міського неону серед темряви, що ніколи не згасає. Її погляд — вогонь, який притягує до себе…"
 lang: lt
 pubDate: 2025-08-14
 updDate: 2025-11-20

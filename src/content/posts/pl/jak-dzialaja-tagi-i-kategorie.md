@@ -1,6 +1,7 @@
 ---
 title: "Jak działają tagi i kategorie"
 description: "Dowiedz się, jak tagi i kategorie optymalizują Twoje treści, poprawiają SEO i sp"
+excerpt: "Dowiedz się, jak tagi i kategorie optymalizują Twoje treści, poprawiają SEO i sp"
 lang: pl
 pubDate: 2025-10-27
 updDate: 2025-11-20

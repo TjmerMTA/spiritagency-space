@@ -1,6 +1,7 @@
 ---
 title: "Lista kontrolna bezpieczeństwa konta OnlyFans: dostępy, 2FA i scenariusze awaryjne"
 description: "2FA, dostępy, kopie zapasowe, logowanie i antyfraud. Skonfiguruj ochronę w 30 minut"
+excerpt: "Chroń swoje konto OnlyFans! Dowiedz się, jak sprawdzać dostęp,"
 lang: pl
 pubDate: 2025-09-29
 updDate: 2025-11-20

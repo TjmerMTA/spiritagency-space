@@ -1,6 +1,7 @@
 ---
 title: "Onboarding-ul modelelor la SpiritAgency: etape, liste de verificare și primele obiective"
 description: "Acces, brief, securitate, plan de conținut și primele metrici. Liste de verificare pentru prima săptămână"
+excerpt: "Aflați cum onboarding-ul modelelor la SpiritAgency ajută noile talente să se adapteze rapid"
 lang: ro
 pubDate: 2025-09-18
 updDate: 2025-11-20
@@ -13,7 +14,7 @@ Depășirea primilor pași în lumea modelării necesită un start bine gândit.
 
 La începutul fiecărui proces, adaptarea inițială a modelului capătă o importanță deosebită. Primul contact cu echipa ajută nu doar la descoperirea potențialului, ci și la familiarizarea cu toate nuanțele interne. Organizăm sesiuni interactive în care fiecare angajat împărtășește experiența sa, povestește despre aspectele muncii în agenție și dezvăluie particularitățile propriului parcurs, ceea ce sprijină în mod complet realizarea unui audit calitativ al profilului începătorului. Datorită acestor practici, adaptarea inițială a modelului devine fundamentul pentru dezvoltarea ulterioară.
 
-### Adaptarea inițială a modelului** – etape cheie ale integrării
+### **Adaptarea inițială a modelului** – etape cheie ale integrării
 
 Перший крок – вступна зустріч. На цьому етапі молода модель знайомиться з командою, що об’єднує менеджерів, креативних кураторів та стилістів. Під час першої розмови важливо не лише представити себе, але й ознайомитися з базовими принципами роботи агентства. Цей етап супроводжується подробним бріфом, під час якого обговорюються основні очікування та стандарти. Сам процес стартової адаптації моделі допомагає новачку відчути підтримку колективу та сформувати перше враження, яке стане поштовхом для подальшого зростання.
 

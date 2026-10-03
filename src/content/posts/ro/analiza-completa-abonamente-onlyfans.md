@@ -1,6 +1,7 @@
 ---
 title: "Analiza completă a abonamentelor OnlyFans: de la clic la LTV"
 description: "Legătura traficului cu vânzările, atribuirea și ciclul de viață. Tabele și formule"
+excerpt: "Explorați cum analiza completă a abonamentelor OnlyFans optimizează strategia de marketing"
 lang: ro
 pubDate: 2025-09-11
 updDate: 2025-11-20

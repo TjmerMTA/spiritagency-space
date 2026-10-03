@@ -1,6 +1,7 @@
 ---
 title: "Top 5 mitów o zarabianiu na OnlyFans"
 description: "Odkryj prawdę o mitach związanych z zarabianiem na OnlyFans! Obal"
+excerpt: "Odkryj prawdę o mitach dotyczących zarabiania na OnlyFans! Obalamy"
 lang: pl
 pubDate: 2025-08-28
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "Kaip veikia žymos ir kategorijos"
 description: "Sužinokite, kaip žymos ir kategorijos optimizuoja jūsų turinį, gerina SEO ir padidina..."
+excerpt: "Sužinokite, kaip žymos ir kategorijos optimizuoja jūsų turinį, gerina SEO ir sp"
 lang: lt
 pubDate: 2025-10-27
 updDate: 2025-11-20

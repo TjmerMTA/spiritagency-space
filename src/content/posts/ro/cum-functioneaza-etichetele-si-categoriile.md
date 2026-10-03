@@ -1,6 +1,7 @@
 ---
 title: "Cum funcționează etichetele și categoriile"
 description: "Aflați cum etichetele și categoriile optimizează conținutul dvs., îmbunătățesc SEO și sp"
+excerpt: "Aflați cum etichetele și categoriile optimizează conținutul dvs., îmbunătățesc SEO și sp"
 lang: ro
 pubDate: 2025-10-27
 updDate: 2025-11-20

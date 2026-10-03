@@ -1,0 +1,13 @@
+/* Оригинальные стили, порядок как на WordPress. Собрано docs/restore/port-css.py */
+@import './wp-inline.css';
+@import './block-library.css';
+@import './wp-global-styles.css';
+@import './hello-style.min.css';
+@import './hello-theme.min.css';
+@import './custom-frontend.min.css';
+@import './post-6.css';
+@import './widget-image.min.css';
+@import './widget-menu-anchor.min.css';
+@import './custom-widget-icon-list.min.css';
+@import './wp-custom.css';
+@import './post-906.css';

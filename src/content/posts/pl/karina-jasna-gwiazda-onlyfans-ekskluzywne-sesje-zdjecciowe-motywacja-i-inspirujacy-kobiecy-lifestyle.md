@@ -1,6 +1,7 @@
 ---
 title: "Karina – jasna gwiazda OnlyFans: ekskluzywne sesje zdjęciowe, motywacja i inspirujący kobiecy lifestyle"
 description: "Jaskrawa gwiazda z ekskluzywnymi zestawami, backstage i codzienną inspiracją. Subskrybuj, aby jako pierwszy zobaczyć nowe wizerunki."
+excerpt: "Вогонь у погляді: нова зірка Каріна! Каріна — яскрава та смілива дівчина, яку ти точно не зможеш забути! Її щирість…"
 lang: pl
 pubDate: 2025-08-16
 updDate: 2025-11-20

@@ -1,0 +1,91 @@
+---
+// Список статей — разметка шаблона page-blog.php исходного сайта.
+// Классы blog-* менять нельзя: их стили — в src/styles/original/wp-custom.css.
+import '../../styles/original/blog.css';
+import Original from '../../layouts/Original.astro';
+import type { PageInfo } from '../../paginate';
+import { coverOf } from '../../covers';
+import { excerptOf } from '../../excerpt';
+import { LANGS, UI, blogRoot, cardDate, postUrl, type Lang } from '../../i18n';
+
+interface Props { lang: Lang; page: PageInfo<any> }
+const { lang, page } = Astro.props;
+const t = UI[lang];
+const root = blogRoot(lang);
+const pageUrl = (n: number) => (n === 1 ? root : `${root}page/${n}/`);
+const numbers = Array.from({ length: page.lastPage }, (_, i) => i + 1);
+
+const alternates = Object.fromEntries(LANGS.map((l) => [l, blogRoot(l)]));
+const suffix = page.currentPage > 1 ? ` — ${t.page} ${page.currentPage}` : '';
+
+const cards = page.data.map((post: any) => {
+  const slug = post.id.split('/').pop()!;
+  return {
+    href: postUrl(lang, slug),
+    title: post.data.title,
+    date: cardDate(post.data.pubDate),
+    excerpt: excerptOf(post),
+    cover: coverOf(slug, post.data.image),
+  };
+});
+---
+
+<Original
+  title={`${t.blogTitle}${suffix} | SpiritAgency`}
+  description={t.blogLead}
+  lang={lang}
+  alternates={page.currentPage === 1 ? alternates : {}}
+  noindex={page.currentPage > 1}
+  bodyClass="page-template page-template-page-blog page-template-page-blog-php page page-id-876"
+  mainId="content"
+>
+  <main id="content" class="blog-page">
+    <section class="blog-hero">
+      <div class="blog-hero__background"></div>
+      <div class="container">
+        <h1>{t.blogTitle}</h1>
+        <p>{t.blogLead}</p>
+      </div>
+    </section>
+
+    <section class="blog-grid container">
+      {cards.map((card, i) => (
+        <article class="blog-card">
+          <a href={card.href} class="blog-card__thumbnail">
+            <img
+              src={card.cover.src}
+              width={card.cover.width}
+              height={card.cover.height}
+              class="attachment-medium_large size-medium_large wp-post-image"
+              alt=""
+              decoding="async"
+              loading={i < 3 ? 'eager' : 'lazy'}
+            />
+          </a>
+          <div class="blog-card__content">
+            <h2><a href={card.href}>{card.title}</a></h2>
+            <div class="blog-card__meta">
+              <span>{card.date}</span>
+            </div>
+            <p>{card.excerpt}</p>
+            <a href={card.href} class="blog-card__readmore">{t.readMore}</a>
+          </div>
+        </article>
+      ))}
+    </section>
+
+    <!-- Блок есть и на единственной странице, пустой: так делал шаблон оригинала -->
+    <div class="pagination container">
+      {page.url.prev && <><a class="prev page-numbers" href={page.url.prev}>« {t.prev}</a>{' '}</>}
+      {page.lastPage > 1 && numbers.map((n) => (
+        <>
+          {n === page.currentPage
+            ? <span aria-current="page" class="page-numbers current">{n}</span>
+            : <a class="page-numbers" href={pageUrl(n)}>{n}</a>}
+          {' '}
+        </>
+      ))}
+      {page.url.next && <a class="next page-numbers" href={page.url.next}>{t.next} »</a>}
+    </div>
+  </main>
+</Original>

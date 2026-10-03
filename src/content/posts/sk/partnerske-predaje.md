@@ -1,13 +1,14 @@
 ---
 title: "Partnerské predaje SpiritAgency: kolaborácie, crosspromo a referral modely"
 description: "Modely výplát, kontrola návštevnosti, UTM a zmluvy. Ako škálovať bez rizík."
+excerpt: "Preskúmajte, ako partnerské predaje SpiritAgency cez kolaborácie, crosspromo a referral modely"
 lang: sk
 pubDate: 2025-09-28
 updDate: 2025-11-21
 readingTime: "5 - 7 хв читання"
 ---
 
-## Synergia partnerstva SpiritAgency**: kolaby, crosspromo a referralne modely
+## **Synergia partnerstva SpiritAgency**: kolaby, crosspromo a referralne modely
 
 ### Synergia partnerstva SpiritAgency
 

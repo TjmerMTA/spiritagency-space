@@ -1,6 +1,7 @@
 ---
 title: "Vekové a geo obmedzenia: ako bezpečne nastaviť profil"
 description: "Zistite, ako nastaviť vekové obmedzenia na OnlyFans pre bezpečnosť profilu"
+excerpt: "Zistite, ako nastaviť vekové obmedzenia na OnlyFans pre bezpečnosť profilu"
 lang: sk
 pubDate: 2025-10-07
 updDate: 2025-11-21

@@ -1,6 +1,7 @@
 ---
 title: "Vlada — tvoja nová múza: exkluzívne fotky, inšpirácia a teplé jesenné outfity iba pre odberateľov"
 description: "Exkluzívne fotky, útulné jesenné zostavy a inšpirácia každý deň. Objav súkromné príspevky a príbehy od Vlady pre odberateľov."
+excerpt: "Твоя нова муза: знайомся з Владою! Влада — це справжня стихія! Вона поєднує у собі сонячне тепло й шалений темперамент,…"
 lang: sk
 pubDate: 2025-08-21
 updDate: 2025-11-21

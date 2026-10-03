@@ -1,6 +1,7 @@
 ---
 title: "Gwarancje i zaliczka od Spirit Agency: co musisz wiedzieć"
 description: "Dowiedz się, jak gwarancje i zaliczka od Spirit Agency zapewniają przejrzystość i zaufanie"
+excerpt: "Dowiedz się, jak gwarancje i zaliczka od Spirit Agency zapewniają przejrzystość i zaufanie"
 lang: pl
 pubDate: 2025-08-27
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "Kaip išvengti užblokavimo: top 20 moderavimo trikdžių ir kaip jų legaliai apeiti"
 description: "Kaip išvengti užblokavimo: top 20 moderavimo trikdžių ir kaip jų legaliai apeiti Autorių teisių pažeidimai, Per daug skundų iš vartotojų"
+excerpt: "1. Turinio publikavimas su nepilnamečiais Trigeris: nuotraukos/vaizdo įrašai arba įtartini dalyvių amžiaus duomenys. Kaip išvengti: saugokite dokumentinius visų dalyvių amžiaus…"
 lang: lt
 pubDate: 2025-10-03
 updDate: 2025-11-20

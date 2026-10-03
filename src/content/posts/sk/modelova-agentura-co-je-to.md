@@ -1,6 +1,7 @@
 ---
 title: "Čo je to modelová agentúra?"
 description: "Úlohy agentúry, služby, platenie a ako vybrať partnera. Krátky sprievodca pre modelky, ktoré chcú rásť bez rizík."
+excerpt: "  Čo je modelingová agentúra? Modelingová agentúra je spoločnosť, ktorá zastupuje modely a pomáha im nájsť prácu v módnom a…"
 lang: sk
 pubDate: 2025-07-30
 updDate: 2025-11-21

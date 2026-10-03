@@ -1,6 +1,7 @@
 ---
 title: "Ako sa vyhnúť banu: top 20 spúšťačov moderácie a ako ich legálne obísť"
 description: "Ako sa vyhnúť banu: top 20 spúšťačov moderácie a ako ich legálne obísť Porušenie autorských práv, Nadmerné sťažnosti od používateľov"
+excerpt: "1. Publikovanie obsahu s neplnoletými Spúšťač: fotografie/video alebo pochybné údaje o veku účastníkov. Ako sa vyhnúť: uchovávajte dokumentárne potvrdenia veku…"
 lang: sk
 pubDate: 2025-10-03
 updDate: 2025-11-21

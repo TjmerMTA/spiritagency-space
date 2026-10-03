@@ -1,6 +1,7 @@
 ---
 title: "Onboarding modelki w SpiritAgency: etapy, listy kontrolne i pierwsze cele"
 description: "Dostępy, brief, bezpieczeństwo, plan treści i pierwsze metryki. Listy kontrolne pierwszego tygodnia"
+excerpt: "Dowiedz się, jak onboarding modelki w SpiritAgency pomaga nowym talentom szybko się zaadaptować"
 lang: pl
 pubDate: 2025-09-18
 updDate: 2025-11-20
@@ -13,7 +14,7 @@ Pokonanie pierwszych kroków w świecie modelingu wymaga starannie przemyślaneg
 
 Na początku każdego procesu wstępna adaptacja modelki nabiera szczególnego znaczenia. Pierwszy kontakt z zespołem pomaga nie tylko odsłonić potencjał, lecz także zapoznać z wszystkimi wewnętrznymi niuansami. Przeprowadzamy sesje interaktywne, w których każdy pracownik dzieli się doświadczeniem, opowiada o aspektach pracy agencji i ujawnia cechy własnej drogi, co w pełni pomaga w przeprowadzeniu jakościowego audytu profilu nowicjuszki. To właśnie dzięki takim praktykom wstępna adaptacja modelki staje się podstawą dalszego rozwoju.
 
-### Wstępna adaptacja modelki** – kluczowe etapy integracji
+### **Wstępna adaptacja modelki** – kluczowe etapy integracji
 
 Перший крок – вступна зустріч. На цьому етапі молода модель знайомиться з командою, що об’єднує менеджерів, креативних кураторів та стилістів. Під час першої розмови важливо не лише представити себе, але й ознайомитися з базовими принципами роботи агентства. Цей етап супроводжується подробним бріфом, під час якого обговорюються основні очікування та стандарти. Сам процес стартової адаптації моделі допомагає новачку відчути підтримку колективу та сформувати перше враження, яке стане поштовхом для подальшого зростання.
 

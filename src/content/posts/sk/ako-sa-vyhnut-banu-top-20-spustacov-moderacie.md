@@ -1,6 +1,7 @@
 ---
 title: "Ako sa vyhnúť banu: top 20 spúšťačov moderácie"
 description: "Zistite, ako sa vyhnúť banu na OnlyFans, oboznámte sa s top 20 spúšťačmi"
+excerpt: "Zistite, ako sa vyhnúť banu na OnlyFans, oboznámením sa s top 20 spúšťačmi"
 lang: sk
 pubDate: 2025-10-06
 updDate: 2025-11-21
@@ -45,7 +46,7 @@ Je veľmi dôležité vždy sa zdržovať zverejňovania osobných informácií 
 
 Nezabúdajte: aj malá nepresnosť môže byť dôvodom na spustenie blokácie na OnlyFans.
 
-### 8. Trollovanie a provokácie: **spúšťače blokovania OnlyFans
+### 8. Trollovanie a provokácie: **spúšťače blokovania OnlyFans**
 
 Úmyselné vyvolávanie sporov a provokačných situácií sa môže rýchlo premeniť na skutočnú krízu pre používateľa. Trollovanie nie je niekedy len spôsob zábavy, ale vedomé porušenie pravidiel zdravej komunikácie. Ak chcete vyvolať diskusiu, pamätajte: konštruktívny dialóg sa vždy zakladá na vzájomnej úcte. Moderovacie systémy majú špeciálne algoritmy na rozpoznávanie hraných provokácií, takže nadmerné používanie sarkazmu či provokácií môže zničiť aj vaše zámer a zároveň spôsobiť zákaz účtu.
 

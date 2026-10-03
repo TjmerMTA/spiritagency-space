@@ -1,6 +1,7 @@
 ---
 title: "Kontrolný zoznam bezpečnosti účtu OnlyFans: prístupy, 2FA a záložné scenáre"
 description: "2FA, prístupy, zálohy, protokolovanie a antifraud. Nastavte ochranu za 30 minút"
+excerpt: "Chráňte svoj účet OnlyFans! Zistite, ako kontrolovať prístupy,"
 lang: sk
 pubDate: 2025-09-29
 updDate: 2025-11-21

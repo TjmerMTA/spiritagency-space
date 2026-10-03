@@ -1,13 +1,14 @@
 ---
 title: "Vânzări partenere SpiritAgency: colaborări, cross-promoții și modele de recomandare"
 description: "Modele de plată, controlul traficului, UTM și contracte. Cum să scalezi fără riscuri."
+excerpt: "Explorați cum funcționează vânzările partenere SpiritAgency prin colaborări, cross-promoții și referințe"
 lang: ro
 pubDate: 2025-09-28
 updDate: 2025-11-20
 readingTime: "4 - 6 хв читання"
 ---
 
-## Sinergia parteneriatului SpiritAgency**: colab-uri, cross-promoții și modele de recomandare
+## **Sinergia parteneriatului SpiritAgency**: colab-uri, cross-promoții și modele de recomandare
 
 ### Sinergia parteneriatului SpiritAgency
 

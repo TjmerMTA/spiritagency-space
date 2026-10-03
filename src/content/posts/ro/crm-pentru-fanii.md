@@ -1,6 +1,7 @@
 ---
 title: "CRM pentru fanii OnlyFans: segmentare, etichete și personalizarea ofertelor"
 description: "Etichete, declanșatoare, auto-funneluri și upsell-uri. Cum să crești LTV și frecvența cumpărăturilor"
+excerpt: "Aflați cum CRM pentru fanii OnlyFans ajută la segmentarea audienței, utilizarea"
 lang: ro
 pubDate: 2025-09-12
 updDate: 2025-11-20

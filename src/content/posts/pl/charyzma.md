@@ -1,6 +1,7 @@
 ---
 title: "Zainspirowana ukraińska modelka: charyzma, ekskluzywne treści i prawdziwe emocje dla subskrybentów"
 description: "Prawdziwe emocje, prywatne posty i live stories. Subskrybuj, aby otrzymywać nowe zdjęcia, filmy i materiały zza kulis bez filtrów."
+excerpt: "Незбагненна харизма: Відкрита для нових відчуттів! Її погляд вражає до глибини душі — харизматична, невимовно енергійна, вона творить власний неповторний…"
 lang: pl
 pubDate: 2025-08-15
 updDate: 2025-11-20

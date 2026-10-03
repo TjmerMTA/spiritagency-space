@@ -1,6 +1,7 @@
 ---
 title: "Katja – charizmatiška muzė: išskirtinumas, stilius, įkvėpimas ir tikros emocijos tikriems gerbėjams"
 description: "Charizmatiška mūza: privačios nuotraukos ir vaizdo įrašai, kasdienė įkvėpimo dozė, užkulisių vaizdai ir gyvos istorijos tik tikriems gerbėjams. Prenumeruok, kad matytum daugiau."
+excerpt: "Неймовірна загадка Каті: злови її настрій! Відкрий секрет справжньої жіночої харизми разом з нашою неповторною Катею! Вона — справжній магніт…"
 lang: lt
 pubDate: 2025-08-17
 updDate: 2025-11-20

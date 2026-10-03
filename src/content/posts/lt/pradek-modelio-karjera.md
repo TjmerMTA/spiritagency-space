@@ -1,6 +1,7 @@
 ---
 title: "Paleisk savo modelio karjerą su SpiritAgency!"
 description: "Gauk strategiją, turinio planą ir pardavimus DM. SpiritAgency komanda padės sparčiai augti be papildomo streso."
+excerpt: "Pasiruošę pakelti savo modelių karjerą į naują lygį? Tada SpiritAgency – tai būtent tai, ko jums reikia! Mes esame pirmaujanti…"
 lang: lt
 pubDate: 2025-07-31
 updDate: 2025-11-20

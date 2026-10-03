@@ -1,6 +1,7 @@
 ---
 title: "Iulia – noua muză: conținut exclusiv, inspirație și aventuri de la un model carismatic din Kiev"
 description: "Model carismatic din Kiev. Seturi private, aventuri și imagini din culise. Devino abonat și descoperă noile postări ale Iuliei."
+excerpt: "Твоя нова муза: знайомся з Юлією! Вона – справжня енергія літа, яка надихає рухатись уперед та вірити у свої мрії…"
 lang: ro
 pubDate: 2025-08-19
 updDate: 2025-11-20

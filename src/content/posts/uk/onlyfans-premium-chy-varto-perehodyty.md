@@ -1,6 +1,7 @@
 ---
 title: "OnlyFans Premium: чи варто переходити"
 description: "Відкрийте для себе, чи варто переходити на OnlyFans Premium. Дізнайтеся про пере"
+excerpt: "Відкрийте для себе, чи варто переходити на OnlyFans Premium. Дізнайтеся про пере"
 lang: uk
 pubDate: 2025-10-28
 updDate: 2025-11-05

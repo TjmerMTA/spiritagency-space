@@ -1,6 +1,7 @@
 ---
 title: "Amžiaus ir geografiniai apribojimai: kaip saugiai nustatyti profilį"
 description: "Platformos, tokios kaip OnlyFans, TikTok, Instagram ar Patreon, įveda amžiaus ir geografinius apribojimus vartotojų apsaugai."
+excerpt: "1. Kodėl amžiaus ir geografiniai apribojimai yra svarbūs Tokios platformos kaip OnlyFans, TikTok, Instagram ar Patreon įveda amžiaus ir geografiniai…"
 lang: lt
 pubDate: 2025-10-04
 updDate: 2025-11-20

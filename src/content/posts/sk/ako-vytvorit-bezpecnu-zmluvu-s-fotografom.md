@@ -1,6 +1,7 @@
 ---
 title: "Ako vytvoriť bezpečnú zmluvu s fotografom"
 description: "Naučte sa, ako uzavrieť spoľahlivú zmluvu s fotografom OnlyFans na ochranu"
+excerpt: "Zistite, ako uzavrieť spoľahlivú zmluvu s fotografom OnlyFans, aby ste sa ochránili"
 lang: sk
 pubDate: 2025-10-26
 updDate: 2025-11-20
@@ -11,7 +12,7 @@ readingTime: "13 - 15 хв читання"
 
 Úspešná spolupráca medzi klientom a fotografom začína vytvorením kvalitného dokumentu, ktorý zachytáva vzájomné záväzky. Sestavenie zmluvy nie je len formalita, ale dôležitý krok pre nadobudnutie dôvery, zabezpečenie právnej ochrany a stanovenie podmienok fotenia, ktoré zohľadňujú všetky detaily práce. Takýto dokument umožňuje jasné rozloženie povinností a predchádza nejasnostiam pri vzniknutí otázok týkajúcich sa autorských práv alebo iných aspektov tvorby.
 
-### zmluva s fotografom OnlyFans** – základné princípy a príprava
+### **zmluva s fotografom OnlyFans** – základné princípy a príprava
 
 Predtým, než sa pustíte do detailov vypracovania dokumentu, je potrebné dôkladne spracovať každú zložku spolupráce. Hlavným cieľom je vytvoriť dohodu, v ktorej bude zohľadnená všetka potrebná informácia. Príprava dokumentu začína diskusiou o detailoch objednávky. Práve tu sa formuje základná dohoda medzi stranami. Pamätajte, že stanovenie podmienok fotenia má byť transparentné a nastavené požiadavky realistické.
 

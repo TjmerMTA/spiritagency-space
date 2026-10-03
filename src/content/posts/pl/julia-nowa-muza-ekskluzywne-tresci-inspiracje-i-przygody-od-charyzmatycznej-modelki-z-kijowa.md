@@ -1,6 +1,7 @@
 ---
 title: "Julia – nowa muza: ekskluzywne treści, inspiracje i przygody od charyzmatycznej modelki z Kijowa"
 description: "Charyzmatyczna modelka z Kijowa. Prywatne sesje, przygody i kulisy. Zostań subskrybentem i odkrywaj nowe posty Julii."
+excerpt: "Твоя нова муза: знайомся з Юлією! Вона – справжня енергія літа, яка надихає рухатись уперед та вірити у свої мрії…"
 lang: pl
 pubDate: 2025-08-19
 updDate: 2025-11-20

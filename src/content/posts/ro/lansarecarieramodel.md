@@ -1,6 +1,7 @@
 ---
 title: "Dezvoltă-ți cariera de model cu SpiritAgency!"
 description: "Primește o strategie, un plan de conținut și vânzări în DM. Echipa SpiritAgency te va ajuta să crești rapid și fără stres inutil."
+excerpt: "Gata să-ți duci cariera de model la un nivel nou? Atunci SpiritAgency – este exact ceea ce ai nevoie! Suntem…"
 lang: ro
 pubDate: 2025-07-31
 updDate: 2025-11-20

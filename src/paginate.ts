@@ -3,7 +3,8 @@
  * /blog/ , /blog/page/2/ , /blog/page/3/ …
  * Astro-шный paginate() даёт /blog/2/, поэтому считаем сами.
  */
-export const PAGE_SIZE = 12;
+/** Сколько статей на странице блога — столько же показывал исходный сайт. */
+export const PAGE_SIZE = 100;
 
 export interface PageInfo<T> {
   data: T[];

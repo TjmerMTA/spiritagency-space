@@ -1,6 +1,7 @@
 ---
 title: "Vekové a geo-obmedzenia: ako bezpečne nastaviť profil"
 description: "Platformy ako OnlyFans, TikTok, Instagram alebo Patreon zavádzajú vekové a geo-obmedzenia na ochranu používateľov."
+excerpt: "1. Prečo sú vekové a geografické obmedzenia dôležité Platformy ako OnlyFans, TikTok, Instagram či Patreon zavádzajú vekové a geo-obmedzenia na…"
 lang: sk
 pubDate: 2025-10-04
 updDate: 2025-11-21

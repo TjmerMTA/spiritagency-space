@@ -1,20 +1,12 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import Original from '../../layouts/Original.astro';
-import HomeBody from '../../components/original/HomeBody.astro';
-import HomeFooter from '../../components/original/HomeFooter.astro';
-import { LANGS, DEFAULT_LANG, home, type Lang } from '../../i18n';
-import homeData from '../../data/home.json';
+import HomePage from '../../components/original/HomePage.astro';
+import { LANGS, DEFAULT_LANG, type Lang } from '../../i18n';
 
 export const getStaticPaths = (() =>
   LANGS.filter((l) => l !== DEFAULT_LANG).map((lang) => ({ params: { lang } }))) satisfies GetStaticPaths;
 
 const lang = Astro.params.lang as Lang;
-const d = (homeData as Record<string, any>)[lang];
-const alternates = Object.fromEntries(LANGS.map((l) => [l, home(l)]));
 ---
 
-<Original title={d.title} description={d.description} lang={lang} alternates={alternates}>
-  <HomeBody lang={lang} />
-  <HomeFooter lang={lang} slot="footer" />
-</Original>
+<HomePage lang={lang} />

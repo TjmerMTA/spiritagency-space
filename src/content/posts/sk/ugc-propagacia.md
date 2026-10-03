@@ -1,6 +1,7 @@
 ---
 title: "UGC-propagácia OnlyFans: ako zapojiť fanúšikov do tvorby obsahu"
 description: "Motivácia, bezpečnostné pravidlá a práva. Ako zbierať UGC a premeniť ho na predaj"
+excerpt: "Zistite, ako môže UGC-propagácia na OnlyFans zapojiť fanúšikov do tvorby kontentu"
 lang: sk
 pubDate: 2025-09-23
 updDate: 2025-11-21
@@ -15,7 +16,7 @@ Táto stratégia sa stáva akousi platformou na výmenu nápadov a skúseností,
 
 V tomto procese je dôležitým faktorom, že každý odberateľ môže vytvárať vlastné verzie obsahu, čím sa stáva neoddeliteľnou súčasťou veľkého tvorivého príbehu. Tento prístup tiež umožňuje získavať pravý *obsah od fanúšikov*, čo dodáva autenticitu každej práci.
 
-### Aktivácia fanúšikovského obsahu** a jeho význam pre OnlyFans
+### **Aktivácia fanúšikovského obsahu** a jeho význam pre OnlyFans
 
 Koncept UGC, teda obsahu vytvoreného používateľmi, nadobúda nový rozmer. Vlastne, *Aktivácia fanúšikovského obsahu* spočíva v tom, že vaši fanúšikovia môžu prispieť formou fotografií, videí, textových príspevkov či hlasových správ. Takýto tvorivý príspevok dáva každému možnosť vyjadriť svoj pohľad na vašu tvorbu a zobraziť emócie, ktoré v nej vyvoláva.
 

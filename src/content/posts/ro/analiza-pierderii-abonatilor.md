@@ -1,6 +1,7 @@
 ---
 title: "Analiza pierderii abonaților OnlyFans: motive, semnale și scenarii de revenire"
 description: "Semnale de pierdere, declanșatori de revenire și oferte. Tabele de analiză cohortă"
+excerpt: "Aflați cum analiza pierderii abonaților OnlyFans vă poate ajuta să-i recuperați"
 lang: ro
 pubDate: 2025-09-21
 updDate: 2025-11-20

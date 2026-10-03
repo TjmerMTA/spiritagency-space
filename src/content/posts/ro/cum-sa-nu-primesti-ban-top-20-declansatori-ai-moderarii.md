@@ -1,6 +1,7 @@
 ---
 title: "Cum să nu primești ban: top 20 declanșatori ai moderării"
 description: "Află cum să eviți banarea pe OnlyFans, descoperind top 20 de declanșatori"
+excerpt: "Află cum să eviți banul pe OnlyFans, consultând top 20 declanșatori"
 lang: ro
 pubDate: 2025-10-06
 updDate: 2025-11-20
@@ -45,7 +46,7 @@ Este foarte important să vă abțineți întotdeauna de la divulgarea informaț
 
 Nu uitați: chiar și o mică inexactitate poate declanșa blocarea OnlyFans.
 
-### 8. Trolare și provocări: **declanșatoare de blocare OnlyFans
+### 8. Trolare și provocări: **declanșatoare de blocare OnlyFans**
 
 Provocarea deliberată a disputelor și situațiilor provocatoare se poate transforma rapid într-o criză reală pentru utilizator. Trolarea nu este uneori doar o metodă de distracție, ci o încălcare conștientă a normelor de comunicare sănătoasă. Dacă doriți să inițiați o discuție, rețineți: dialogul constructiv se bazează întotdeauna pe respect reciproc. Sistemele de moderare au algoritmi speciali pentru detectarea provocărilor, așa că utilizarea excesivă a sarcasmului sau provocărilor vă poate anula intențiile și poate duce la blocarea contului.
 

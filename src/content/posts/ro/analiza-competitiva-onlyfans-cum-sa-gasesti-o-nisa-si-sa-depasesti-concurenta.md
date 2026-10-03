@@ -1,6 +1,7 @@
 ---
 title: "Analiza competitivă OnlyFans: cum să găsești o nișă și să depășești concurența"
 description: "Cercetarea nișei, hărți ale concurenței, zone de preț și oferte. Șabloane de tabele și pași pentru a-i depăși pe rivali"
+excerpt: "Descoperă secretele succesului pe OnlyFans! Realizează o analiză competitivă, găsește"
 lang: ro
 pubDate: 2025-09-02
 updDate: 2025-11-20

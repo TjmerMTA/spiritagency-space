@@ -1,13 +1,14 @@
 ---
 title: "Partnerystės pardavimai SpiritAgency: bendradarbiaujant, kryžminės reklamos ir referalinių modelių"
 description: "Mokėjimo modeliai, srauto valdymas, UTM ir sutartys. Kaip didinti mastelį be rizikos."
+excerpt: "Tyrinėkite, kaip partnerystės pardavimai SpiritAgency vyksta per bendradarbiavimą, kryžminę reklamą ir referalines programas"
 lang: lt
 pubDate: 2025-09-28
 updDate: 2025-11-20
 readingTime: "4 - 6 хв читання"
 ---
 
-## Partnerystės su SpiritAgency sinergija**: kolaboracijos, kryžminės reklamos ir referalinės modeliai
+## **Partnerystės su SpiritAgency sinergija**: kolaboracijos, kryžminės reklamos ir referalinės modeliai
 
 ### SpiritAgency partnerystės sinergija
 

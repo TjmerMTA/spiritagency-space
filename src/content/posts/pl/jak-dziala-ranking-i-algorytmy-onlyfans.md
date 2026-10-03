@@ -1,6 +1,7 @@
 ---
 title: "Jak działa ranking i algorytmy OnlyFans"
 description: "Jak działają algorytmy OnlyFans? Dowiedz się o interakcji, jakości treści"
+excerpt: "Jak działają algorytmy OnlyFans? Dowiedz się, jak interakcje, jakość treści"
 lang: pl
 pubDate: 2025-10-14
 updDate: 2025-11-20

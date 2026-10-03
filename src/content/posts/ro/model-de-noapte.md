@@ -1,6 +1,7 @@
 ---
 title: "Licărire în orașul nopții: ședință foto despre feminitate, libertate și stil sub ploaia felinarelor"
 description: "Feminitate sub ploaia felinarelor: look-uri, mișcare și atmosferă. Vezi seria exclusivă de fotografii și backstage-ul în privat."
+excerpt: "Вона — мов іскра міського неону серед темряви, що ніколи не згасає. Її погляд — вогонь, який притягує до себе…"
 lang: ro
 pubDate: 2025-08-14
 updDate: 2025-11-20

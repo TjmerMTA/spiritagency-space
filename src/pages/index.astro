@@ -1,16 +1,5 @@
 ---
-import Original from '../layouts/Original.astro';
-import HomeBody from '../components/original/HomeBody.astro';
-import HomeFooter from '../components/original/HomeFooter.astro';
-import { LANGS, home } from '../i18n';
-import homeData from '../data/home.json';
-
-const lang = 'uk' as const;
-const d = (homeData as Record<string, any>)[lang];
-const alternates = Object.fromEntries(LANGS.map((l) => [l, home(l)]));
+import HomePage from '../components/original/HomePage.astro';
 ---
 
-<Original title={d.title} description={d.description} lang={lang} alternates={alternates}>
-  <HomeBody lang={lang} />
-  <HomeFooter lang={lang} slot="footer" />
-</Original>
+<HomePage lang="uk" />

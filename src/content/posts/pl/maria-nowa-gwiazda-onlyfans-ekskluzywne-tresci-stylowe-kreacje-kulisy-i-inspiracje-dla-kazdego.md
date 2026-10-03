@@ -1,6 +1,7 @@
 ---
 title: "Maria — nowa gwiazda OnlyFans: ekskluzywne treści, stylowe kreacje, kulisy i inspiracje dla każdego!"
 description: "Stylowe stylizacje, kulisy i codzienna inspiracja. Dołącz do prywatnych materiałów Marii i otrzymuj najnowsze nowości jako pierwszy."
+excerpt: "🌟 Вона захоплює серце з першого погляду! 🌟 У світі безмежної краси та справжньої харизми з’явилася вона — Марія! Секрет…"
 lang: pl
 pubDate: 2025-08-18
 updDate: 2025-11-20

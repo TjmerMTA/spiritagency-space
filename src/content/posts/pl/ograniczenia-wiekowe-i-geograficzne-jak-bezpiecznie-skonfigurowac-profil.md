@@ -1,6 +1,7 @@
 ---
 title: "Ograniczenia wiekowe i geograficzne: jak bezpiecznie skonfigurować profil"
 description: "Platformy takie jak OnlyFans, TikTok, Instagram czy Patreon wprowadzają ograniczenia wiekowe i geograficzne, aby chronić użytkowników."
+excerpt: "1. Dlaczego ograniczenia wiekowe i geograficzne są ważne Platformy takie jak OnlyFans, TikTok, Instagram czy Patreon wprowadzają ograniczenia wiekowe i…"
 lang: pl
 pubDate: 2025-10-04
 updDate: 2025-11-20

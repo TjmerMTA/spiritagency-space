@@ -1,6 +1,7 @@
 ---
 title: "Vlada — twoja nowa muza: ekskluzywne zdjęcia, inspiracje i ciepłe jesienne stylizacje tylko dla subskrybentów"
 description: "Ekskluzywne zdjęcia, przytulne jesienne ustawienia i codzienna inspiracja. Odkryj prywatne posty i story Wlady dla subskrybentów."
+excerpt: "Твоя нова муза: знайомся з Владою! Влада — це справжня стихія! Вона поєднує у собі сонячне тепло й шалений темперамент,…"
 lang: pl
 pubDate: 2025-08-21
 updDate: 2025-11-20

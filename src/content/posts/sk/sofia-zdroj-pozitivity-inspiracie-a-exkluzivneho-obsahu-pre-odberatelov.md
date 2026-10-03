@@ -1,6 +1,7 @@
 ---
 title: "Sofia: zdroj pozitivity, inšpirácie a exkluzívneho obsahu pre odberateľov"
 description: "Pozitívne vibrácie, teplé obrazy a súkromný obsah od Sofie. Prihlás sa, aby si videl viac zo zákulisia a každodenných momentov."
+excerpt: "✨ Неземна енергія від Софії: відчуй магію! ✨ Зустрічайте Софію — дівчину, яка заряджає позитивом та надихає на нові звершення!…"
 lang: sk
 pubDate: 2025-08-22
 updDate: 2025-11-21

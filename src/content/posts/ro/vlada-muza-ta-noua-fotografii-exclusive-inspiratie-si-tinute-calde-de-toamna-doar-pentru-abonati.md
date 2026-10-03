@@ -1,6 +1,7 @@
 ---
 title: "Vlada — muza ta nouă: fotografii exclusive, inspirație și ținute calde de toamnă doar pentru abonați"
 description: "Fotografii exclusive, decoruri confortabile de toamnă și inspirație zilnică. Descoperă postările și story-urile private ale Vladei pentru abonați."
+excerpt: "Твоя нова муза: знайомся з Владою! Влада — це справжня стихія! Вона поєднує у собі сонячне тепло й шалений темперамент,…"
 lang: ro
 pubDate: 2025-08-21
 updDate: 2025-11-20

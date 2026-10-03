@@ -1,6 +1,7 @@
 ---
 title: "Vlada – tavo naujoji mūza: išskirtinės nuotraukos, įkvėpimas ir šilti rudens įvaizdžiai tik prenumeratoriams"
 description: "Išskirtinės nuotraukos, jaukūs rudens setai ir kasdienė įkvėpimo banga. Atrask privačius Vlados įrašus ir istorijas prenumeratoriams."
+excerpt: "Твоя нова муза: знайомся з Владою! Влада — це справжня стихія! Вона поєднує у собі сонячне тепло й шалений темперамент,…"
 lang: lt
 pubDate: 2025-08-21
 updDate: 2025-11-20

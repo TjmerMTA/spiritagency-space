@@ -3,7 +3,7 @@
 
 Вход:  original-src/home-<язык>.html — сырые снимки Web Archive.
 Выход: src/components/original/HomeBody.astro   — секции страницы (без шапки);
-       src/components/original/HomeFooter.astro — подвал «Деталі співпраці»;
+       src/components/original/SiteFooter.astro — подвал «Деталі співпраці» (на всех страницах);
        src/data/home-blocks.json                — тексты по языкам, ключ = id элемента
                                                   Elementor (тот же, что в классе
                                                   elementor-element-<id>).
@@ -164,6 +164,10 @@ def attr_str(tag: Tag) -> str:
             val = ' '.join(val)
         if name in ('src', 'srcset', 'href'):
             val = local_url(val)
+        # Подвал стоит на всех страницах, а разделы — на главной: якорь ведём от её адреса.
+        if name == 'href' and val.startswith('#'):
+            parts.append('href={`${root}' + val + '`}')
+            continue
         if name == 'srcset':
             keep = [c.strip() for c in val.split(',') if (ROOT / 'public' / c.strip().split(' ')[0].lstrip('/')).exists()]
             val = ', '.join(keep)
@@ -242,11 +246,12 @@ HEAD = '''---
 // Классы Elementor менять нельзя: на них держатся оригинальные стили src/styles/original/.
 // Тексты — в src/data/home-blocks.json, ключ совпадает с id в классе elementor-element-<id>.
 {imports}import blocks from '../../data/home-blocks.json';
-import type {{ Lang }} from '../../i18n';
+import {{ home, type Lang }} from '../../i18n';
 
 interface Props {{ lang: Lang }}
 const {{ lang }} = Astro.props;
 const b = (blocks as Record<Lang, Record<string, string>>)[lang];
+const root = home(lang);
 ---
 
 '''
@@ -276,7 +281,7 @@ def main() -> None:
     footer = uk.select_one('[data-elementor-id="906"]')
     (comp / 'HomeBody.astro').write_text(
         component(page, '9', "import HomeHeader from './HomeHeader.astro';\n"), encoding='utf-8')
-    (comp / 'HomeFooter.astro').write_text(component(footer, '906, подвал'), encoding='utf-8')
+    (comp / 'SiteFooter.astro').write_text(component(footer, '906, подвал всех страниц'), encoding='utf-8')
     (ROOT / 'src/data/home-blocks.json').write_text(
         json.dumps(data, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print('готово')

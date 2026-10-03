@@ -1,6 +1,7 @@
 ---
 title: "Analiza odpływu subskrybentów OnlyFans: przyczyny, sygnały i scenariusze powrotu"
 description: "Sygnalizatory odpływu, wyzwalacze powrotu i oferty. Tabele analizy kohortowej"
+excerpt: "Dowiedz się, jak analiza odpływu subskrybentów OnlyFans może pomóc odzyskać utraconych"
 lang: pl
 pubDate: 2025-09-21
 updDate: 2025-11-20

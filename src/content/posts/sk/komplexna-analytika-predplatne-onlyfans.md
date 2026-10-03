@@ -1,6 +1,7 @@
 ---
 title: "Komplexná analytika predplatného OnlyFans: od kliknutia po LTV"
 description: "Prepojenie návštevnosti s predajmi, atribúcia a životný cyklus. Tabuľky a vzorce"
+excerpt: "Preskúmajte, ako komplexná analytika predplatného OnlyFans optimalizuje marketingové kamene"
 lang: sk
 pubDate: 2025-09-11
 updDate: 2025-11-21

@@ -1,6 +1,7 @@
 ---
 title: "Analiza konkurencji OnlyFans: jak znaleźć niszę i wyprzedzić konkurentów"
 description: "Badanie niszy, mapy konkurentów, strefy cenowe i oferty. Szablony tabel i kroki, aby wyprzedzić rywali"
+excerpt: "Poznaj sekrety sukcesu na OnlyFans! Przeprowadź analizę konkurencji, znajdź"
 lang: pl
 pubDate: 2025-09-02
 updDate: 2025-11-20

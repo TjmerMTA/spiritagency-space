@@ -1,6 +1,7 @@
 ---
 title: "Jak nie dostać bana: top 20 trygerów moderacji i jak je legalnie obejść"
 description: "Jak nie dostać bana: top 20 trygerów moderacji i jak je legalnie obejść Naruszenie praw autorskich, Nadmierne skargi od użytkowników"
+excerpt: "1. Publikacja treści z niepełnoletnimi Wyzwalacz: zdjęcia/wideo lub wątpliwe dane dotyczące wieku uczestników. Jak uniknąć: zachowuj dokumentalne potwierdzenia wieku wszystkich…"
 lang: pl
 pubDate: 2025-10-03
 updDate: 2025-11-20

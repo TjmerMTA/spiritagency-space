@@ -1,6 +1,7 @@
 ---
 title: "OnlyFans Premium: czy warto przejść"
 description: "Odkryj, czy warto przejść na OnlyFans Premium. Dowiedz się o zaletach"
+excerpt: "Odkryj, czy warto przejść na OnlyFans Premium. Dowiedz się o korzyściach"
 lang: pl
 pubDate: 2025-10-28
 updDate: 2025-11-20

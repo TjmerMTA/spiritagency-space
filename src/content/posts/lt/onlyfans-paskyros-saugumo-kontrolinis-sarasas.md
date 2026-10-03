@@ -1,6 +1,7 @@
 ---
 title: "OnlyFans paskyros saugumo kontrolinis sąrašas: prieigos, 2FA ir atsarginiai scenarijai"
 description: "2FA, prieigos, atsarginės kopijos, registravimas ir antifrodas. Apsaugą nustatykite per 30 minučių"
+excerpt: "Apsaugokite savo OnlyFans paskyrą! Sužinokite, kaip patikrinti prieigas,"
 lang: lt
 pubDate: 2025-09-29
 updDate: 2025-11-20

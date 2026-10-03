@@ -1,13 +1,14 @@
 ---
-// Сгенерировано docs/restore/port-home.py из снимка Web Archive (страница 906, подвал).
+// Сгенерировано docs/restore/port-home.py из снимка Web Archive (страница 906, подвал всех страниц).
 // Классы Elementor менять нельзя: на них держатся оригинальные стили src/styles/original/.
 // Тексты — в src/data/home-blocks.json, ключ совпадает с id в классе elementor-element-<id>.
 import blocks from '../../data/home-blocks.json';
-import type { Lang } from '../../i18n';
+import { home, type Lang } from '../../i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const b = (blocks as Record<Lang, Record<string, string>>)[lang];
+const root = home(lang);
 ---
 
 <div data-elementor-type="container" data-elementor-id="906" class="elementor elementor-906">
@@ -53,12 +54,12 @@ const b = (blocks as Record<Lang, Record<string, string>>)[lang];
             <div class="elementor-widget-container">
               <ul class="elementor-icon-list-items elementor-inline-items">
                 <li class="elementor-icon-list-item elementor-inline-item">
-                  <a href="#pributok">
+                  <a href={`${root}#pributok`}>
                     <span class="elementor-icon-list-text">{b['13031cde.0']}</span>
                   </a>
                 </li>
                 <li class="elementor-icon-list-item elementor-inline-item">
-                  <a href="#garantii">
+                  <a href={`${root}#garantii`}>
                     <span class="elementor-icon-list-text">{b['13031cde.1']}</span>
                   </a>
                 </li>

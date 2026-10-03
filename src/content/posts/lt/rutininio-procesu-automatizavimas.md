@@ -1,6 +1,7 @@
 ---
 title: "Rutininio procesų automatizavimas SpiritAgency: botai, šablonai ir SOP"
 description: "Ką automatizuoti pirmiausia, kaip nepertraukti tono. Scenarijai ir integracijos."
+excerpt: "Sužinokite, kaip SpiritAgency didina efektyvumą automatizuodama rutinius procesus"
 lang: lt
 pubDate: 2025-09-27
 updDate: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 title: "Amžiaus ir geografinių apribojimų nustatymai: kaip saugiai sukonfigūruoti profilį"
 description: "Sužinokite, kaip nustatyti amžiaus apribojimus OnlyFans platformoje saugumui užtikrinti"
+excerpt: "Sužinokite, kaip saugiai nustatyti amžiaus apribojimus OnlyFans platformoje"
 lang: lt
 pubDate: 2025-10-07
 updDate: 2025-11-20

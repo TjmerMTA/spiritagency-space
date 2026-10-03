@@ -1,6 +1,7 @@
 ---
 title: "Kontrolný zoznam pred natáčaním pre OnlyFans: svetlo, zvuk, rekvizity a bezpečnosť"
 description: "Lokácia, technika, rekvizity a práva. Pripravený zoznam, aby ste na nič nezabudli"
+excerpt: "Plánujete natáčanie na OnlyFans? Zistite, ako pripraviť svetlo,"
 lang: sk
 pubDate: 2025-09-10
 updDate: 2025-11-21

@@ -11,13 +11,13 @@ interface Props {
   alternates?: Partial<Record<Lang, string>>;
   type?: 'website' | 'article';
   noindex?: boolean;
-  /** Какой набор начертаний подключить — см. fonts в astro.config.mjs */
-  font?: '--font-montserrat' | '--font-montserrat-full';
+  /** Грузить шрифт заранее: нужно там, где им набран первый экран (главная) */
+  preloadFont?: boolean;
 }
 
 const {
   title, lang, description = '', image, alternates = {}, type = 'website', noindex = false,
-  font = '--font-montserrat',
+  preloadFont = false,
 } = Astro.props;
 
 // Заранее грузим только те части шрифта, которыми набран текст этого языка.
@@ -54,4 +54,4 @@ const ogImage = image ? new URL(image, site).href : undefined;
 <link rel="icon" href="/img/2026/02/cropped-favico2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/img/2026/02/cropped-favico2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/img/2026/02/cropped-favico2-180x180.png" />
-<Font cssVariable={font} preload={subsets.map((subset) => ({ subset }))} />
+<Font cssVariable="--font-montserrat" preload={preloadFont ? subsets.map((subset) => ({ subset })) : false} />

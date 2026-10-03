@@ -1,6 +1,7 @@
 ---
 title: "Karina – jasná hviezda OnlyFans: exkluzívne fotosekvenice, motivácia a inšpirujúci ženský životný štýl"
 description: "Žiarivá hviezda s exkluzívnymi sériami, zákulisím a každodennou inšpiráciou. Prihláste sa, aby ste ako prví videli nové pohľady."
+excerpt: "Вогонь у погляді: нова зірка Каріна! Каріна — яскрава та смілива дівчина, яку ти точно не зможеш забути! Її щирість…"
 lang: sk
 pubDate: 2025-08-16
 updDate: 2025-11-21

@@ -1,6 +1,7 @@
 ---
 title: "OnlyFans a GDPR: čo by modelky mali vedieť"
 description: "Zistite, ako GDPR ovplyvňuje vaše pôsobenie na OnlyFans a ako sa vyhnúť pokutám"
+excerpt: "Zistite, ako GDPR ovplyvňuje vašu činnosť na OnlyFans a ako sa vyhnúť pokutám"
 lang: sk
 pubDate: 2025-10-16
 updDate: 2025-11-20
@@ -13,7 +14,7 @@ V modernom svete, kde digitálne technológie prenikajú do všetkých oblastí 
 
 Základom najnovších princípov bezpečnosti údajov sú transparentnosť, zodpovednosť a zákonnosť. Firmy aj jednotlivé modelky, ktoré pôsobia v digitálnom prostredí, musia dodržiavať stanovené normy, pretože akákoľvek nedbanlivosť voči osobným údajom môže viesť k vážnym finančným stratám a strate dôvery publika. Integrácia pravidiel GDPR pre OnlyFans tak umožňuje nielen vyhnúť sa pokutám, ale aj zlepšiť vzťahy s odberateľmi.
 
-### GDPR pre OnlyFans** – kľúčové princípy ochrany údajov
+### **GDPR pre OnlyFans** – kľúčové princípy ochrany údajov
 
 GDPR – je regulačný predpis, ktorý upravuje spracovanie, uchovávanie a prenos údajov používateľov v krajinách Európskej únie. Zákon bol zavedený s cieľom vytvoriť jasné pravidlá pre spoločnosti a súkromné osoby pracujúce s osobnými údajmi. Jedným z dôležitých aspektov tohto nariadenia je poskytnutie používateľom práva kontrolovať vlastné informácie, čo zabezpečuje maximálnu transparentnosť práce s údajmi. Vďaka tomu aj tie najmodernejšie online služby sú povinné pravidelne vykonávať bezpečnostné audity, kontrolovať zásady ochrany súkromia a garantovať riadne uchovávanie údajov. Takéto opatrenia pomáhajú používateľom cítiť istotu, pretože uchovávanie ich osobných údajov prebieha v súlade s požiadavkami GDPR pre OnlyFans.
 

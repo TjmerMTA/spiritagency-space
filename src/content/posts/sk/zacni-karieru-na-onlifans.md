@@ -1,6 +1,7 @@
 ---
 title: "Rozbehnite svoju modelovú kariéru so SpiritAgency!"
 description: "Získaj stratégiu, content plán a predaj v DM. Tím SpiritAgency ti pomôže rásť rýchlo a bez zbytočného stresu."
+excerpt: "Pripravení posunúť svoju modelovú kariéru na novú úroveň? Potom SpiritAgency – je presne to, čo potrebujete! Sme popredná modelingová agentúra…"
 lang: sk
 pubDate: 2025-07-31
 updDate: 2025-11-21

@@ -1,6 +1,7 @@
 ---
 title: "Cum să creezi un contract sigur cu fotograful"
 description: "Aflaţi cum să încheiaţi un contract solid cu fotograful OnlyFans pentru a vă proteja"
+excerpt: "Află cum să închei un contract fiabil cu fotograful OnlyFans pentru a te proteja"
 lang: ro
 pubDate: 2025-10-26
 updDate: 2025-11-20
@@ -11,7 +12,7 @@ readingTime: "13 - 15 хв читання"
 
 O colaborare de succes între client și fotograf începe prin crearea unui document de calitate care să consemneze obligațiile reciproce. Întocmirea contractului nu este doar o formalitate, ci și un pas important pentru stabilirea încrederii, asigurarea protecției juridice și definirea condițiilor de fotografiere care includ toate nuanțele activității. Un astfel de document permite o distribuție clară a responsabilităților și evitarea confuziilor în cazul apariției unor întrebări legate de drepturile de autor sau alte aspecte ale creației.
 
-### contract cu un fotograf OnlyFans** – principii de bază și pregătire
+### **contract cu un fotograf OnlyFans** – principii de bază și pregătire
 
 Înainte de a intra în detalii privind întocmirea documentului, merită să analizezi atent fiecare componentă a colaborării. Scopul principal este să creezi un acord care să cuprindă toate informațiile necesare. Pregătirea documentului începe cu discutarea detaliilor comenzii. Aici se formează acordul de bază între părți. Ține minte că stabilirea condițiilor de fotografiere trebuie să fie transparentă, iar cerințele impuse – realiste.
 

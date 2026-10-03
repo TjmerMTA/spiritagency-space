@@ -1,6 +1,7 @@
 ---
 title: "Ako fungujú značky a kategórie"
 description: "Zistite, ako tagy a kategórie optimalizujú váš obsah, zlepšujú SEO a sp"
+excerpt: "Zistite, ako značky a kategórie optimalizujú váš obsah, zlepšujú SEO a sp"
 lang: sk
 pubDate: 2025-10-27
 updDate: 2025-11-20

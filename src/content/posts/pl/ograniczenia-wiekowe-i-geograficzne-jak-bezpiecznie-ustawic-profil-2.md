@@ -1,6 +1,7 @@
 ---
 title: "Ograniczenia wiekowe i geograficzne: jak bezpiecznie ustawić profil"
 description: "Dowiedz się, jak ustawić ograniczenia wiekowe na OnlyFans dla bezpieczeństwa profilu"
+excerpt: "Dowiedz się, jak ustawić ograniczenia wiekowe na OnlyFans, aby zapewnić bezpieczeństwo profilu"
 lang: pl
 pubDate: 2025-10-07
 updDate: 2025-11-20

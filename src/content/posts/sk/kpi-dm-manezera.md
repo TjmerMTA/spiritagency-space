@@ -1,6 +1,7 @@
 ---
 title: "KPI DM manažéra na OnlyFans: rýchlosť odpovede, konverzie a udržanie"
 description: "Normy odpovedí, upsely, retencia a ARPPU. Dashboard a kontrolné body."
+excerpt: "Zistite, ako zlepšiť KPI DM manažéra na OnlyFans: efektívne st"
 lang: sk
 pubDate: 2025-09-17
 updDate: 2025-11-21

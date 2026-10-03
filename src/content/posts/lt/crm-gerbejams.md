@@ -1,6 +1,7 @@
 ---
 title: "CRM OnlyFans gerbėjams: segmentavimas, žymos ir pasiūlymų personalizavimas"
 description: "Žymos, trigeriai, automatiniai piltuvėliai ir papildomi pardavimai. Kaip padidinti LTV ir pirkimų dažnumą"
+excerpt: "Sužinokite, kaip CRM OnlyFans gerbėjams padeda segmentuoti auditoriją, naudoti"
 lang: lt
 pubDate: 2025-09-12
 updDate: 2025-11-20

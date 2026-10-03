@@ -1,6 +1,7 @@
 ---
 title: "Czym Jest Agencja Modelek?"
 description: "Role agencji, usługi, wynagrodzenie i jak wybrać partnera. Krótki przewodnik dla modelek, które chcą rozwijać się bez ryzyka."
+excerpt: "  Czym jest agencja modelek? Agencja modelek to firma reprezentująca modelki i pomagająca im znaleźć pracę w branży mody i…"
 lang: pl
 pubDate: 2025-07-30
 updDate: 2025-11-20

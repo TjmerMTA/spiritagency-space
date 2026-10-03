@@ -1,6 +1,7 @@
 ---
 title: "Analýza odlivu odberateľov OnlyFans: príčiny, signály a scenáre návratu"
 description: "Signály odchodu, spúšťače návratu a ponuky. Tabuľky kohortnej analýzy"
+excerpt: "Zistite, ako analýza odlivu odberateľov OnlyFans môže pomôcť s návratom stratenej"
 lang: sk
 pubDate: 2025-09-21
 updDate: 2025-11-21

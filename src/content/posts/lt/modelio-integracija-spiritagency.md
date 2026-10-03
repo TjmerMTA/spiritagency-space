@@ -1,6 +1,7 @@
 ---
 title: "Modelio integracija SpiritAgency: etapai, kontroliniai sąrašai ir pirmieji tikslai"
 description: "Prieigos, briefas, saugumas, turinio planas ir pirmieji metrikai. Pirmos savaitės kontroliniai sąrašai"
+excerpt: "Sužinokite, kaip modelio integracija SpiritAgency padeda naujiems talentams greitai prisitaikyti"
 lang: lt
 pubDate: 2025-09-18
 updDate: 2025-11-20
@@ -13,7 +14,7 @@ readingTime: "1 - 3 хв читання"
 
 Pradžioje kiekvieno proceso pradinė modelio adaptacija įgauna ypatingą svarbą. Pirmasis kontaktas su komanda padeda ne tik atskleisti potencialą, bet ir supažindinti su visais vidiniais niuansais. Rengiame interaktyvias sesijas, kuriose kiekvienas darbuotojas dalijasi patirtimi, pasakoja apie agentūros darbo aspektus ir atskleidžia savo paties kelio ypatybes, kas visiškai padeda kokybiškai įvertinti naujoko profilį. Būtent dėl tokių praktikų pradinė modelio adaptacija tampa pagrindu tolimesnei plėtrai.
 
-### Pradinė modelio adaptacija** – pagrindiniai integracijos etapai
+### **Pradinė modelio adaptacija** – pagrindiniai integracijos etapai
 
 Перший крок – вступна зустріч. На цьому етапі молода модель знайомиться з командою, що об’єднує менеджерів, креативних кураторів та стилістів. Під час першої розмови важливо не лише представити себе, але й ознайомитися з базовими принципами роботи агентства. Цей етап супроводжується подробним бріфом, під час якого обговорюються основні очікування та стандарти. Сам процес стартової адаптації моделі допомагає новачку відчути підтримку колективу та сформувати перше враження, яке стане поштовхом для подальшого зростання.
 

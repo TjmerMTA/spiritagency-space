@@ -1,6 +1,7 @@
 ---
 title: "Restricții de vârstă și geografice: cum să configurezi sigur profilul"
 description: "Platforme precum OnlyFans, TikTok, Instagram sau Patreon impun restricții de vârstă și geografice pentru a proteja utilizatorii."
+excerpt: "1. De ce sunt importante restricțiile de vârstă și geografice Platforme precum OnlyFans, TikTok, Instagram sau Patreon implementează restricții de…"
 lang: ro
 pubDate: 2025-10-04
 updDate: 2025-11-20

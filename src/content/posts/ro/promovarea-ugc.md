@@ -1,6 +1,7 @@
 ---
 title: "Promovarea UGC pe OnlyFans: cum să atragi fanii să creeze conținut"
 description: "Motivație, reguli de siguranță și drepturi. Cum să colectezi UGC și să-l transformi în vânzări"
+excerpt: "Află cum promovarea UGC pe OnlyFans poate atrage fanii să creeze conținut"
 lang: ro
 pubDate: 2025-09-23
 updDate: 2025-11-20
@@ -15,7 +16,7 @@ Această strategie devine o platformă de schimb de idei și experiențe, unde f
 
 Un factor important în acest proces este faptul că fiecare abonat poate crea propriile versiuni ale conținutului, devenind astfel o parte integrantă a unei mari povești creative. Această abordare permite, de asemenea, obținerea unui adevărat *conținut de la fani*, care adaugă autenticitate fiecărei lucrări.
 
-### Activarea conținutului fanilor** și importanța sa pentru OnlyFans
+### **Activarea conținutului fanilor** și importanța sa pentru OnlyFans
 
 Conceptul UGC, adică conținut creat de utilizatori, capătă o nouă dimensiune. Practic, *Activarea conținutului fanilor* constă în faptul că fanii dvs. pot contribui sub formă de fotografii, videoclipuri, postări text sau mesaje vocale. O astfel de contribuție creativă oferă fiecăruia posibilitatea să-și exprime propria viziune asupra creației dvs. și să reflecte emoțiile pe care le generează.
 

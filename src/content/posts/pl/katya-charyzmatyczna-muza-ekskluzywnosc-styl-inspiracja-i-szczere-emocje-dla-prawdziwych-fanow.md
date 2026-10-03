@@ -1,6 +1,7 @@
 ---
 title: "Katya — charyzmatyczna muza: ekskluzywność, styl, inspiracja i szczere emocje dla prawdziwych fanów"
 description: "Charyzmatyczna muza: prywatne zdjęcia i filmy, codzienna inspiracja, backstage i live stories dla prawdziwych fanów. Subskrybuj, aby zobaczyć więcej."
+excerpt: "Неймовірна загадка Каті: злови її настрій! Відкрий секрет справжньої жіночої харизми разом з нашою неповторною Катею! Вона — справжній магніт…"
 lang: pl
 pubDate: 2025-08-17
 updDate: 2025-11-20

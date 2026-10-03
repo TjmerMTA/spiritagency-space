@@ -38,10 +38,10 @@ export const UI: Record<Lang, Ui> = {
   uk: {
     promo: 'Просування OnlyFans', about: 'Про нас', blog: 'Блог', income: 'Прибуток',
     guarantees: 'Гарантії', advance: 'Аванс $150', apply: 'Подати кандидатуру',
-    blogTitle: 'Наш блог', blogLead: 'Статті про просування, безпеку та заробіток на OnlyFans',
+    blogTitle: 'Наш Блог', blogLead: 'Корисні статті, кейси та новини від Spirit Agency',
     readMore: 'Читати далі', readingTime: 'Час читання', published: 'Опубліковано',
-    updated: 'Оновлено', author: 'Автор', home: 'Головна', allPosts: 'Усі статті',
-    related: 'Схожі статті', prev: 'Назад', next: 'Далі', page: 'Сторінка',
+    updated: 'Останнє оновлення', author: 'Автор', home: 'Головна', allPosts: 'Усі статті',
+    related: 'Схожі статті', prev: 'Назад', next: 'Вперед', page: 'Сторінка',
     rights: 'Усі права захищено', menu: 'Меню',
   },
   ru: {
@@ -96,3 +96,27 @@ export const home = (lang: Lang) => (lang === DEFAULT_LANG ? '/' : `/${lang}/`);
 export const blogRoot = (lang: Lang) => (lang === DEFAULT_LANG ? '/blog/' : `/${lang}/blog/`);
 export const postUrl = (lang: Lang, slug: string) =>
   lang === DEFAULT_LANG ? `/${slug}/` : `/${lang}/${slug}/`;
+
+/** Дата в карточке блога — 11.01.2026, как на исходном сайте. */
+export function cardDate(date: Date): string {
+  const iso = date.toISOString();
+  return `${iso.slice(8, 10)}.${iso.slice(5, 7)}.${iso.slice(0, 4)}`;
+}
+
+/**
+ * Дата в статье — «9 Жовтня 2025», «9 października 2025»: число, месяц в родительном
+ * падеже, год. Так её писал WordPress; у украинского месяц с заглавной.
+ */
+export function postDate(lang: Lang, date: Date): string {
+  const parts = new Intl.DateTimeFormat(HTML_LANG[lang], {
+    day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
+  }).formatToParts(date);
+  const get = (type: string) => parts.find((p) => p.type === type)!.value;
+  const month = lang === 'uk' ? get('month').replace(/^./, (c) => c.toUpperCase()) : get('month');
+  return `${get('day')} ${month} ${get('year')}`;
+}
+
+/** Статьи одного языка в порядке блога: новые сверху, при равной дате — по адресу. */
+export function byDate<T extends { id: string; data: { pubDate: Date } }>(a: T, b: T): number {
+  return b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+}

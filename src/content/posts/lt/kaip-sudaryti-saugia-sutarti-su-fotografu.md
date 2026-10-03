@@ -1,6 +1,7 @@
 ---
 title: "Kaip sudaryti saugią sutartį su fotografu"
 description: "Sužinokite, kaip sudaryti patikimą sutartį su OnlyFans fotografu savo apsaugai"
+excerpt: "Sužinokite, kaip sudaryti patikimą sutartį su OnlyFans fotografu, kad apsisaugotumėte"
 lang: lt
 pubDate: 2025-10-26
 updDate: 2025-11-20
@@ -11,7 +12,7 @@ readingTime: "10 - 12 хв читання"
 
 Sėkmingam bendradarbiavimui tarp kliento ir fotografo pagrindas yra kokybiškas dokumentas, įtvirtinantis abipuses įsipareigojimus. Sutarties sudarymas – tai ne tik formalumas, bet ir svarbus žingsnis pasitikėjimo užmezgimui, teisinės apsaugos užtikrinimui bei filmavimo sąlygų nustatymui, kurios atsižvelgia į visus darbo niuansus. Toks dokumentas leidžia aiškiai paskirstyti pareigas ir išvengti painiavos kilus klausimams dėl autorių teisių ar kitų kūrybos aspektų.
 
-### sutartis su OnlyFans fotografu** – pagrindiniai principai ir parengimas
+### **sutartis su OnlyFans fotografu** – pagrindiniai principai ir parengimas
 
 Prieš pasineriant į dokumento rengimo detales, verta kruopščiai apgalvoti kiekvieną bendradarbiavimo sudedamąją dalį. Pagrindinis tikslas – sukurti susitarimą, kuriame būtų atsižvelgta į visą reikalingą informaciją. Dokumento paruošimas prasideda užsakymo detalių aptarimu. Čia susiformuoja pagrindinis šalių sutikimas. Atminkite, kad filmavimo sąlygos turi būti skaidrios, o nustatytos reikalavimai – realistiški.
 

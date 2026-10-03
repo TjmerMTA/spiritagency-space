@@ -1,6 +1,7 @@
 ---
 title: "Jak zwiększyć lojalność subskrybentów"
 description: "Jak wzmocnić więź z subskrybentami na OnlyFans? Poznaj skuteczne metody"
+excerpt: "Jak wzmocnić więź z subskrybentami na OnlyFans? Poznaj skuteczne metody"
 lang: pl
 pubDate: 2025-10-23
 updDate: 2025-11-20

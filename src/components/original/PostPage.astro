@@ -1,0 +1,106 @@
+---
+// Страница статьи — разметка шаблона single.php исходного сайта.
+// Классы менять нельзя: их стили — в src/styles/original/single-post.css.
+import '../../styles/original/post.css';
+import { render } from 'astro:content';
+import Original from '../../layouts/Original.astro';
+import { coverOf } from '../../covers';
+import { UI, blogRoot, home, postDate, type Lang } from '../../i18n';
+import alternatesMap from '../../data/alternates.json';
+
+interface Props { post: any }
+const { post } = Astro.props;
+const lang = post.data.lang as Lang;
+const t = UI[lang];
+const slug = post.id.split('/').pop()!;
+const { Content } = await render(post);
+const cover = coverOf(slug, post.data.image);
+
+const alternates = (alternatesMap as Record<string, Record<string, string>>)[`${lang}/${slug}`] ?? {};
+
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updDate ?? post.data.pubDate).toISOString(),
+  image: post.data.image ? new URL(post.data.image, Astro.site).href : undefined,
+  inLanguage: lang,
+  author: { '@type': 'Organization', name: 'SpiritAgency' },
+  publisher: { '@type': 'Organization', name: 'SpiritAgency' },
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+};
+---
+
+<Original
+  title={`${post.data.title} | SpiritAgency`}
+  description={post.data.description}
+  lang={lang}
+  image={post.data.image}
+  alternates={alternates as any}
+  type="article"
+  bodyClass="post-template-default single single-post single-format-standard"
+  mainId="primary"
+>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} is:inline />
+
+  <main id="primary" class="site-main">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry">
+      <div class="blog-header">
+        <div class="container">
+          <h1 class="entry-title">{post.data.title}</h1>
+        </div>
+      </div>
+
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs-list">
+            <li><a href={home(lang)}>{t.home}</a></li>
+            <li><a href={blogRoot(lang)}>{t.blog}</a></li>
+            <li>{post.data.title}</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="featured-image-wrapper">
+        <div class="container">
+          <div class="featured-image">
+            <img src={cover.src} width={cover.width} height={cover.height} alt={post.data.title} />
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-content">
+        <div class="container">
+          <div class="post-info">
+            <div class="info-item">
+              <span class="info-label">{t.author}</span>
+              <span class="info-value">SpiritAgency</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">{t.published}</span>
+              <span class="info-value">{postDate(lang, post.data.pubDate)}</span>
+            </div>
+            {post.data.updDate && (
+              <div class="info-item">
+                <span class="info-label">{t.updated}</span>
+                <span class="info-value">{postDate(lang, post.data.updDate)}</span>
+              </div>
+            )}
+            {post.data.readingTime && (
+              <div class="info-item">
+                <span class="info-label">{t.readingTime}</span>
+                <span class="info-value">{post.data.readingTime}</span>
+              </div>
+            )}
+          </div>
+
+          <div class="entry-content">
+            <Content />
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+</Original>

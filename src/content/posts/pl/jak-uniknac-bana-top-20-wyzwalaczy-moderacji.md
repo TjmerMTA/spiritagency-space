@@ -1,6 +1,7 @@
 ---
 title: "Jak uniknąć bana: top 20 wyzwalaczy moderacji"
 description: "Dowiedz się, jak uniknąć bana na OnlyFans, poznając top 20 wyzwalaczy"
+excerpt: "Dowiedz się, jak uniknąć bana na OnlyFans, poznając top 20 wyzwalaczy"
 lang: pl
 pubDate: 2025-10-06
 updDate: 2025-11-20
@@ -45,7 +46,7 @@ Bardzo ważne jest, aby zawsze powstrzymywać się od ujawniania informacji osob
 
 Nie zapominaj: nawet drobna niedokładność może być powodem wyzwalaczy blokady OnlyFans.
 
-### 8. Trollowanie i prowokacje: **wyzwalacze blokady OnlyFans
+### 8. Trollowanie i prowokacje: **wyzwalacze blokady OnlyFans**
 
 Celowe wywoływanie sporów i prowokacyjnych sytuacji może szybko przekształcić się w prawdziwy kryzys dla użytkownika. Trollowanie to czasem nie tylko sposób na rozrywkę, lecz świadome naruszanie norm zdrowej komunikacji. Jeśli chcesz rozpocząć dyskusję, pamiętaj: konstruktywny dialog zawsze opiera się na wzajemnym szacunku. Systemy moderacji mają specjalne algorytmy wykrywające prowokacje w grach, dlatego nadmierne używanie sarkazmu lub prowokacji może zniweczyć nawet Twoje intencje, a także stać się przyczyną zablokowania konta.
 

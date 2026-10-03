@@ -1,6 +1,7 @@
 ---
 title: "Atmintinė prieš filmavimą OnlyFans: apšvietimas, garsas, rekvizitai ir saugumas"
 description: "Vieta, technika, rekvizitai ir teisės. Paruoštas sąrašas, kad nieko nepamirštumėte"
+excerpt: "Planuojate filmavimą OnlyFans? Sužinokite, kaip paruošti apšvietimą,"
 lang: lt
 pubDate: 2025-09-10
 updDate: 2025-11-20
