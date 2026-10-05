@@ -5,7 +5,7 @@ import '../../styles/original/post.css';
 import { render } from 'astro:content';
 import Original from '../../layouts/Original.astro';
 import { coverOf } from '../../covers';
-import { UI, blogRoot, home, postDate, type Lang } from '../../i18n';
+import { HTML_LANG, UI, blogRoot, home, ogImage, organization, postDate, type Lang } from '../../i18n';
 import alternatesMap from '../../data/alternates.json';
 
 interface Props { post: any }
@@ -18,18 +18,34 @@ const cover = coverOf(slug, post.data.image);
 
 const alternates = (alternatesMap as Record<string, Record<string, string>>)[`${lang}/${slug}`] ?? {};
 
+const site = Astro.site!;
+const url = new URL(Astro.url.pathname, site).href;
 const ld = {
   '@context': 'https://schema.org',
-  '@type': 'BlogPosting',
-  headline: post.data.title,
-  description: post.data.description,
-  datePublished: post.data.pubDate.toISOString(),
-  dateModified: (post.data.updDate ?? post.data.pubDate).toISOString(),
-  image: post.data.image ? new URL(post.data.image, Astro.site).href : undefined,
-  inLanguage: lang,
-  author: { '@type': 'Organization', name: 'SpiritAgency' },
-  publisher: { '@type': 'Organization', name: 'SpiritAgency' },
-  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+  '@graph': [
+    organization(site),
+    {
+      '@type': 'BlogPosting',
+      '@id': `${url}#article`,
+      headline: post.data.title,
+      description: post.data.description,
+      datePublished: post.data.pubDate.toISOString(),
+      dateModified: (post.data.updDate ?? post.data.pubDate).toISOString(),
+      image: new URL(post.data.image ?? ogImage(lang), site).href,
+      inLanguage: HTML_LANG[lang],
+      author: { '@id': new URL('/#organization', site).href },
+      publisher: { '@id': new URL('/#organization', site).href },
+      mainEntityOfPage: url,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: t.home, item: new URL(home(lang), site).href },
+        { '@type': 'ListItem', position: 2, name: t.blog, item: new URL(blogRoot(lang), site).href },
+        { '@type': 'ListItem', position: 3, name: post.data.title, item: url },
+      ],
+    },
+  ],
 };
 ---
 

@@ -5,7 +5,7 @@ excerpt: "  Что Такое Модельное Агентство? Модел
 lang: ru
 pubDate: 2025-07-30
 updDate: 2025-11-20
-image: "/img/2025/01/Frame-6.png"
+image: "/img/2025/01/Frame-6.webp"
 readingTime: "1 - 3 хв читання"
 ---
 

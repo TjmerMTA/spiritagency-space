@@ -24,7 +24,30 @@ export const HTML_LANG: Record<Lang, string> = {
   uk: 'uk-UA', ru: 'ru-RU', pl: 'pl-PL', ro: 'ro-RO', lt: 'lt-LT', sk: 'sk-SK',
 };
 
+/** Значение og:locale — превью ссылки в соцсетях и мессенджерах */
+export const OG_LOCALE: Record<Lang, string> = {
+  uk: 'uk_UA', ru: 'ru_RU', pl: 'pl_PL', ro: 'ro_RO', lt: 'lt_LT', sk: 'sk_SK',
+};
+
+/** Картинка превью по умолчанию: первый экран главной на языке страницы, 1200×630 */
+export const ogImage = (lang: Lang) => `/og/${lang}.jpg`;
+
 export const TELEGRAM = 'https://t.me/SpiritOriginal';
+
+/** Организация для разметки schema.org — одна и та же на главной и в статьях */
+export const organization = (site: URL | string) => ({
+  '@type': 'Organization',
+  '@id': new URL('/#organization', site).href,
+  name: 'SpiritAgency',
+  url: new URL('/', site).href,
+  logo: {
+    '@type': 'ImageObject',
+    url: new URL('/img/2026/02/cropped-favico2.png', site).href,
+    width: 512,
+    height: 512,
+  },
+  sameAs: [TELEGRAM],
+});
 
 type Ui = {
   promo: string; about: string; blog: string; income: string; guarantees: string;

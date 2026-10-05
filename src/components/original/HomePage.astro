@@ -3,13 +3,39 @@
 import '../../styles/original/home.css';
 import Original from '../../layouts/Original.astro';
 import HomeBody from './HomeBody.astro';
-import { LANGS, home, type Lang } from '../../i18n';
+import { LANGS, HTML_LANG, home, organization, type Lang } from '../../i18n';
 import homeData from '../../data/home.json';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const d = (homeData as Record<string, any>)[lang];
 const alternates = Object.fromEntries(LANGS.map((l) => [l, home(l)]));
+
+const site = Astro.site!;
+const ld = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    organization(site),
+    {
+      '@type': 'WebSite',
+      '@id': new URL('/#website', site).href,
+      url: new URL('/', site).href,
+      name: 'SpiritAgency',
+      publisher: { '@id': new URL('/#organization', site).href },
+      inLanguage: LANGS.map((l) => HTML_LANG[l]),
+    },
+    {
+      '@type': 'WebPage',
+      '@id': new URL(home(lang), site).href,
+      url: new URL(home(lang), site).href,
+      name: d.title,
+      description: d.description,
+      inLanguage: HTML_LANG[lang],
+      isPartOf: { '@id': new URL('/#website', site).href },
+      about: { '@id': new URL('/#organization', site).href },
+    },
+  ],
+};
 ---
 
 <Original
@@ -21,6 +47,8 @@ const alternates = Object.fromEntries(LANGS.map((l) => [l, home(l)]));
   mainId="content"
   preloadFont
 >
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} is:inline />
+
   <main id="content" class="site-main post-9 page type-page status-publish hentry">
     <div class="page-content">
       <HomeBody lang={lang} />

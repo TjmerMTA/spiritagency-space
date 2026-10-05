@@ -2,6 +2,18 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { fontProviders } from 'astro/config';
+import { readdirSync, readFileSync } from 'node:fs';
+
+// Дата последнего изменения статьи для карты сайта — из её фронтматтера (updDate, иначе pubDate).
+const lastmod = {};
+for (const lang of readdirSync('./src/content/posts')) {
+  for (const file of readdirSync(`./src/content/posts/${lang}`).filter((f) => f.endsWith('.md'))) {
+    const head = readFileSync(`./src/content/posts/${lang}/${file}`, 'utf8').split('\n---')[0];
+    const date = (head.match(/^updDate:\s*(\S+)/m) ?? head.match(/^pubDate:\s*(\S+)/m))?.[1];
+    const slug = file.slice(0, -3);
+    if (date) lastmod[lang === 'uk' ? `/${slug}/` : `/${lang}/${slug}/`] = new Date(date).toISOString();
+  }
+}
 
 // Старые адреса WordPress → новые чистые адреса.
 // Языковые главные и блоги жили на служебных слагах вида /ru/the-main-page-2/.
@@ -46,5 +58,10 @@ export default defineConfig({
       fallbacks: ['sans-serif'],
     },
   ],
-  integrations: [sitemap({ i18n: { defaultLocale: 'uk', locales: { uk: 'uk-UA', ru: 'ru-RU', pl: 'pl-PL', ro: 'ro-RO', lt: 'lt-LT', sk: 'sk-SK' } } })],
+  integrations: [sitemap({
+    serialize(item) {
+      const date = lastmod[decodeURIComponent(new URL(item.url).pathname)];
+      return date ? { ...item, lastmod: date } : item;
+    },
+    i18n: { defaultLocale: 'uk', locales: { uk: 'uk-UA', ru: 'ru-RU', pl: 'pl-PL', ro: 'ro-RO', lt: 'lt-LT', sk: 'sk-SK' } } })],
 });

@@ -5,7 +5,7 @@ excerpt: "  Czym jest agencja modelek? Agencja modelek to firma reprezentująca
 lang: pl
 pubDate: 2025-07-30
 updDate: 2025-11-20
-image: "/img/2025/01/Frame-6.png"
+image: "/img/2025/01/Frame-6.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

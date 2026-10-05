@@ -5,7 +5,7 @@ excerpt: "  Čo je modelingová agentúra? Modelingová agentúra je spoločnos
 lang: sk
 pubDate: 2025-07-30
 updDate: 2025-11-21
-image: "/img/2025/01/Frame-6.png"
+image: "/img/2025/01/Frame-6.webp"
 readingTime: "2 - 4 хв читання"
 ---
 

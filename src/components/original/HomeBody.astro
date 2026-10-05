@@ -4,12 +4,18 @@
 // Тексты — в src/data/home-blocks.json, ключ совпадает с id в классе elementor-element-<id>.
 import HomeHeader from './HomeHeader.astro';
 import blocks from '../../data/home-blocks.json';
+import homeData from '../../data/home.json';
 import { home, type Lang } from '../../i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const b = (blocks as Record<Lang, Record<string, string>>)[lang];
 const root = home(lang);
+// Подписи к картинкам (alt) — заголовки разделов, в которых они стоят
+const h = (homeData as Record<string, any>)[lang];
+const alt = {
+  hero: h.hero.h1, about: h.about.title, income: h.income.title, advance: h.advance.title, privacy: h.privacy.title,
+};
 ---
 
 <div data-elementor-type="wp-page" data-elementor-id="9" class="elementor elementor-9">
@@ -19,7 +25,7 @@ const root = home(lang);
       <div class="elementor-element elementor-element-528c0fc e-con-full e-flex e-con e-child">
         <div class="elementor-element elementor-element-12ee214 elementor-widget elementor-widget-image">
           <div class="elementor-widget-container">
-            <img alt="" decoding="async" width="600" height="653" src="/img/2026/02/girl_unique_600x653.png" class="attachment-full size-full wp-image-2992" srcset="/img/2026/02/girl_unique_600x653.png 600w, /img/2026/02/girl_unique_600x653-276x300.png 276w" sizes="(max-width: 600px) 100vw, 600px" fetchpriority="high" />
+            <img alt={alt.hero} decoding="async" width="600" height="653" src="/img/2026/02/girl_unique_600x653.webp" class="attachment-full size-full wp-image-2992" srcset="/img/2026/02/girl_unique_600x653.webp 600w, /img/2026/02/girl_unique_600x653-276x300.webp 276w" sizes="(max-width: 600px) 100vw, 600px" fetchpriority="high" />
           </div>
         </div>
       </div>
@@ -85,7 +91,7 @@ const root = home(lang);
         <div class="elementor-element elementor-element-c3d8bef e-con-full au_lc e-flex e-con e-child">
           <div class="elementor-element elementor-element-c598f91 e-transform about_us_left_img elementor-absolute elementor-widget elementor-widget-image">
             <div class="elementor-widget-container">
-              <img alt="" loading="lazy" decoding="async" width="717" height="525" src="/img/2025/01/image-7.png" class="attachment-full size-full wp-image-24" srcset="/img/2025/01/image-7.png 717w, /img/2025/01/image-7-300x220.png 300w" sizes="(max-width: 717px) 100vw, 717px" />
+              <img alt={alt.about} loading="lazy" decoding="async" width="717" height="525" src="/img/2025/01/image-7.webp" class="attachment-full size-full wp-image-24" srcset="/img/2025/01/image-7.webp 717w, /img/2025/01/image-7-300x220.webp 300w" sizes="(max-width: 717px) 100vw, 717px" />
             </div>
           </div>
           <div class="elementor-element elementor-element-f946660 e-con-full e-flex e-con e-child">
@@ -154,7 +160,7 @@ const root = home(lang);
       <div class="elementor-element elementor-element-d969cdc e-con-full e-flex e-con e-child">
         <div class="elementor-element elementor-element-c8fa05e elementor-widget elementor-widget-image">
           <div class="elementor-widget-container">
-            <img alt="" loading="lazy" decoding="async" width="684" height="240" src="/img/2026/02/unique_triptych_same_shape_684x240.png" class="attachment-medium_large size-medium_large wp-image-2997" srcset="/img/2026/02/unique_triptych_same_shape_684x240.png 684w, /img/2026/02/unique_triptych_same_shape_684x240-300x105.png 300w" sizes="(max-width: 684px) 100vw, 684px" />
+            <img alt={alt.about} loading="lazy" decoding="async" width="684" height="240" src="/img/2026/02/unique_triptych_same_shape_684x240.webp" class="attachment-medium_large size-medium_large wp-image-2997" srcset="/img/2026/02/unique_triptych_same_shape_684x240.webp 684w, /img/2026/02/unique_triptych_same_shape_684x240-300x105.webp 300w" sizes="(max-width: 684px) 100vw, 684px" />
           </div>
         </div>
         <div class="elementor-element elementor-element-6ba3896 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-spacer">
@@ -198,7 +204,7 @@ const root = home(lang);
             </div>
             <div class="elementor-element elementor-element-6f9879f elementor-widget elementor-widget-image">
               <div class="elementor-widget-container">
-                <img alt="" loading="lazy" decoding="async" width="262" height="212" src="/img/2025/01/Rectangle-7.png" class="attachment-large size-large wp-image-28" />
+                <img alt={alt.income} loading="lazy" decoding="async" width="262" height="212" src="/img/2025/01/Rectangle-7.webp" class="attachment-large size-large wp-image-28" />
               </div>
             </div>
           </div>
@@ -229,7 +235,7 @@ const root = home(lang);
           </div>
           <div class="elementor-element elementor-element-62b89e3 elementor-widget elementor-widget-image">
             <div class="elementor-widget-container">
-              <img alt="" loading="lazy" decoding="async" width="402" height="414" src="/img/2025/01/image-83.png" class="attachment-large size-large wp-image-27" srcset="/img/2025/01/image-83.png 402w, /img/2025/01/image-83-291x300.png 291w" sizes="(max-width: 402px) 100vw, 402px" />
+              <img alt={alt.advance} loading="lazy" decoding="async" width="402" height="414" src="/img/2025/01/image-83.webp" class="attachment-large size-large wp-image-27" srcset="/img/2025/01/image-83.webp 402w, /img/2025/01/image-83-291x300.webp 291w" sizes="(max-width: 402px) 100vw, 402px" />
             </div>
           </div>
         </div>
@@ -313,7 +319,7 @@ const root = home(lang);
       <div class="elementor-element elementor-element-40d837b e-con-full elementor-hidden-mobile e-flex e-con e-child">
         <div class="elementor-element elementor-element-3599e7c e-transform elementor-widget elementor-widget-image">
           <div class="elementor-widget-container">
-            <img alt="" loading="lazy" decoding="async" width="578" height="613" src="/img/2025/01/Frame-6.png" class="attachment-large size-large wp-image-20" srcset="/img/2025/01/Frame-6.png 578w, /img/2025/01/Frame-6-283x300.png 283w" sizes="(max-width: 578px) 100vw, 578px" />
+            <img alt={alt.privacy} loading="lazy" decoding="async" width="578" height="613" src="/img/2025/01/Frame-6.webp" class="attachment-large size-large wp-image-20" srcset="/img/2025/01/Frame-6.webp 578w, /img/2025/01/Frame-6-283x300.webp 283w" sizes="(max-width: 578px) 100vw, 578px" />
           </div>
         </div>
       </div>

@@ -32,10 +32,9 @@ const cards = page.data.map((post: any) => {
 
 <Original
   title={`${t.blogTitle}${suffix} | SpiritAgency`}
-  description={t.blogLead}
+  description={`${t.blogLead}${suffix}`}
   lang={lang}
   alternates={page.currentPage === 1 ? alternates : {}}
-  noindex={page.currentPage > 1}
   bodyClass="page-template page-template-page-blog page-template-page-blog-php page page-id-876"
   mainId="content"
 >
@@ -57,7 +56,7 @@ const cards = page.data.map((post: any) => {
               width={card.cover.width}
               height={card.cover.height}
               class="attachment-medium_large size-medium_large wp-post-image"
-              alt=""
+              alt={card.title}
               decoding="async"
               loading={i < 3 ? 'eager' : 'lazy'}
             />

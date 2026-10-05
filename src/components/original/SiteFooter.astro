@@ -3,12 +3,14 @@
 // Классы Elementor менять нельзя: на них держатся оригинальные стили src/styles/original/.
 // Тексты — в src/data/home-blocks.json, ключ совпадает с id в классе elementor-element-<id>.
 import blocks from '../../data/home-blocks.json';
+import homeData from '../../data/home.json';
 import { home, type Lang } from '../../i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const b = (blocks as Record<Lang, Record<string, string>>)[lang];
 const root = home(lang);
+const imageAlt = (homeData as Record<string, any>)[lang].contact.title;
 ---
 
 <div data-elementor-type="container" data-elementor-id="906" class="elementor elementor-906">
@@ -17,7 +19,7 @@ const root = home(lang);
       <div class="elementor-element elementor-element-266a73b5 e-con-full elementor-hidden-mobile e-flex e-con e-child">
         <div class="elementor-element elementor-element-43e115ab elementor-widget elementor-widget-image">
           <div class="elementor-widget-container">
-            <img width="333" height="517" src="/img/2025/01/Frame-7.png" class="attachment-large size-large wp-image-21" alt="" srcset="/img/2025/01/Frame-7.png 333w, /img/2025/01/Frame-7-193x300.png 193w" sizes="(max-width: 333px) 100vw, 333px" />
+            <img width="333" height="517" src="/img/2025/01/Frame-7.webp" class="attachment-large size-large wp-image-21" alt={imageAlt} srcset="/img/2025/01/Frame-7.webp 333w, /img/2025/01/Frame-7-193x300.webp 193w" sizes="(max-width: 333px) 100vw, 333px" />
           </div>
         </div>
       </div>

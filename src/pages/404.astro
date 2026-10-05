@@ -1,0 +1,29 @@
+---
+// Страница «не найдено». GitHub Pages отдаёт её на любой несуществующий адрес, на всех языках сразу,
+// поэтому текст — на основном языке сайта, а ниже ссылки на главные всех языков.
+// Оформление — первый экран блога, своих стилей нет.
+import '../styles/original/blog.css';
+import Original from '../layouts/Original.astro';
+import { LANGS, LANG_NAME, UI, DEFAULT_LANG, blogRoot, home } from '../i18n';
+
+const t = UI[DEFAULT_LANG];
+---
+
+<Original
+  title="Сторінку не знайдено | SpiritAgency"
+  lang={DEFAULT_LANG}
+  noindex
+  bodyClass="error404"
+  mainId="content"
+>
+  <main id="content" class="blog-page">
+    <section class="blog-hero">
+      <div class="blog-hero__background"></div>
+      <div class="container">
+        <h1>Сторінку не знайдено</h1>
+        <p><a href={home(DEFAULT_LANG)}>{t.home}</a> · <a href={blogRoot(DEFAULT_LANG)}>{t.blog}</a></p>
+        <p>{LANGS.map((l, i) => <>{i > 0 && ' · '}<a href={home(l)} hreflang={l}>{LANG_NAME[l]}</a></>)}</p>
+      </div>
+    </section>
+  </main>
+</Original>
